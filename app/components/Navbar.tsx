@@ -62,7 +62,7 @@ export default function Navbar() {
               Process
             </Link>
             <Link
-              href="/portofolio"
+              href="/portfolio"
               className="font-normal text-slate-100 hover:text-[#BC4EF0] transition-colors"
             >
               Portofolio
