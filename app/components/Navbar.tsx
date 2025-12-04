@@ -93,7 +93,7 @@ export default function Navbar() {
                 Process
               </Link>
               <Link
-                href="/portofolio"
+                href="/portfolio"
                 className="font-medium text-slate-50 hover:text-[#BC4EF0] transition-colors"
                 onClick={() => setIsOpen(false)}
               >
