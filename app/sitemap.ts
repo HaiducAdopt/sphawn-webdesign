@@ -1,20 +1,32 @@
-export default function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://www.sphawn.nl";
+
   return [
     {
-      url: "https://www.sphawn.nl/",
+      url: `${baseUrl}/`,
       lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1.0,
     },
     {
-      url: "https://www.sphawn.nl/process",
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
     },
     {
-      url: "https://www.sphawn.nl/portfolio",
+      url: `${baseUrl}/portfolio`,
       lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
-      url: "https://www.sphawn.nl/contact",
+      url: `${baseUrl}/process`,
       lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
     },
   ];
 }
