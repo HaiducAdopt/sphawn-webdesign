@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Webdesign Heerlen | Sphawn",
   description:
-    "Professioneel webdesign in Heerlen. Moderne websites, webshops en maatwerk development in WordPress, Shopify en Next.js.",
+    "Sphawn Webdesign bouwt moderne, snelle en duidelijke websites voor ondernemers en freelancers in Heerlen en Limburg.",
   alternates: {
     canonical: siteUrl,
   },
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
     url: siteUrl,
     title: "Webdesign Heerlen | Sphawn",
     description:
-      "Moderne, snelle en duidelijke websites voor kleine ondernemers en freelancers in Heerlen en Limburg.",
+      "Professioneel webdesign in Heerlen. Websites, webshops en maatwerk in WordPress, Shopify en Next.js.",
     siteName: "Sphawn Webdesign",
     images: [
       {
-        url: "/sphawn-og-cover.jpg", // ai deja poza asta în /public
+        url: "/sphawn-og-cover.jpg",
         width: 1200,
         height: 630,
         alt: "Sphawn Webdesign – moderne website mockups",
@@ -62,7 +62,7 @@ export default function RootLayout({
         {/* Vercel Analytics */}
         <Analytics />
 
-        {/* Organization / ProfessionalService schema for Google */}
+        {/* Organization / ProfessionalService schema (in het Nederlands) */}
         <Script
           id="org-schema"
           type="application/ld+json"
@@ -73,9 +73,9 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               name: "Sphawn Webdesign",
               url: siteUrl,
-              logo: "https://www.sphawn.nl/logo.png", // asigură-te că ai /public/logo.png
+              logo: "https://www.sphawn.nl/logo.png",
               description:
-                "Sphawn Webdesign oferă site-uri moderne, rapide și clare pentru afaceri mici și freelanceri în Heerlen și Limburg.",
+                "Sphawn Webdesign biedt moderne, snelle en duidelijke websites voor kleine ondernemers en freelancers in Heerlen en Limburg.",
               email: "mailto:support@sphawn.nl",
               address: {
                 "@type": "PostalAddress",
@@ -85,13 +85,9 @@ export default function RootLayout({
               },
               areaServed: {
                 "@type": "AdministrativeArea",
-                name: "Limburg, Netherlands",
+                name: "Limburg, Nederland",
               },
-              sameAs: [
-                // adaugi aici când ai:
-                // "https://www.linkedin.com/in/...",
-                // "https://www.facebook.com/...",
-              ],
+              sameAs: [],
             }),
           }}
         />
