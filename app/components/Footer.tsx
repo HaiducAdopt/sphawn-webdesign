@@ -1,11 +1,11 @@
-export default function Footer() {
+ export default function Footer() {
   return (
     <footer className="bg-transparent backdrop-transparent py-4">
       <div className="max-w-6xl mx-auto px-4">
 
         {/* Text aliniat dreapta */}
         <p className="text-[12px] sm:text-[14px] md:text-[16px] font-medium text-right text-white mb-2">
-          © 2025 Bety — Web Design & Development
+          © 2025 Sphawn | Heerlen | Nederland — Web Design & Development
         </p>
 
         {/* Bara gradient */}

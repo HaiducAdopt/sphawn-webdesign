@@ -34,7 +34,7 @@ const caseStudies: CaseStudy[] = [
     type: "Real project",
     tech: ["Next.js", "React", "Tailwind CSS"],
     description:
-      "A web-site presentation website for local dog services, focused on clarity, trust and easy contact.",
+      "A presentation website for local dog services, focused on clarity, trust and easy contact.",
     url: "https://www.haiduchondenservices.nl",
     image: "/portfolio/haiduchondenservices.png",
   },
@@ -75,7 +75,7 @@ const caseStudies: CaseStudy[] = [
 
 function Badge({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex items-center rounded-full border border-slate-600/70 bg-slate-900/70 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.16em] text-slate-200">
+    <span className="inline-flex items-center rounded-full border border-slate-600/70 bg-slate-900/70 px-2.5 py-1 text-[12px] sm:text-[10px] font-medium uppercase tracking-[0.16em] text-slate-200 whitespace-nowrap">
       {children}
     </span>
   );
@@ -87,16 +87,21 @@ export default function CaseStudiesSection() {
       {/* Header secțiune */}
       <header className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div>
+          {/* was text-xl OK, keep */}
           <h2 className="text-xl font-semibold text-slate-50 sm:text-2xl">
             Case studies & real projects
           </h2>
-          <p className="mt-1 max-w-2xl text-sm text-slate-300/90">
+
+          {/* was text-sm — bump mobile */}
+          <p className="mt-1 max-w-2xl text-[15px] sm:text-sm leading-relaxed text-slate-300/90">
             A quick overview of the projects I&apos;ve designed and built, plus
             a few demo shops to show what&apos;s possible with WordPress,
             WooCommerce and Shopify.
           </p>
         </div>
-        <p className="text-xs text-slate-400">
+
+        {/* was text-xs — bump mobile */}
+        <p className="text-[13px] sm:text-xs text-slate-400">
           More in-depth breakdowns coming soon.
         </p>
       </header>
@@ -118,13 +123,17 @@ export default function CaseStudiesSection() {
             {/* Titlu + tip */}
             <div className="flex items-start justify-between gap-3">
               <div className="min-w-0">
+                {/* was text-base OK */}
                 <h3 className="truncate text-base font-semibold text-slate-50">
                   {item.title}
                 </h3>
-                <p className="mt-0.5 truncate text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400">
+
+                {/* was 11px — bump mobile */}
+                <p className="mt-0.5 truncate text-[13px] sm:text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400">
                   {item.subtitle}
                 </p>
               </div>
+
               <Badge>{item.type}</Badge>
             </div>
 
@@ -140,17 +149,17 @@ export default function CaseStudiesSection() {
               </div>
             )}
 
-            {/* Descriere */}
-            <p className="mt-3 text-sm text-slate-300/90">
+            {/* Descriere – was text-sm OK, keep but add leading */}
+            <p className="mt-3 text-[15px] sm:text-sm leading-relaxed text-slate-300/90 break-words">
               {item.description}
             </p>
 
-            {/* Tech stack */}
+            {/* Tech stack – was 11px, bump mobile */}
             <div className="mt-4 flex flex-wrap gap-1.5">
               {item.tech.map((t) => (
                 <span
                   key={t}
-                  className="rounded-full bg-slate-800/80 px-2 py-0.5 text-[11px] text-slate-200"
+                  className="rounded-full bg-slate-800/80 px-2 py-0.5 text-[13px] sm:text-[11px] text-slate-200"
                 >
                   {t}
                 </span>
@@ -158,12 +167,12 @@ export default function CaseStudiesSection() {
             </div>
 
             {/* Footer card */}
-            <div className="mt-4 flex items-center justify-between gap-3 text-[11px]">
+            <div className="mt-4 flex items-center justify-between gap-3 text-[13px] sm:text-[11px]">
               {item.url && item.url !== "#" ? (
                 <Link
                   href={item.url}
                   target="_blank"
-                  className="font-semibold text-cyan-300 hover:text-cyan-200"
+                  className="font-semibold text-cyan-300 hover:text-cyan-200 whitespace-nowrap"
                 >
                   View live project ↗
                 </Link>
@@ -171,7 +180,8 @@ export default function CaseStudiesSection() {
                 <span className="text-slate-400">Demo / coming soon</span>
               )}
 
-              <span className="text-[10px] uppercase tracking-[0.18em] text-slate-500">
+              {/* was 10px — bump mobile */}
+              <span className="uppercase tracking-[0.18em] text-[12px] sm:text-[10px] text-slate-500 whitespace-nowrap">
                 Designed in Figma · Built by me
               </span>
             </div>

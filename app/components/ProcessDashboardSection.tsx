@@ -91,24 +91,24 @@ export default function ProcessDashboardSection() {
         {/* header */}
         <div className="mb-10 sm:mb-12 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-cyan-300 uppercase">
-              Process
-            </p>
+
             <h2 className="mt-2 text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
               The Project Dashboard
             </h2>
-            <p className="mt-3 max-w-xl text-xs sm:text-base text-slate-300/80">
+
+            {/* was: text-xs — too small on mobile */}
+            <p className="mt-3 max-w-xl text-[15px] sm:text-base leading-relaxed text-slate-300/80">
               A clear, transparent overview of how we’ll build your website
               together — from first idea to going live and beyond.
             </p>
 
-            {/* 🔽 CTA sub descriere – nou */}
+            {/* CTA */}
             <div className="mt-6">
               <a
-                href="#contact"
+                href="/contact"
                 className="
                   inline-block
-                  text-[14px] sm:text-[16px] font-bold
+                  text-[16px] sm:text-[16px] font-bold
                   px-5 sm:px-6 py-2.5 sm:py-3
                   rounded-[25px]
                   bg-[#00E1F0]
@@ -128,15 +128,19 @@ export default function ProcessDashboardSection() {
             <div className="flex items-center gap-4 rounded-2xl border border-cyan-500/20 bg-slate-950/40 px-4 sm:px-5 py-3 sm:py-4 shadow-[0_0_30px_rgba(56,189,248,0.25)] backdrop-blur">
               <div className="relative flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-sky-400 to-fuchsia-400 opacity-70 blur-[2px]" />
-                <div className="relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full border border-cyan-300/60 bg-slate-950/90 text-[9px] sm:text-xs font-semibold uppercase tracking-wide">
+                {/* was 9px on mobile — bumped to 12px */}
+                <div className="relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full border border-cyan-300/60 bg-slate-950/90 text-[12px] sm:text-xs font-semibold uppercase tracking-wide">
                   9 steps
                 </div>
               </div>
+
               <div className="space-y-1">
-                <p className="text-xs sm:text-sm font-semibold text-slate-100">
+                {/* was text-xs — bump mobile */}
+                <p className="text-[14px] sm:text-sm font-semibold text-slate-100">
                   Transparent workflow
                 </p>
-                <p className="text-[10px] sm:text-xs text-slate-300/80">
+                {/* was 10px — bump to 13px mobile */}
+                <p className="text-[13px] sm:text-xs text-slate-300/80">
                   Estimated 3–5 weeks · Fully collaborative
                 </p>
               </div>
@@ -149,13 +153,18 @@ export default function ProcessDashboardSection() {
           {/* left column timeline */}
           <div className="lg:col-span-4 order-2 lg:order-1">
             <div className="rounded-3xl border border-slate-700/60 bg-slate-950/60 px-4 sm:px-5 py-5 sm:py-6 shadow-inner shadow-slate-900/80 backdrop-blur">
-              <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
+              {/* was 10px — bump */}
+              <p className="text-[13px] sm:text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
                 Overview
               </p>
-              <h3 className="mt-2 text-sm sm:text-lg font-semibold text-slate-50">
+
+              {/* bump only mobile */}
+              <h3 className="mt-2 text-[17px] sm:text-lg font-semibold text-slate-50">
                 From first idea to long-term support.
               </h3>
-              <p className="mt-2 text-xs sm:text-sm text-slate-300/80">
+
+              {/* was text-xs — bump */}
+              <p className="mt-2 text-[15px] sm:text-sm leading-relaxed text-slate-300/80">
                 Here’s the big picture. Each step has its own dedicated card on
                 the right, but this timeline gives you a quick view.
               </p>
@@ -182,10 +191,12 @@ export default function ProcessDashboardSection() {
                 <div className="flex-1 space-y-3">
                   {STEPS.map((step) => (
                     <div key={step.id} className="group">
-                      <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-wide text-slate-400 group-hover:text-cyan-300 transition-colors">
+                      {/* was 10px — bump */}
+                      <p className="text-[13px] sm:text-xs font-semibold uppercase tracking-wide text-slate-400 group-hover:text-cyan-300 transition-colors">
                         {step.id.toString().padStart(2, "0")}
                       </p>
-                      <p className="text-xs sm:text-sm font-medium text-slate-100 group-hover:text-cyan-100">
+                      {/* was text-xs — bump */}
+                      <p className="text-[15px] sm:text-sm font-medium text-slate-100 group-hover:text-cyan-100 break-words">
                         {step.title}
                       </p>
                     </div>
@@ -203,41 +214,47 @@ export default function ProcessDashboardSection() {
                   key={step.id}
                   className="group relative rounded-3xl bg-gradient-to-br from-cyan-500/40 via-sky-500/25 to-fuchsia-500/40 p-[1px] shadow-[0_0_25px_rgba(59,130,246,0.3)] transition-transform duration-200 hover:-translate-y-1 hover:shadow-[0_0_45px_rgba(244,114,182,0.45)]"
                 >
+                  {/* IMPORTANT: keep same paddings/structure, only text sizes */}
                   <div className="flex h-full flex-col rounded-3xl bg-slate-950/90 px-4 sm:px-5 py-5 sm:py-6 backdrop-blur">
                     <div className="mb-3 flex items-center justify-between gap-3">
                       {/* icon + title */}
-                      <div className="flex items-center gap-3">
-                        <div className="flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-2xl bg-slate-900/80 text-base sm:text-lg">
+                      <div className="flex items-center gap-3 min-w-0">
+                        <div className="flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-2xl bg-slate-900/80 text-base sm:text-lg shrink-0">
                           <span className="leading-none">{step.icon}</span>
                         </div>
-                        <div>
-                          <p className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.25em] text-cyan-300">
+
+                        <div className="min-w-0">
+                          {/* was 10px — bump */}
+                          <p className="text-[13px] sm:text-[11px] font-semibold uppercase tracking-[0.25em] text-cyan-300">
                             Step {step.id.toString().padStart(2, "0")}
                           </p>
-                          <h3 className="mt-0.5 text-xs sm:text-sm font-semibold text-slate-50">
+
+                          {/* was text-xs — bump to 16px on mobile */}
+                          <h3 className="mt-0.5 text-[16px] sm:text-sm font-semibold text-slate-50 break-words">
                             {step.title}
                           </h3>
                         </div>
                       </div>
 
-                      {/* status */}
-                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-1 text-[9px] sm:text-[10px] font-medium text-emerald-300">
-                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_rgba(52,211,153,0.9)]" />
-                        core step
-                      </span>
+
                     </div>
 
                     {/* text */}
-                    <p className="text-[11px] sm:text-xs font-medium text-slate-200/90">
+                    {/* was 11px — bump */}
+                    <p className="text-[15px] sm:text-xs font-medium text-slate-200/90 leading-snug break-words">
                       {step.short}
                     </p>
-                    <p className="mt-2 text-[11px] sm:text-xs leading-relaxed text-slate-300/85">
+
+                    {/* was 11px — bump */}
+                    <p className="mt-2 text-[14px] sm:text-xs leading-relaxed text-slate-300/85 break-words">
                       {step.description}
                     </p>
 
-                    <div className="mt-4 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400/90">
-                      <span>Collaborative · Transparent</span>
-                      <span className="text-cyan-300 group-hover:text-fuchsia-300 transition-colors">
+                    <div className="mt-4 flex items-center justify-between text-[13px] sm:text-[11px] text-slate-400/90">
+                      <span className="whitespace-nowrap">
+                        Collaborative · Transparent
+                      </span>
+                      <span className="text-cyan-300 group-hover:text-fuchsia-300 transition-colors whitespace-nowrap">
                         {step.id}/9
                       </span>
                     </div>
@@ -249,7 +266,7 @@ export default function ProcessDashboardSection() {
         </div>
 
         {/* footer mic sub secțiune */}
-        <p className="mt-10 text-center text-[10px] sm:text-[11px] uppercase tracking-[0.3em] text-slate-500">
+        <p className="mt-10 text-center text-[13px] sm:text-[11px] uppercase tracking-[0.3em] text-slate-500">
           Clear process · No surprises · Built with Next.js, React & Tailwind CSS
         </p>
       </div>
