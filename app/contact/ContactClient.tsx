@@ -35,13 +35,13 @@ export default function ContactClient() {
       }
 
       setSuccessMessage(
-        "Thank you! Your message has been sent. I’ll get back to you within 24 hours."
+        "Bedankt! Je bericht is verzonden. Ik neem binnen 24 uur contact met je op."
       );
       form.reset();
     } catch (err) {
       console.error(err);
       setErrorMessage(
-        "Oops. Something went wrong. Please try again, or email me directly at support@sphawn.nl."
+        "Er ging iets mis. Probeer het opnieuw of stuur direct een e-mail naar support@sphawn.nl."
       );
     } finally {
       setIsLoading(false);
@@ -50,7 +50,7 @@ export default function ContactClient() {
 
   return (
     <main className="relative min-h-screen bg-[#0A1A2F] text-white overflow-hidden">
-      {/* BG cercuri blur */}
+      {/* BG blur circles */}
       <div className="absolute top-[-200px] right-[-200px] w-[600px] h-[600px] rounded-full bg-[#00E1F0] opacity-30 blur-[160px]" />
       <div className="absolute top-[-250px] left-[-150px] w-[750px] h-[750px] rounded-full bg-[#BC4EF0] opacity-30 blur-[180px]" />
 
@@ -58,15 +58,15 @@ export default function ContactClient() {
         {/* Header */}
         <div className="space-y-4 text-center">
           <h1 className="text-4xl font-bold tracking-tight">
-            Let’s Build Something Amazing
+            Neem contact op
           </h1>
           <p className="text-slate-300 max-w-xl mx-auto">
-            Share a few details about your project. I&apos;ll review everything
-            and reply within 24 hours with next steps.
+            Deel een paar details over je project. Ik bekijk alles en neem
+            binnen 24 uur contact met je op.
           </p>
         </div>
 
-        {/* Form */}
+        {/* FORM */}
         <form
           onSubmit={handleSubmit}
           className="mt-12 space-y-5 bg-slate-900/50 border border-slate-800/70 rounded-2xl p-6 backdrop-blur-xl shadow-[0_20px_60px_rgba(15,23,42,0.9)]"
@@ -74,7 +74,7 @@ export default function ContactClient() {
           {/* Name */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="name">
-              Name
+              Naam
             </label>
             <input
               id="name"
@@ -82,14 +82,14 @@ export default function ContactClient() {
               type="text"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="Your name"
+              placeholder="Je naam"
             />
           </div>
 
           {/* Email */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="email">
-              Email
+              E-mail
             </label>
             <input
               id="email"
@@ -97,14 +97,14 @@ export default function ContactClient() {
               type="email"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="you@example.com"
+              placeholder="jij@voorbeeld.nl"
             />
           </div>
 
           {/* Subject */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="subject">
-              Subject
+              Onderwerp
             </label>
             <input
               id="subject"
@@ -112,14 +112,14 @@ export default function ContactClient() {
               type="text"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="New website, redesign, online shop, etc."
+              placeholder="Nieuwe website, redesign, webshop, enz."
             />
           </div>
 
           {/* Message */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="message">
-              Message
+              Bericht
             </label>
             <textarea
               id="message"
@@ -127,11 +127,11 @@ export default function ContactClient() {
               rows={5}
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none resize-none"
-              placeholder="Tell me a bit about your project, budget and timeline."
+              placeholder="Vertel kort iets over je project."
             />
           </div>
 
-          {/* Status messages */}
+          {/* Messages */}
           {successMessage && (
             <p className="text-sm text-emerald-300 bg-emerald-900/30 border border-emerald-700/60 rounded-xl px-4 py-3">
               {successMessage}
@@ -147,46 +147,87 @@ export default function ContactClient() {
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full mt-2 rounded-full bg-gradient-to-r from-cyan-400 to-fuchsia-500 py-3 text-slate-950 font-semibold shadow-lg shadow-fuchsia-500/25 hover:brightness-110 transition disabled:opacity-60 disabled:cursor-not-allowed"
+            className="w-full mt-2 rounded-full bg-gradient-to-r from-cyan-400 to-fuchsia-500 py-3 text-slate-950 font-semibold shadow-lg shadow-fuchsia-500/25 hover:brightness-110 transition disabled:opacity-60"
           >
-            {isLoading ? "Sending..." : "Send Message"}
+            {isLoading ? "Verzenden..." : "Bericht versturen"}
           </button>
         </form>
 
-        {/* Company details */}
-        <div className="mt-10 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl">
-          <h2 className="text-lg font-semibold text-white mb-3">
-            Company details
-          </h2>
+        {/* OWNER + COMPANY DETAILS */}
+        <div className="mt-10 grid gap-6 lg:grid-cols-12">
+          {/* OWNER */}
+          <div className="lg:col-span-7 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl flex gap-4 items-start">
+            {/* Photo with gradient blur */}
+            <div className="relative w-24 h-24 shrink-0 flex items-center justify-center">
+              <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-cyan-400 to-fuchsia-500 opacity-45 blur-3xl" />
+              <div className="relative w-24 h-24 rounded-xl overflow-hidden border border-white/10">
+                <img
+                  src="/stefan.jpg"
+                  alt="Stefan – Eigenaar van Sphawn"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
 
-          <ul className="space-y-2 text-sm text-slate-300">
-            <li>
-              <span className="font-medium text-slate-200">Business name:</span>{" "}
-              Sphawn
-            </li>
-            <li>
-              <span className="font-medium text-slate-200">KvK number:</span>{" "}
-              97594148
-            </li>
-            <li>
-              <span className="font-medium text-slate-200">Location:</span>{" "}
-              Heerlen, Limburg, Netherlands
-            </li>
-            <li>
-              <span className="font-medium text-slate-200">Email:</span>{" "}
-              <a
-                href="mailto:support@sphawn.nl"
-                className="text-cyan-300 hover:text-cyan-200 underline"
-              >
-                support@sphawn.nl
-              </a>
-            </li>
-          </ul>
+            {/* Text */}
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <h3 className="text-lg font-semibold text-white">Stefan</h3>
+                <span className="text-[11px] uppercase tracking-wide px-2 py-0.5 rounded-full border border-cyan-300/40 text-cyan-300">
+                  Eigenaar · Sphawn
+                </span>
+              </div>
+
+              <p className="text-sm text-slate-300 leading-relaxed">
+                Hallo!</p>
+                <p className="text-sm text-slate-300 leading-relaxed"> Ik ben Stefan, eigenaar van Sphawn. Mijn doel is om
+                moderne, snelle en duidelijke websites te maken die er
+                professioneel uitzien en de juiste boodschap overbrengen.
+              </p>
+
+              <p className="text-sm text-slate-300 leading-relaxed">
+                Ik werk rechtstreeks met je samen van idee tot een live website,
+                met heldere communicatie, een sterke structuur en aandacht voor
+                detail.
+              </p>
+            </div>
+          </div>
+
+          {/* COMPANY */}
+          <div className="lg:col-span-5 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl">
+            <h2 className="text-lg font-semibold text-white mb-3">
+              Bedrijfsgegevens
+            </h2>
+
+            <ul className="space-y-2 text-sm text-slate-300">
+              <li>
+                <span className="font-medium text-slate-200">Bedrijfsnaam:</span>{" "}
+                Sphawn
+              </li>
+              <li>
+                <span className="font-medium text-slate-200">KvK-nummer:</span>{" "}
+                97594148
+              </li>
+              <li>
+                <span className="font-medium text-slate-200">Locatie:</span>{" "}
+                Heerlen, Limburg, Nederland
+              </li>
+              <li>
+                <span className="font-medium text-slate-200">E-mail:</span>{" "}
+                <a
+                  href="mailto:support@sphawn.nl"
+                  className="text-cyan-300 hover:text-cyan-200 underline"
+                >
+                  support@sphawn.nl
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        {/* Email direct */}
+        {/* Direct email */}
         <p className="text-center mt-8 text-slate-400 text-sm">
-          Direct email?
+          Liever direct mailen?
           <a
             href="mailto:support@sphawn.nl"
             className="text-cyan-300 hover:text-cyan-200 underline ml-1"
