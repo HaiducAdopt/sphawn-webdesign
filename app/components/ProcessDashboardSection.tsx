@@ -129,9 +129,21 @@ export default function ProcessDashboardSection() {
               <div className="relative flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-sky-400 to-fuchsia-400 opacity-70 blur-[2px]" />
                 {/* was 9px on mobile — bumped to 12px */}
-                <div className="relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full border border-cyan-300/60 bg-slate-950/90 text-[12px] sm:text-xs font-semibold uppercase tracking-wide">
-                  9 steps
-                </div>
+<div className="
+  relative
+  flex h-12 w-12 sm:h-14 sm:w-14
+  items-center justify-center
+  rounded-full
+  border border-cyan-300/60
+  bg-slate-950/90
+  text-[10px] sm:text-xs
+  font-semibold
+  uppercase
+  tracking-wide
+  leading-none
+">
+  9 steps
+</div>
               </div>
 
               <div className="space-y-1">
