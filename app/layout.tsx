@@ -10,6 +10,7 @@ const geistSans = Geist({
   subsets: ["latin"],
   variable: "--font-geist-sans",
 });
+
 const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
@@ -19,12 +20,26 @@ const siteUrl = "https://www.sphawn.nl";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+
   title: "Webdesign Heerlen | Sphawn",
   description:
     "Sphawn Webdesign bouwt moderne, snelle en duidelijke websites voor ondernemers en freelancers in Heerlen en Limburg.",
+
   alternates: {
     canonical: siteUrl,
   },
+
+  /* 🔹 FAVICON / ICONS – IMPORTANT PENTRU GOOGLE */
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+
   openGraph: {
     type: "website",
     url: siteUrl,
@@ -62,7 +77,7 @@ export default function RootLayout({
         {/* Vercel Analytics */}
         <Analytics />
 
-        {/* Organization / ProfessionalService schema (in het Nederlands) */}
+        {/* Organization / ProfessionalService schema */}
         <Script
           id="org-schema"
           type="application/ld+json"
