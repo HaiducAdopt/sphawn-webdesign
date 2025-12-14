@@ -20,7 +20,7 @@ export default function Hero() {
             {/* COLOANA STÂNGA – HERO TEXT */}
             <div className="text-white">
               <p className="text-[12px] sm:text-[14px] md:text-[16px] font-semibold tracking-[0.5em] mb-4 sm:mb-6">
-                Web Design & Development
+                Web Design & Development  Heerlen
               </p>
 
               {/* H1 principal */}
@@ -46,9 +46,7 @@ export default function Hero() {
 
               <div className="mt-6 sm:mt-8 max-w-[522px] min-h-[84px]">
                 <p className="text-[15px] sm:text-[18px] md:text-[20px] leading-[22px] sm:leading-[24px] md:leading-[26px] font-bold">
-                  I create high-quality websites using Next.js, React and
-                  Tailwind CSS — focused on clarity, speed and a great user
-                  experience.
+I design and develop high-quality websites for businesses in Heerlen, Limburg and across the Netherlands, using modern technologies like Next.js, React and Tailwind CSS. My focus is on clarity, speed, strong SEO foundations and an excellent user experience.
                 </p>
               </div>
             </div>

@@ -153,6 +153,37 @@ export default function ContactClient() {
           </button>
         </form>
 
+        {/* Company details */}
+        <div className="mt-10 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl">
+          <h2 className="text-lg font-semibold text-white mb-3">
+            Company details
+          </h2>
+
+          <ul className="space-y-2 text-sm text-slate-300">
+            <li>
+              <span className="font-medium text-slate-200">Business name:</span>{" "}
+              Sphawn
+            </li>
+            <li>
+              <span className="font-medium text-slate-200">KvK number:</span>{" "}
+              97594148
+            </li>
+            <li>
+              <span className="font-medium text-slate-200">Location:</span>{" "}
+              Heerlen, Limburg, Netherlands
+            </li>
+            <li>
+              <span className="font-medium text-slate-200">Email:</span>{" "}
+              <a
+                href="mailto:support@sphawn.nl"
+                className="text-cyan-300 hover:text-cyan-200 underline"
+              >
+                support@sphawn.nl
+              </a>
+            </li>
+          </ul>
+        </div>
+
         {/* Email direct */}
         <p className="text-center mt-8 text-slate-400 text-sm">
           Direct email?
