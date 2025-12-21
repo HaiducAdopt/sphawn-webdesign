@@ -1,81 +1,49 @@
-// components/HomeConceptsSection.tsx
 "use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 type Concept = {
   id: string;
-  title: string;
-  tag: string;
   image: string;
 };
 
 const concepts: Concept[] = [
-  {
-    id: "restaurant",
-    title: "Restaurant Homepage",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/restaurant.png",
-  },
-  {
-    id: "dentist",
-    title: "Dental Clinic Homepage",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/dentist.png",
-  },
-  {
-    id: "gym",
-    title: "Fitness Studio Landing Page",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/gym.png",
-  },
-  {
-    id: "logistics",
-    title: "Logistics / Warehouse Homepage",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/logistics.png",
-  },
-  {
-    id: "dog-services",
-    title: "Dog Services One-Pager",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/dog-services.png",
-  },
-  {
-    id: "saas",
-    title: "SaaS Landing Page",
-    tag: "Figma Concept",
-    image: "/portfolio/concepts/saas.png",
-  },
+  { id: "restaurant", image: "/portfolio/concepts/restaurant.png" },
+  { id: "dentist", image: "/portfolio/concepts/dentist.png" },
+  { id: "gym", image: "/portfolio/concepts/gym.png" },
+  { id: "logistics", image: "/portfolio/concepts/logistics.png" },
+  { id: "dog-services", image: "/portfolio/concepts/dog-services.png" },
+  { id: "saas", image: "/portfolio/concepts/saas.png" },
 ];
 
 export default function HomeConceptsSection() {
-  const [selectedConcept, setSelectedConcept] = useState<Concept | null>(null);
+  const t = useTranslations("portfolio.concepts");
+  const [selectedConcept, setSelectedConcept] = useState<string | null>(null);
   const [touchStartY, setTouchStartY] = useState<number | null>(null);
 
   const closeModal = () => setSelectedConcept(null);
+
+  const selected = selectedConcept
+    ? concepts.find((c) => c.id === selectedConcept)
+    : null;
 
   return (
     <section className="mt-10 space-y-6">
       <header className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h2 className="text-xl font-semibold text-slate-50 sm:text-2xl">
-            Homepage concepts from Figma
+            {t("title")}
           </h2>
-
-          {/* was text-sm — bump mobile */}
           <p className="mt-1 max-w-2xl text-[15px] sm:text-sm leading-relaxed text-slate-300/90">
-            I love exploring different industries in Figma. These are design
-            concepts for potential clients — perfect as a starting point for new
-            projects.
+            {t("subtitle")}
           </p>
         </div>
 
-        {/* was text-xs — bump mobile */}
         <p className="text-[13px] sm:text-xs text-slate-400">
-          All layouts can be adapted to your brand & content.
+          {t("note")}
         </p>
       </header>
 
@@ -88,35 +56,32 @@ export default function HomeConceptsSection() {
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.35, delay: index * 0.05 }}
             className="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-slate-900/70 shadow-[0_18px_45px_rgba(15,23,42,0.8)] ring-1 ring-slate-900/70 cursor-pointer"
-            onClick={() => setSelectedConcept(concept)}
+            onClick={() => setSelectedConcept(concept.id)}
           >
             <div className="relative aspect-[4/3] w-full overflow-hidden">
               <Image
                 src={concept.image}
-                alt={concept.title}
+                alt={t(`items.${concept.id}.title`)}
                 fill
                 className="object-cover transition duration-500 group-hover:scale-[1.03] group-hover:brightness-110"
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent opacity-90" />
 
               <div className="absolute inset-x-0 bottom-0 space-y-1 px-4 pb-4">
-                {/* was 11px — bump mobile */}
                 <p className="text-[13px] sm:text-[11px] font-semibold uppercase tracking-[0.2em] text-cyan-300">
-                  {concept.tag}
+                  {t("tag")}
                 </p>
 
-                {/* was text-sm — bump mobile */}
                 <h3 className="text-[16px] sm:text-base font-semibold text-slate-50 break-words">
-                  {concept.title}
+                  {t(`items.${concept.id}.title`)}
                 </h3>
               </div>
             </div>
 
-            {/* footer mini info */}
             <div className="flex items-center justify-between px-4 py-3 text-[13px] sm:text-[11px] text-slate-300">
-              <span>Designed in Figma</span>
+              <span>{t("footerLeft")}</span>
               <span className="text-slate-500 whitespace-nowrap">
-                Hover to preview · Customizable
+                {t("footerRight")}
               </span>
             </div>
 
@@ -125,8 +90,7 @@ export default function HomeConceptsSection() {
         ))}
       </div>
 
-      {/* Modal Lightbox */}
-      {selectedConcept && (
+      {selected && (
         <div
           className="fixed inset-0 z-[999] flex items-center justify-center p-4 pt-24 sm:pt-20 cursor-pointer"
           onClick={closeModal}
@@ -134,9 +98,7 @@ export default function HomeConceptsSection() {
           onTouchEnd={(e) => {
             if (touchStartY === null) return;
             const deltaY = e.changedTouches[0].clientY - touchStartY;
-            if (Math.abs(deltaY) > 60) {
-              closeModal();
-            }
+            if (Math.abs(deltaY) > 60) closeModal();
             setTouchStartY(null);
           }}
         >
@@ -159,20 +121,17 @@ export default function HomeConceptsSection() {
 
             <div className="relative w-full">
               <Image
-                src={selectedConcept.image}
-                alt={selectedConcept.title}
+                src={selected.image}
+                alt={t(`items.${selected.id}.title`)}
                 width={1600}
                 height={900}
                 className="w-full h-auto max-h-[70vh] object-contain"
               />
             </div>
 
-            {/* modal footer — was text-xs, bump */}
             <div className="flex items-center justify-between px-4 py-3 text-[13px] sm:text-xs text-slate-300/90">
-              <span>{selectedConcept.title}</span>
-              <span className="text-slate-400">
-                Tap outside or swipe to close
-              </span>
+              <span>{t(`items.${selected.id}.title`)}</span>
+              <span className="text-slate-400">{t("modalHint")}</span>
             </div>
           </motion.div>
         </div>

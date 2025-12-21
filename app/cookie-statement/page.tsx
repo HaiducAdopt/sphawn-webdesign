@@ -1,4 +1,19 @@
-export default function CookieStatementPage() {
+// app/cookie-statement/page.tsx
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("cookieStatement.meta");
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
+export default async function CookieStatementPage() {
+  const t = await getTranslations("cookieStatement.page");
+
   return (
     <main className="relative min-h-screen bg-[#0A1A2F] text-white overflow-hidden">
       {/* BG blur circles */}
@@ -9,88 +24,46 @@ export default function CookieStatementPage() {
         {/* Header */}
         <header className="mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Cookie Statement
+            {t("title")}
           </h1>
           <p className="mt-3 text-slate-300 max-w-2xl">
-            This Cookie Statement explains how cookies and similar technologies
-            are used on the Sphawn website.
+            {t("intro")}
           </p>
         </header>
 
         {/* Content */}
         <div className="space-y-8 text-slate-300 leading-relaxed">
-          {/* 1 */}
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              1. What are cookies?
-            </h2>
-            <p>
-              Cookies are small text files stored on your device when you visit a
-              website. They are commonly used to ensure websites function
-              properly and to provide insights into website usage.
-            </p>
-          </section>
+          {t.raw("sections").map(
+            (section: {
+              title: string;
+              paragraphs: string[];
+              list?: string[];
+            }) => (
+              <section key={section.title}>
+                <h2 className="text-xl font-semibold text-white mb-2">
+                  {section.title}
+                </h2>
 
-          {/* 2 */}
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              2. Cookies used on this website
-            </h2>
-            <p>
-              This website does <strong>not</strong> use tracking cookies,
-              marketing cookies or advertising cookies.
-            </p>
-            <p className="mt-2">
-              We do not track individual users and we do not create user
-              profiles.
-            </p>
-          </section>
+                {section.paragraphs.map((p) => (
+                  <p key={p} className="mt-2">
+                    {p}
+                  </p>
+                ))}
 
-          {/* 3 */}
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              3. Analytics
-            </h2>
-            <p>
-              We use <strong>Vercel Analytics</strong> to gain basic insights into
-              website traffic. Vercel Analytics:
-            </p>
-            <ul className="mt-2 list-disc list-inside text-sm">
-              <li>Does not use cookies</li>
-              <li>Does not collect personal data</li>
-              <li>Does not identify individual visitors</li>
-              <li>Is GDPR-compliant by default</li>
-            </ul>
-          </section>
+                {section.list && (
+                  <ul className="mt-2 list-disc list-inside text-sm">
+                    {section.list.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            )
+          )}
 
-          {/* 4 */}
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              4. Managing cookies
-            </h2>
-            <p>
-              Since this website does not use tracking or marketing cookies,
-              there is no need to manage cookie preferences or provide consent.
-            </p>
-            <p className="mt-2">
-              You can still control and delete cookies through your browser
-              settings at any time.
-            </p>
-          </section>
-
-          {/* 5 */}
-          <section>
-            <h2 className="text-xl font-semibold text-white mb-2">
-              5. Changes to this statement
-            </h2>
-            <p>
-              This Cookie Statement may be updated if the website functionality
-              changes or if cookies are introduced in the future.
-            </p>
-            <p className="mt-2 text-sm text-slate-400">
-              Last updated: {new Date().toLocaleDateString("en-GB")}
-            </p>
-          </section>
+          <p className="mt-10 text-sm text-slate-400">
+            {t("lastUpdated")}
+          </p>
         </div>
       </section>
     </main>

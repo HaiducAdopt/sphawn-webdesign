@@ -1,11 +1,19 @@
+// app/[locale]/contact/page.tsx
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import ContactClient from "./ContactClient";
 
-export const metadata: Metadata = {
-  title: "Contact | Sphawn Webdesign Heerlen",
-  description:
-    "Neem contact op voor een offerte of kennismakingsgesprek. Ik reageer binnen 24 uur. Of mail direct naar support@sphawn.nl.",
-};
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("contact.meta");
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default function ContactPage() {
   return <ContactClient />;

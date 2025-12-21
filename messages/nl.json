@@ -1,0 +1,705 @@
+{
+  "hero": {
+    "eyebrow": "Webdesign & Webontwikkeling Heerlen",
+    "title": {
+      "line1": "LET'S",
+      "line2": "GO",
+      "line3": "ONLINE"
+    },
+    "description": "Ik ontwerp en ontwikkel hoogwaardige websites voor bedrijven in Heerlen, Limburg en door heel Nederland, met moderne technologieën zoals Next.js, React en Tailwind CSS. De focus ligt op duidelijkheid, snelheid, een sterke SEO-basis en een uitstekende gebruikerservaring.",
+    "cta": "SAMEN AAN DE SLAG",
+    "techStackTitle": "Tech Stack"
+  },
+  
+ "navbar": {
+    "process": "Werkwijze",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "cta": "Laten we je website bespreken"
+  },
+
+   "footer": {
+    "seoHeerlen": "Webdesign Heerlen",
+    "seoLimburg": "Webdesign Limburg",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "cookies": "Cookieverklaring",
+    "copyright": "© 2025 Sphawn · Heerlen · Nederland — Webdesign & Development"
+  },
+    "process": {
+    "meta": {
+      "title": "Proces | Webdesign aanpak",
+      "description": "Een transparante en efficiënte aanpak voor het ontwerpen en bouwen van jouw website. Van concept tot lancering, stap voor stap."
+    },
+    "title": "Het Project Dashboard",
+    "intro": "Een helder en transparant overzicht van hoe we samen jouw website bouwen — van het eerste idee tot livegang en daarna.",
+    "cta": "SAMEN AAN DE SLAG",
+    "progress": {
+      "steps": "stappen",
+      "title": "Transparante werkwijze",
+      "subtitle": "Geschat 3–5 weken · Volledig in samenwerking"
+    },
+    "overview": {
+      "label": "Overzicht",
+      "title": "Van eerste idee tot langdurige ondersteuning.",
+      "text": "Dit is het totaalplaatje. Elke stap heeft rechts een eigen kaart, maar deze tijdlijn geeft je meteen overzicht."
+    },
+    "timeline": {
+      "stepLabel": "Stap",
+      "badgeLeft": "Samenwerking · Transparant"
+    },
+    "footerLine": "Duidelijk proces · Geen verrassingen · Gebouwd met Next.js, React & Tailwind CSS",
+    "steps": [
+      {
+        "id": 1,
+        "icon": "💡",
+        "title": "Het Idee",
+        "short": "Elk project start met jouw visie.",
+        "description": "We bespreken je doelen, wat de website moet doen en voor wie hij bedoeld is."
+      },
+      {
+        "id": 2,
+        "icon": "🗂️",
+        "title": "Materialen verzamelen",
+        "short": "Branding, beelden, teksten, logo.",
+        "description": "Je stuurt alles wat je al hebt. Ontbreekt er iets, dan help ik je om het te maken."
+      },
+      {
+        "id": 3,
+        "icon": "🎨",
+        "title": "Webdesign (Figma)",
+        "short": "Volledig ontwerp in Figma.",
+        "description": "Ik ontwerp je website pagina voor pagina in Figma en we verfijnen het samen tot alles klopt."
+      },
+      {
+        "id": 4,
+        "icon": "💻",
+        "title": "Webdevelopment",
+        "short": "Van Figma naar echte code.",
+        "description": "Ik bouw het ontwerp met Next.js, React en Tailwind CSS, met focus op snelheid en helderheid."
+      },
+      {
+        "id": 5,
+        "icon": "🧪",
+        "title": "Testen",
+        "short": "We testen alles samen.",
+        "description": "Layout, performance, mobile-responsiveness en basis UX-flows worden gecontroleerd en aangepast."
+      },
+      {
+        "id": 6,
+        "icon": "🔍",
+        "title": "SEO optimalisatie",
+        "short": "Een nette structuur voor Google.",
+        "description": "Ik zet meta tags, titels, descriptions en een sterke structuur op zodat Google je website goed begrijpt."
+      },
+      {
+        "id": 7,
+        "icon": "🚀",
+        "title": "Build & Deploy",
+        "short": "Jouw website publiceren.",
+        "description": "We bouwen en deployen de finale versie op snelle en veilige hosting (bijv. Vercel)."
+      },
+      {
+        "id": 8,
+        "icon": "🌐",
+        "title": "Je bent online",
+        "short": "De website gaat live.",
+        "description": "De site is live, deelbaar en klaar om je business of project te ondersteunen."
+      },
+      {
+        "id": 9,
+        "icon": "🔧",
+        "title": "Support & onderhoud",
+        "short": "Ook daarna ben ik er nog.",
+        "description": "Ik blijf beschikbaar voor content-wijzigingen, fixes en kleine verbeteringen wanneer je die nodig hebt."
+      }
+    ]
+  },
+  "portfolio": {
+    "meta": {
+      "title": "Portfolio | Webdesign projecten en Figma concepten",
+      "description": "Bekijk webdesign projecten, demo shops en Figma concepten. Professioneel ontworpen voor bedrijven in Heerlen en Limburg."
+    },
+    "page": {
+      "pill": "Portfolio & Case Studies",
+      "headline": {
+        "beforeFigma": "Webprojecten ontworpen in",
+        "figma": "Figma",
+        "afterFigma": "en gebouwd met",
+        "stack": "Next.js & React",
+        "end": "."
+      },
+      "intro": "Een mix van echt klantwerk en concepten. Elk project volgt dezelfde flow: strategie → Figma design → development in Next.js / React → testen → livegang.",
+      "cta": {
+        "title": "Klaar voor een nieuwe website?",
+        "text": "Of je nu een strakke bedrijfswebsite, een landing page of een kleine webshop nodig hebt: we starten in Figma en leveren een snelle, moderne Next.js build.",
+        "primary": "Laten we je project bespreken",
+        "secondary": "Bekijk mijn werkwijze"
+      }
+    },
+    "caseStudies": {
+      "title": "Case studies & echte projecten",
+      "subtitle": "Een overzicht van projecten die ik heb ontworpen en gebouwd, plus enkele demo shops om te laten zien wat mogelijk is met WordPress, WooCommerce en Shopify.",
+      "note": "Uitgebreide cases volgen binnenkort.",
+      "types": {
+        "real": "Echt project",
+        "demo": "Demo shop"
+      },
+      "viewLive": "Bekijk live project",
+      "comingSoon": "Demo / binnenkort",
+      "footerTag": "Ontworpen in Figma · Gebouwd door mij",
+      "items": {
+        "haiducadopt": {
+          "title": "HaiducAdopt.com",
+          "subtitle": "Honden-adoptieplatform voor heel Europa",
+          "description": "Een volledige webapp met profielen, hondenprofielen, chat, filters, SEO, affiliate links en een adminomgeving."
+        },
+        "hhs": {
+          "title": "Haiduc Honden Services",
+          "subtitle": "Lokale hondenservices website",
+          "description": "Een heldere presentatiewebsite voor lokale hondenservices, gericht op vertrouwen en eenvoudig contact."
+        },
+        "wp-presentation": {
+          "title": "Bedrijfswebsite (WordPress)",
+          "subtitle": "Klassieke demo presentatiesite",
+          "description": "Demo project dat laat zien hoe een klein bedrijf een nette, makkelijk te beheren WordPress-site kan hebben met blog & contact."
+        },
+        "woocommerce-shop": {
+          "title": "Onderdelen webshop (WooCommerce)",
+          "subtitle": "Kleine e-commerce voor niche producten",
+          "description": "Demo WooCommerce shop met categorieën, filters en een eenvoudige checkout flow voor kleine voorraden."
+        },
+        "shopify-store": {
+          "title": "Lifestyle merk (Shopify)",
+          "subtitle": "Moderne Shopify storefront demo",
+          "description": "Demo Shopify store om te tonen hoe ik themes kan aanpassen, collecties kan structureren en productpagina’s kan optimaliseren."
+        }
+      }
+    },
+    "concepts": {
+      "title": "Homepage concepten uit Figma",
+      "subtitle": "Ik exploreer graag verschillende branches in Figma. Dit zijn design concepten als startpunt voor nieuwe projecten.",
+      "note": "Alle layouts zijn aanpasbaar aan jouw merk & content.",
+      "tag": "Figma concept",
+      "footerLeft": "Ontworpen in Figma",
+      "footerRight": "Hover voor preview · Aanpasbaar",
+      "modalHint": "Tik buiten of swipe om te sluiten",
+      "items": {
+        "restaurant": { "title": "Restaurant homepage" },
+        "dentist": { "title": "Tandartspraktijk homepage" },
+        "gym": { "title": "Fitness studio landing page" },
+        "logistics": { "title": "Logistiek / warehouse homepage" },
+        "dog-services": { "title": "Hondenservices one-pager" },
+        "saas": { "title": "SaaS landing page" }
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact | Sphawn Webdesign Heerlen",
+      "description": "Neem contact op voor een offerte of kennismakingsgesprek. Ik reageer binnen 24 uur. Of mail direct naar support@sphawn.nl."
+    },
+    "page": {
+      "hero": {
+        "title": "Neem contact op",
+        "subtitle": "Deel een paar details over je project. Ik bekijk alles en neem binnen 24 uur contact met je op."
+      },
+      "form": {
+        "nameLabel": "Naam",
+        "namePlaceholder": "Je naam",
+        "emailLabel": "E-mail",
+        "emailPlaceholder": "jij@voorbeeld.nl",
+        "subjectLabel": "Onderwerp",
+        "subjectPlaceholder": "Nieuwe website, redesign, webshop, enz.",
+        "messageLabel": "Bericht",
+        "messagePlaceholder": "Vertel kort iets over je project.",
+        "button": "Bericht versturen",
+        "buttonLoading": "Verzenden...",
+        "success": "Bedankt! Je bericht is verzonden. Ik neem binnen 24 uur contact met je op.",
+        "error": "Er ging iets mis. Probeer het opnieuw of stuur direct een e-mail naar support@sphawn.nl."
+      },
+      "owner": {
+        "name": "Stefan",
+        "badge": "Eigenaar · Sphawn",
+        "photoAlt": "Stefan – Eigenaar van Sphawn",
+        "p1": "Hallo!",
+        "p2": "Ik ben Stefan, eigenaar van Sphawn. Mijn doel is om moderne, snelle en duidelijke websites te maken die er professioneel uitzien en de juiste boodschap overbrengen.",
+        "p3": "Ik werk rechtstreeks met je samen van idee tot een live website, met heldere communicatie, een sterke structuur en aandacht voor detail."
+      },
+      "company": {
+        "title": "Bedrijfsgegevens",
+        "nameLabel": "Bedrijfsnaam:",
+        "nameValue": "Sphawn",
+        "kvkLabel": "KvK-nummer:",
+        "locationLabel": "Locatie:",
+        "locationValue": "Heerlen, Limburg, Nederland",
+        "emailLabel": "E-mail:"
+      },
+      "directEmail": {
+        "text": "Liever direct mailen?"
+      }
+    }
+  },
+  "seoHeerlen": {
+    "meta": {
+      "title": "Webdesign Heerlen | Website laten maken Limburg | Sphawn",
+      "description": "Freelance webdesign in Heerlen. Snelle, moderne en SEO-vriendelijke websites met Next.js, React en Tailwind. Vraag vrijblijvend een offerte aan."
+    }
+  },
+  "webdesignHeerlen": {
+    "meta": {
+      "title": "Webdesign Heerlen | Website laten maken in Heerlen",
+      "description": "Freelance webdesigner in Heerlen. Moderne, snelle en SEO-vriendelijke websites met Next.js, React en Tailwind. Vraag een gratis offerte aan."
+    },
+    "page": {
+      "hero": {
+        "label": "Lokaal Webdesign",
+        "title": "Webdesign & Web Development in Heerlen, Limburg",
+        "description": "Op zoek naar professioneel webdesign en web development in Heerlen? Ik ben een freelance webdesigner en developer uit Heerlen, Limburg en bouw snelle, moderne en SEO-vriendelijke websites voor ondernemers, ZZP’ers en bedrijven in heel Nederland.",
+        "ctaPrimary": "Gratis offerte aanvragen",
+        "ctaSecondary": "Bekijk portfolio"
+      },
+      "services": {
+        "title": "Webdesign diensten in Heerlen",
+        "description": "Een professionele website wekt vertrouwen en helpt klanten jouw bedrijf te vinden. Als webdesigner in Heerlen maak ik websites die visueel strak, technisch sterk en gebruiksvriendelijk zijn — met een solide basis voor Google.",
+        "items": [
+          "Uniek webdesign afgestemd op jouw bedrijf",
+          "Mobile-first en volledig responsive layouts",
+          "Heldere structuur en intuïtieve navigatie",
+          "Sterke SEO-basis voor betere vindbaarheid",
+          "Snelle laadtijden en optimale performance"
+        ]
+      },
+      "tech": {
+        "title": "Moderne web development met Next.js en React",
+        "description": "Ik bouw websites met Next.js, React en Tailwind CSS. Deze moderne stack zorgt voor snelheid, veiligheid en toekomstbestendigheid — met een schone structuur en uitstekende prestaties.",
+        "features": [
+          {
+            "title": "Performance",
+            "description": "Snelle laadtijden en een soepele gebruikerservaring."
+          },
+          {
+            "title": "SEO basis",
+            "description": "Schone structuur zodat Google je website goed begrijpt."
+          },
+          {
+            "title": "Schaalbaar",
+            "description": "Groeit eenvoudig mee met jouw bedrijf en content."
+          },
+          {
+            "title": "Betrouwbaar",
+            "description": "Moderne, veilige en stabiele technische basis."
+          }
+        ]
+      },
+      "local": {
+        "title": "Lokale webdesigner in Limburg & Nederland",
+        "description": "Doordat ik gevestigd ben in Heerlen werk ik nauw samen met lokale bedrijven in Limburg, maar ondersteun ik ook klanten door heel Nederland. Ik weet wat ZZP’ers en kleine ondernemingen nodig hebben: een duidelijke boodschap, een professionele uitstraling en een website die gewoon werkt."
+      },
+      "process": {
+        "title": "Van idee tot live website",
+        "steps": [
+          "We bespreken jouw doelen en wensen.",
+          "Ik ontwerp de structuur en layout (Figma).",
+          "Ik ontwikkel de website met moderne technologieën.",
+          "Optimalisatie voor snelheid, SEO en mobiel.",
+          "Lancering en ondersteuning indien nodig."
+        ],
+        "cta": "Laten we je website bespreken ↗"
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "items": [
+          {
+            "question": "Wat kost een website in Heerlen?",
+            "answer": "De prijs hangt af van de omvang, maar de meeste websites starten tussen €300 en €800. Na een korte kennismaking kan ik een duidelijke offerte maken."
+          },
+          {
+            "question": "Hoe lang duurt het bouwen van een website?",
+            "answer": "De meeste projecten zijn klaar binnen 2–5 weken, afhankelijk van het aantal pagina’s, content en feedbackrondes."
+          },
+          {
+            "question": "Werk je alleen in Heerlen?",
+            "answer": "Nee. Ik werk met klanten door heel Limburg en Nederland, maar ben gevestigd in Heerlen en werk graag met lokale ondernemers."
+          },
+          {
+            "question": "Help je ook met SEO?",
+            "answer": "Ja. Elke website krijgt een sterke SEO-basis: goede structuur, correcte titels en beschrijvingen, snelle performance en mobile-first design."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "title": "Klaar om te starten met je website?",
+        "description": "Heb je webdesign of web development nodig in Heerlen of Limburg? Neem gerust contact op voor een gratis gesprek en een duidelijke offerte.",
+        "button": "Contact opnemen met Sphawn Webdesign"
+      },
+      "aside": {
+        "label": "Overzicht",
+        "title": "Webdesign in Heerlen, gericht op resultaat.",
+        "items": [
+          "Gevestigd in Heerlen, Limburg",
+          "Next.js · React · Tailwind CSS",
+          "Snelle & SEO-vriendelijke structuur",
+          "Mobile-first design",
+          "Duidelijk proces & direct contact"
+        ],
+        "button": "Offerte aanvragen",
+        "keywords": "Trefwoorden: webdesign Heerlen, web development Heerlen, webdesigner Limburg, website laten maken Nederland."
+      }
+    }
+  },
+  "webdesignLimburg": {
+    "meta": {
+      "title": "Webdesign Limburg | Website laten maken in Limburg",
+      "description": "Freelance webdesigner in Limburg (gevestigd in Heerlen). Moderne, snelle en SEO-vriendelijke websites met Next.js, React en Tailwind."
+    },
+    "page": {
+      "hero": {
+        "label": "Webdesign Limburg",
+        "title": "Webdesign & Web Development in Limburg, Nederland",
+        "p1": "Op zoek naar professioneel webdesign in Limburg? Ik ben een freelance webdesigner en developer uit Heerlen en bouw snelle, moderne en SEO-vriendelijke websites voor bedrijven, ZZP’ers en ondernemers in heel Limburg en Nederland.",
+        "p2": "Ik ontwikkel hoogwaardige websites met Next.js, React en Tailwind CSS — met focus op helderheid, snelheid en een sterke gebruikerservaring. Of je nu een bedrijfswebsite, landing page of maatwerk oplossing nodig hebt: ik help je graag aan een sterke online aanwezigheid.",
+        "ctaPrimary": "Gratis offerte aanvragen",
+        "ctaSecondary": "Bekijk portfolio"
+      },
+      "cards": {
+        "services": {
+          "title": "Webdesign diensten in heel Limburg",
+          "text": "Een professionele website zorgt voor vertrouwen en helpt klanten je te vinden op Google. Ik maak strakke, moderne en technisch sterke websites voor bedrijven in Limburg — met focus op structuur, performance en gebruiksvriendelijkheid.",
+          "items": [
+            "Uniek webdesign afgestemd op jouw merk",
+            "Mobile-first en volledig responsive layouts",
+            "Heldere structuur en intuïtieve navigatie",
+            "Sterke SEO-basis voor betere vindbaarheid",
+            "Snelle laadtijden en optimale performance"
+          ]
+        },
+        "tech": {
+          "title": "Moderne development met Next.js en React",
+          "text": "Ik bouw websites met Next.js, React en Tailwind CSS. Deze moderne stack zorgt voor snelheid, veiligheid en toekomstbestendigheid — met een schone structuur en uitstekende performance.",
+          "features": [
+            { "t": "Performance", "d": "Snelle laadtijden en een soepele gebruikerservaring." },
+            { "t": "SEO basis", "d": "Schone structuur zodat Google je website goed begrijpt." },
+            { "t": "Schaalbaar", "d": "Groeit eenvoudig mee met jouw bedrijf en content." },
+            { "t": "Betrouwbaar", "d": "Moderne, veilige en stabiele technische basis." }
+          ]
+        },
+        "local": {
+          "title": "Lokale ondersteuning in Limburg (gevestigd in Heerlen)",
+          "text": "Omdat ik in Heerlen gevestigd ben, kan ik bedrijven in Limburg snel en direct ondersteunen. Of je nu in Maastricht, Sittard, Roermond, Kerkrade of in de buurt zit: je krijgt duidelijke communicatie en een transparant proces van start tot oplevering."
+        }
+      },
+      "related": {
+        "title": "Gerelateerde projecten & platformen",
+        "text": "Naast klantprojecten bouw en onderhoud ik ook eigen digitale platformen. Deze projecten tonen praktijkervaring met UX, performance, SEO-structuur en langdurig onderhoud.",
+        "projects": [
+          {
+            "title": "Haiduc Honden Services",
+            "description": "Een lokale website voor hondenservices, gericht op duidelijkheid en vertrouwen. Met hondenuitlaatservice, basistraining en hondenfotografie voor klanten in Heerlen en omgeving.",
+            "image": "/portfolio/haiduchondenservices.png",
+            "alt": "Haiduc Honden Services website",
+            "url": "https://www.haiduchondenservices.nl",
+            "linkLabel": "Bezoek website"
+          },
+          {
+            "title": "HaiducAdopt",
+            "description": "Een online platform dat mensen helpt om lokaal honden te adopteren. Het verbindt adoptanten met asielen en particulieren, zonder honden te bezitten of in te grijpen in het adoptieproces.",
+            "image": "/portfolio/haiducadopt.png",
+            "alt": "HaiducAdopt platform",
+            "url": "https://www.haiducadopt.com",
+            "linkLabel": "Bezoek platform"
+          }
+        ],
+        "footnote": "Deze projecten tonen praktijkervaring met webdesign, development, SEO-structuur en doorlopende updates."
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "items": [
+          {
+            "q": "Werk je alleen in Limburg?",
+            "a": "Ik ben gevestigd in Heerlen (Limburg), maar ik werk ook met klanten door heel Nederland. Limburg is een belangrijk focusgebied omdat ik lokale bedrijven snel en direct kan ondersteunen."
+          },
+          {
+            "q": "Welke websites bouw je?",
+            "a": "Bedrijfswebsites, landing pages, portfolio sites en maatwerk builds met Next.js, React en Tailwind CSS. Voor specifieke wensen werk ik ook met WordPress, WooCommerce en Shopify."
+          },
+          {
+            "q": "Hoe lang duurt een project?",
+            "a": "De meeste projecten zijn klaar binnen 2–5 weken, afhankelijk van de scope, content en feedbackrondes."
+          },
+          {
+            "q": "Help je ook met SEO?",
+            "a": "Ja. Elke website krijgt een sterke SEO-basis: goede structuur, correcte titels en beschrijvingen, snelle performance en mobile-first design."
+          }
+        ]
+      },
+      "ctaBottom": {
+        "title": "Klaar om te starten met je website in Limburg?",
+        "text": "Heb je webdesign of web development nodig in Limburg? Neem gerust contact op voor een gratis gesprek en een duidelijke offerte.",
+        "button": "Contact opnemen met Sphawn Webdesign"
+      },
+      "aside": {
+        "label": "Overzicht",
+        "title": "Webdesign in Limburg, gericht op resultaat.",
+        "items": [
+          "Limburg-focus (gevestigd in Heerlen)",
+          "Next.js · React · Tailwind CSS",
+          "Snelle & SEO-vriendelijke structuur",
+          "Mobile-first design",
+          "Duidelijk proces & direct contact"
+        ],
+        "button": "Offerte aanvragen",
+        "keywords": "Trefwoorden: webdesign Limburg, web development Limburg, webdesigner Limburg, website laten maken Nederland."
+      }
+    }
+  },
+  "cookieStatement": {
+    "meta": {
+      "title": "Cookieverklaring | Sphawn",
+      "description": "Deze cookieverklaring legt uit hoe cookies en vergelijkbare technologieën worden gebruikt op de website van Sphawn."
+    },
+    "page": {
+      "title": "Cookieverklaring",
+      "intro": "Deze cookieverklaring legt uit hoe cookies en vergelijkbare technologieën worden gebruikt op de website van Sphawn.",
+      "sections": [
+        {
+          "title": "1. Wat zijn cookies?",
+          "paragraphs": [
+            "Cookies zijn kleine tekstbestanden die op je apparaat worden opgeslagen wanneer je een website bezoekt.",
+            "Ze worden vaak gebruikt om websites goed te laten functioneren en om inzicht te krijgen in het gebruik van de website."
+          ]
+        },
+        {
+          "title": "2. Cookies op deze website",
+          "paragraphs": [
+            "Deze website gebruikt geen trackingcookies, marketingcookies of advertentiecookies.",
+            "Wij volgen geen individuele gebruikers en maken geen gebruikersprofielen aan."
+          ]
+        },
+        {
+          "title": "3. Analytics",
+          "paragraphs": [
+            "Wij gebruiken Vercel Analytics om basisinzichten te krijgen in het websiteverkeer. Vercel Analytics:"
+          ],
+          "list": [
+            "Gebruikt geen cookies",
+            "Verzamelt geen persoonsgegevens",
+            "Identificeert geen individuele bezoekers",
+            "Is standaard AVG/GDPR-compatibel"
+          ]
+        },
+        {
+          "title": "4. Cookies beheren",
+          "paragraphs": [
+            "Omdat deze website geen tracking- of marketingcookies gebruikt, is het niet nodig om cookievoorkeuren te beheren of toestemming te geven.",
+            "Je kunt cookies altijd zelf beheren of verwijderen via de instellingen van je browser."
+          ]
+        },
+        {
+          "title": "5. Wijzigingen in deze verklaring",
+          "paragraphs": [
+            "Deze cookieverklaring kan worden bijgewerkt als de functionaliteit van de website verandert of als er in de toekomst cookies worden toegevoegd."
+          ]
+        }
+      ],
+      "lastUpdated": "Laatst bijgewerkt: 18 december 2025"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Algemene voorwaarden | Sphawn",
+      "description": "Deze algemene voorwaarden zijn van toepassing op het gebruik van deze website en de diensten van Sphawn."
+    },
+    "page": {
+      "title": "Algemene voorwaarden",
+      "intro": "Deze algemene voorwaarden zijn van toepassing op het gebruik van deze website en de diensten van Sphawn.",
+      "labels": {
+        "businessName": "Bedrijfsnaam:",
+        "kvk": "KvK-nummer:",
+        "location": "Locatie:",
+        "email": "E-mail:"
+      },
+      "business": {
+        "name": "Sphawn",
+        "kvk": "97594148",
+        "location": "Heerlen, Limburg, Nederland",
+        "email": "support@sphawn.nl"
+      },
+      "sections": [
+        {
+          "title": "1. Algemene informatie",
+          "paragraphs": [
+            "Sphawn is een freelance webdesign- en webdevelopmentbedrijf, werkzaam als ZZP en geregistreerd in Nederland."
+          ],
+          "businessList": true
+        },
+        {
+          "title": "2. Diensten",
+          "paragraphs": [
+            "Sphawn levert webdesign, webdevelopment en gerelateerde digitale diensten, waaronder maar niet beperkt tot:"
+          ],
+          "list": [
+            "Website design en development",
+            "Landingpages en bedrijfswebsites",
+            "Maatwerk builds met moderne frameworks",
+            "Basis SEO en performance optimalisatie"
+          ]
+        },
+        {
+          "title": "3. Offertes en afspraken",
+          "paragraphs": [
+            "Alle offertes zijn vrijblijvend tenzij uitdrukkelijk anders vermeld. Een project start pas na schriftelijke akkoord van beide partijen.",
+            "Wijzigingen in de scope kunnen invloed hebben op prijs en doorlooptijd en worden altijd duidelijk gecommuniceerd."
+          ]
+        },
+        {
+          "title": "4. Betalingen",
+          "paragraphs": [
+            "Betalingsvoorwaarden worden per project afgesproken. Tenzij anders overeengekomen:"
+          ],
+          "list": [
+            "Facturen dienen binnen de afgesproken termijn te worden betaald",
+            "Bij te late betaling kunnen diensten worden opgeschort",
+            "Alle prijzen zijn exclusief btw tenzij anders vermeld"
+          ]
+        },
+        {
+          "title": "5. Intellectueel eigendom",
+          "paragraphs": [
+            "Alle ontwerpen, code en materialen die door Sphawn worden gemaakt blijven eigendom van Sphawn totdat volledige betaling is ontvangen.",
+            "Na volledige betaling ontvangt de klant het recht om het geleverde werk te gebruiken voor het beoogde doel, tenzij schriftelijk anders overeengekomen."
+          ]
+        },
+        {
+          "title": "6. Aansprakelijkheid",
+          "paragraphs": [
+            "Sphawn is niet aansprakelijk voor indirecte of gevolgschade, waaronder verlies van omzet, data of zakelijke kansen.",
+            "Hoewel er alles aan wordt gedaan om veilige en kwalitatieve websites te leveren, kan Sphawn niet garanderen dat een website altijd volledig foutloos is of zonder downtime functioneert."
+          ]
+        },
+        {
+          "title": "7. Diensten van derden",
+          "paragraphs": [
+            "Websites kunnen afhankelijk zijn van diensten van derden zoals hosting, plugins of externe API’s. Sphawn is niet verantwoordelijk voor wijzigingen, storingen of problemen veroorzaakt door deze derden."
+          ]
+        },
+        {
+          "title": "8. Beëindiging",
+          "paragraphs": [
+            "Beide partijen kunnen een project schriftelijk beëindigen. Werk dat tot aan de beëindigingsdatum is uitgevoerd dient door de klant te worden betaald."
+          ]
+        },
+        {
+          "title": "9. Toepasselijk recht",
+          "paragraphs": [
+            "Op deze algemene voorwaarden is Nederlands recht van toepassing."
+          ]
+        },
+        {
+          "title": "10. Wijzigingen van deze voorwaarden",
+          "paragraphs": [
+            "Sphawn behoudt zich het recht voor om deze algemene voorwaarden op elk moment te wijzigen. Wijzigingen worden gepubliceerd op deze pagina."
+          ]
+        }
+      ],
+      "lastUpdated": "Laatst bijgewerkt: 21/12/2025"
+    }
+  },
+  "privacyPolicy": {
+    "meta": {
+      "title": "Privacybeleid | Sphawn",
+      "description": "Dit privacybeleid legt uit hoe Sphawn persoonsgegevens verzamelt, gebruikt en beschermt wanneer je deze website bezoekt of contact met ons opneemt."
+    },
+    "page": {
+      "title": "Privacybeleid",
+      "intro": "Dit privacybeleid legt uit hoe Sphawn persoonsgegevens verzamelt, gebruikt en beschermt wanneer je deze website bezoekt of contact met ons opneemt.",
+      "labels": {
+        "businessName": "Bedrijfsnaam:",
+        "kvk": "KvK-nummer:",
+        "location": "Locatie:",
+        "email": "E-mail:"
+      },
+      "business": {
+        "name": "Sphawn",
+        "kvk": "97594148",
+        "location": "Heerlen, Limburg, NL",
+        "email": "support@sphawn.nl"
+      },
+      "emailLine": {
+        "before": "Wil je gebruikmaken van je rechten? Neem dan contact met ons op via",
+        "after": "."
+      },
+      "sections": [
+        {
+          "title": "1. Wie wij zijn",
+          "paragraphs": [
+            "Sphawn is een freelance webdesign- en webdevelopmentbedrijf gevestigd in Heerlen, Limburg, Nederland."
+          ],
+          "businessList": true
+        },
+        {
+          "title": "2. Welke gegevens wij verzamelen",
+          "paragraphs": [
+            "Wij verzamelen alleen persoonsgegevens die je vrijwillig aan ons verstrekt, bijvoorbeeld wanneer je contact met ons opneemt via het contactformulier.",
+            "Dit kan onder andere zijn:"
+          ],
+          "list": [
+            "Je naam",
+            "Je e-mailadres",
+            "Het onderwerp en de inhoud van je bericht"
+          ]
+        },
+        {
+          "title": "3. Hoe wij je gegevens gebruiken",
+          "paragraphs": [
+            "Je gegevens worden uitsluitend gebruikt om:",
+            "Wij verkopen, verhuren of delen je persoonsgegevens niet met derden voor marketingdoeleinden."
+          ],
+          "list": [
+            "Te reageren op je aanvraag",
+            "Met je te communiceren over je project of verzoek"
+          ]
+        },
+        {
+          "title": "4. Analytics & cookies",
+          "paragraphs": [
+            "Deze website gebruikt geen trackingcookies of marketingcookies.",
+            "Wij gebruiken Vercel Analytics om basisinzichten te krijgen in het websiteverkeer. Deze tool:"
+          ],
+          "list": [
+            "Gebruikt geen cookies",
+            "Volgt geen individuele gebruikers",
+            "Verzamelt geen persoonsgegevens",
+            "Is standaard AVG/GDPR-compatibel"
+          ]
+        },
+        {
+          "title": "5. Opslag & beveiliging",
+          "paragraphs": [
+            "Wij nemen passende technische en organisatorische maatregelen om je persoonsgegevens te beschermen tegen verlies, misbruik of onbevoegde toegang.",
+            "Persoonsgegevens die via het contactformulier worden verzonden, worden alleen bewaard zolang dat nodig is om je verzoek af te handelen."
+          ]
+        },
+        {
+          "title": "6. Jouw rechten",
+          "paragraphs": [
+            "Onder de Algemene Verordening Gegevensbescherming (AVG/GDPR) heb je het recht om:"
+          ],
+          "list": [
+            "Inzage te krijgen in je persoonsgegevens",
+            "Correctie of verwijdering van je gegevens te verzoeken",
+            "Je toestemming op elk moment in te trekken"
+          ],
+          "includeEmailLink": true
+        },
+        {
+          "title": "7. Wijzigingen in dit beleid",
+          "paragraphs": [
+            "Dit privacybeleid kan van tijd tot tijd worden bijgewerkt om wijzigingen in wettelijke vereisten of websitefunctionaliteit te weerspiegelen."
+          ]
+        }
+      ],
+      "lastUpdated": "Laatst bijgewerkt: 21/12/2025"
+    }
+  }
+}

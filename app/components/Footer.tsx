@@ -1,58 +1,62 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from "next-intl";
+import LocaleLink from "./LocaleLink";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer className="bg-transparent backdrop-transparent py-4">
       <div className="max-w-6xl mx-auto px-4">
-
         {/* RÂND LINKURI */}
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between mb-2">
-
+          
           {/* STÂNGA – SEO pages */}
           <div className="flex flex-wrap gap-x-4 gap-y-1">
-            <Link
+            <LocaleLink
               href="/webdesign-heerlen"
               className="text-[11px] sm:text-[12px] font-normal text-slate-300 hover:text-cyan-300 transition-colors"
             >
-              Webdesign Heerlen
-            </Link>
+              {t("seoHeerlen")}
+            </LocaleLink>
 
-            <Link
+            <LocaleLink
               href="/webdesign-limburg"
               className="text-[11px] sm:text-[12px] font-normal text-slate-300 hover:text-cyan-300 transition-colors"
             >
-              Webdesign Limburg
-            </Link>
+              {t("seoLimburg")}
+            </LocaleLink>
           </div>
 
           {/* DREAPTA – legal pages */}
           <div className="flex flex-wrap gap-x-4 gap-y-1 justify-start sm:justify-end">
-            <Link
+            <LocaleLink
               href="/privacy-policy"
               className="text-[11px] sm:text-[12px] font-light text-slate-400 hover:text-slate-200 transition-colors"
             >
-              Privacy Policy
-            </Link>
+              {t("privacy")}
+            </LocaleLink>
 
-            <Link
+            <LocaleLink
               href="/terms"
               className="text-[11px] sm:text-[12px] font-light text-slate-400 hover:text-slate-200 transition-colors"
             >
-              Terms & Conditions
-            </Link>
+              {t("terms")}
+            </LocaleLink>
 
-            <Link
+            <LocaleLink
               href="/cookie-statement"
               className="text-[11px] sm:text-[12px] font-light text-slate-400 hover:text-slate-200 transition-colors"
             >
-              Cookie Statement
-            </Link>
+              {t("cookies")}
+            </LocaleLink>
           </div>
         </div>
 
         {/* COPYRIGHT */}
         <p className="text-[11px] sm:text-[12px] font-light text-slate-500 text-right mb-2">
-          © 2025 Sphawn · Heerlen · The Netherlands — Web Design & Development
+          {t("copyright")}
         </p>
 
         {/* BARA GRADIENT */}

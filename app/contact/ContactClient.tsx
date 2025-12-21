@@ -1,8 +1,11 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function ContactClient() {
+  const t = useTranslations("contact.page");
+
   const [isLoading, setIsLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -34,15 +37,11 @@ export default function ContactClient() {
         throw new Error(data.error || "Something went wrong.");
       }
 
-      setSuccessMessage(
-        "Bedankt! Je bericht is verzonden. Ik neem binnen 24 uur contact met je op."
-      );
+      setSuccessMessage(t("form.success"));
       form.reset();
     } catch (err) {
       console.error(err);
-      setErrorMessage(
-        "Er ging iets mis. Probeer het opnieuw of stuur direct een e-mail naar support@sphawn.nl."
-      );
+      setErrorMessage(t("form.error"));
     } finally {
       setIsLoading(false);
     }
@@ -57,13 +56,8 @@ export default function ContactClient() {
       <section className="relative z-10 mx-auto max-w-3xl px-6 pt-28 pb-24">
         {/* Header */}
         <div className="space-y-4 text-center">
-          <h1 className="text-4xl font-bold tracking-tight">
-            Neem contact op
-          </h1>
-          <p className="text-slate-300 max-w-xl mx-auto">
-            Deel een paar details over je project. Ik bekijk alles en neem
-            binnen 24 uur contact met je op.
-          </p>
+          <h1 className="text-4xl font-bold tracking-tight">{t("hero.title")}</h1>
+          <p className="text-slate-300 max-w-xl mx-auto">{t("hero.subtitle")}</p>
         </div>
 
         {/* FORM */}
@@ -74,7 +68,7 @@ export default function ContactClient() {
           {/* Name */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="name">
-              Naam
+              {t("form.nameLabel")}
             </label>
             <input
               id="name"
@@ -82,14 +76,14 @@ export default function ContactClient() {
               type="text"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="Je naam"
+              placeholder={t("form.namePlaceholder")}
             />
           </div>
 
           {/* Email */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="email">
-              E-mail
+              {t("form.emailLabel")}
             </label>
             <input
               id="email"
@@ -97,14 +91,14 @@ export default function ContactClient() {
               type="email"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="jij@voorbeeld.nl"
+              placeholder={t("form.emailPlaceholder")}
             />
           </div>
 
           {/* Subject */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="subject">
-              Onderwerp
+              {t("form.subjectLabel")}
             </label>
             <input
               id="subject"
@@ -112,14 +106,14 @@ export default function ContactClient() {
               type="text"
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none"
-              placeholder="Nieuwe website, redesign, webshop, enz."
+              placeholder={t("form.subjectPlaceholder")}
             />
           </div>
 
           {/* Message */}
           <div className="flex flex-col gap-2">
             <label className="text-sm text-slate-200" htmlFor="message">
-              Bericht
+              {t("form.messageLabel")}
             </label>
             <textarea
               id="message"
@@ -127,7 +121,7 @@ export default function ContactClient() {
               rows={5}
               required
               className="rounded-xl bg-[#0F233E] border border-slate-700 px-4 py-3 text-white focus:border-cyan-400 outline-none resize-none"
-              placeholder="Vertel kort iets over je project."
+              placeholder={t("form.messagePlaceholder")}
             />
           </div>
 
@@ -149,7 +143,7 @@ export default function ContactClient() {
             disabled={isLoading}
             className="w-full mt-2 rounded-full bg-gradient-to-r from-cyan-400 to-fuchsia-500 py-3 text-slate-950 font-semibold shadow-lg shadow-fuchsia-500/25 hover:brightness-110 transition disabled:opacity-60"
           >
-            {isLoading ? "Verzenden..." : "Bericht versturen"}
+            {isLoading ? t("form.buttonLoading") : t("form.button")}
           </button>
         </form>
 
@@ -157,7 +151,6 @@ export default function ContactClient() {
         <div className="mt-10 grid gap-6 lg:grid-cols-12">
           {/* OWNER */}
           <div className="lg:col-span-7 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl flex gap-4 items-start">
-            {/* Photo with gradient blur */}
             <div className="relative w-24 h-24 shrink-0 flex items-center justify-center">
               <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-cyan-400 to-fuchsia-500 opacity-45 blur-3xl" />
               <div className="relative w-24 h-24 rounded-xl overflow-hidden border border-white/10">
@@ -169,26 +162,24 @@ export default function ContactClient() {
               </div>
             </div>
 
-            {/* Text */}
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
-                <h3 className="text-lg font-semibold text-white">Stefan</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  {t("owner.name")}
+                </h3>
                 <span className="text-[11px] uppercase tracking-wide px-2 py-0.5 rounded-full border border-cyan-300/40 text-cyan-300">
-                  Eigenaar · Sphawn
+                  {t("owner.badge")}
                 </span>
               </div>
 
               <p className="text-sm text-slate-300 leading-relaxed">
-                Hallo!</p>
-                <p className="text-sm text-slate-300 leading-relaxed"> Ik ben Stefan, eigenaar van Sphawn. Mijn doel is om
-                moderne, snelle en duidelijke websites te maken die er
-                professioneel uitzien en de juiste boodschap overbrengen.
+                {t("owner.p1")}
               </p>
-
               <p className="text-sm text-slate-300 leading-relaxed">
-                Ik werk rechtstreeks met je samen van idee tot een live website,
-                met heldere communicatie, een sterke structuur en aandacht voor
-                detail.
+                {t("owner.p2")}
+              </p>
+              <p className="text-sm text-slate-300 leading-relaxed">
+                {t("owner.p3")}
               </p>
             </div>
           </div>
@@ -196,24 +187,24 @@ export default function ContactClient() {
           {/* COMPANY */}
           <div className="lg:col-span-5 bg-slate-900/40 border border-slate-800/70 rounded-2xl p-5 backdrop-blur-xl">
             <h2 className="text-lg font-semibold text-white mb-3">
-              Bedrijfsgegevens
+              {t("company.title")}
             </h2>
 
             <ul className="space-y-2 text-sm text-slate-300">
               <li>
-                <span className="font-medium text-slate-200">Bedrijfsnaam:</span>{" "}
-                Sphawn
+                <span className="font-medium text-slate-200">{t("company.nameLabel")}</span>{" "}
+                {t("company.nameValue")}
               </li>
               <li>
-                <span className="font-medium text-slate-200">KvK-nummer:</span>{" "}
+                <span className="font-medium text-slate-200">{t("company.kvkLabel")}</span>{" "}
                 97594148
               </li>
               <li>
-                <span className="font-medium text-slate-200">Locatie:</span>{" "}
-                Heerlen, Limburg, Nederland
+                <span className="font-medium text-slate-200">{t("company.locationLabel")}</span>{" "}
+                {t("company.locationValue")}
               </li>
               <li>
-                <span className="font-medium text-slate-200">E-mail:</span>{" "}
+                <span className="font-medium text-slate-200">{t("company.emailLabel")}</span>{" "}
                 <a
                   href="mailto:support@sphawn.nl"
                   className="text-cyan-300 hover:text-cyan-200 underline"
@@ -227,7 +218,7 @@ export default function ContactClient() {
 
         {/* Direct email */}
         <p className="text-center mt-8 text-slate-400 text-sm">
-          Liever direct mailen?
+          {t("directEmail.text")}
           <a
             href="mailto:support@sphawn.nl"
             className="text-cyan-300 hover:text-cyan-200 underline ml-1"
