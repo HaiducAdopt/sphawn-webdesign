@@ -162,7 +162,7 @@ export default function ContactClient() {
               <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-cyan-400 to-fuchsia-500 opacity-45 blur-3xl" />
               <div className="relative w-24 h-24 rounded-xl overflow-hidden border border-white/10">
                 <img
-                  src="/stefan.jpg"
+                  src="/stefan-temp.jpg"
                   alt="Stefan – Eigenaar van Sphawn"
                   className="w-full h-full object-cover"
                 />
