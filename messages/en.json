@@ -15,6 +15,7 @@
     "process": "Process",
     "portfolio": "Portfolio",
     "contact": "Contact",
+    "offers": "Offers",
     "cta": "Let's talk about your website"
   },
   "footer": {
@@ -701,5 +702,199 @@
       ],
       "lastUpdated": "Last updated: 21/12/2025"
     }
+  },
+  "offersMeta": {
+    "title": "Free Homepage Preview | Sphawn Webdesign",
+    "description": "Send a few details and get a real homepage preview. No contract, no payment upfront — see the direction first."
+  },
+  "offersPage": {
+    "hero": {
+      "title": "This is how your homepage could look.",
+      "ctaContact": "Ask a question",
+      "ctaStart": "Start your preview",
+      "imageAlt": "Homepage preview mockup"
+    },
+    "rules": {
+      "label": "Rules of the game",
+      "title": "See the design before you commit.",
+      "p1": "If you want a website but are not sure how it should look yet, it’s simple: send us a few basic requirements using the form (company name, industry, short description, preferences). Based on that, we design your homepage in Figma and publish it here as an interactive prototype — with a separate desktop link and a separate mobile link.",
+      "p2": "In other words, we show you exactly what you get before there is any contract or payment. If you like the direction, we can continue with the full website based on a clear proposal.",
+      "badgeTop": "100% free",
+      "badgeTitle": "Figma Prototype",
+      "badgeSub": "Desktop + Mobile links",
+      "note": "We believe the Hero section is the most important part of any website. In the first 3 seconds, visitors decide whether they continue exploring your content or leave — that’s why we always start with a strong, clear and message-driven Hero."
+    },
+    "cards": [
+      {
+        "title": "What you get",
+        "items": [
+          "A homepage demo (modern, clear layout)",
+          "Mobile-only or desktop-only (your choice)",
+          "Strong structure + clear CTA",
+          "Presented as an interactive prototype"
+        ]
+      },
+      {
+        "title": "Not included",
+        "items": [
+          "Full website build",
+          "Technical implementation & hosting",
+          "Advanced SEO strategy",
+          "Unlimited revisions"
+        ]
+      }
+    ],
+    "formBox": {
+      "title": "Start your free homepage preview",
+      "desc": "Answer a few questions and (optionally) upload your logo or a hero image. I’ll design a real homepage preview based on your input."
+    },
+    "noteBox": {
+      "textStrong": "Note:",
+      "text": "Starting prices are guidelines. Final pricing depends on pages, content, integrations, languages, and timeline. After your request, you’ll receive a clear proposal."
+    }
+  },
+  "offersForm": {
+    "successTitle": "Thank you!",
+    "successText": "Your request has been saved. I’ll contact you soon with next steps.",
+    "sending": "Sending...",
+    "send": "Send request",
+    "limitedOffer": "Limited offer. Not all requests are guaranteed to be accepted.",
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    },
+    "type": {
+      "nextTitle": "Next.js",
+      "nextDesc": "Fast, modern, custom website",
+      "wpTitle": "WordPress",
+      "wpDesc": "Editable site + classic CMS workflow"
+    },
+    "sections": {
+      "companyTitle": "Company details",
+      "companySubtitle": "Basic info about your business",
+      "assetsTitle": "Assets (optional)",
+      "assetsSubtitle": "Upload a logo / image to help me match your brand faster.",
+      "contactTitle": "Contact",
+      "contactSubtitle": "How can I reach you back?"
+    },
+    "fields": {
+      "companyNameLabel": "Company name *",
+      "companyNamePh": "e.g. Studio XYZ",
+      "sloganLabel": "Slogan / tagline",
+      "sloganPh": "Example: Modern websites that convert",
+      "industryLabel": "Industry",
+      "industryPh": "Example: restaurant / clinic / logistics",
+      "budgetLabel": "Budget range (optional)",
+      "budgetPlaceholder": "Select one (optional)",
+      "menuItemsLabel": "Menu & submenu (comma separated)",
+      "menuItemsPh": "Home, Services, Pricing, About, Contact",
+      "goalsLabel": "Main goal of the homepage",
+      "goalsPh": "Example: I want more leads and calls. A clear hero + services + testimonials + contact form.",
+      "brandStyleLabel": "Style preferences (colors, vibe, examples)",
+      "brandStylePh": "Example: Minimal, premium, dark background with cyan accents. Add 1–2 websites you like.",
+      "contactNameLabel": "Contact person *",
+      "contactNamePh": "e.g. John Doe",
+      "emailLabel": "Email *",
+      "emailPh": "e.g. john@company.com",
+      "logoLabel": "Logo",
+      "logoHint": "PNG / JPG / SVG",
+      "heroLabel": "Hero image",
+      "heroHint": "Photo that could appear in the hero"
+    },
+    "budgetOptions": {
+      "b350_1000": "€350 – €1000",
+      "b1000_2000": "€1000 – €2000",
+      "b2000_plus": "€2000+",
+      "notSure": "Not sure yet"
+    },
+    "upload": {
+      "choose": "Choose",
+      "clear": "Clear",
+      "noneSelected": "No file selected"
+    }
+  },
+  "offersPricing": {
+    "section": {
+      "label": "Packages",
+      "title": "Choose the right build for your project",
+      "desc": "Flip a card to see details. Prices are starting points — the final offer depends on scope and complexity.",
+      "startingFrom": "Starting from"
+    },
+    "packages": [
+      {
+        "name": "WordPress Website",
+        "priceFrom": "€380",
+        "tag": "Clean business website",
+        "short": "Perfect for a professional homepage + a few pages. Fast launch, easy editing.",
+        "backTitle": "Typical includes",
+        "backItems": [
+          "Homepage + up to 4 pages",
+          "Responsive design",
+          "Contact form",
+          "Basic SEO setup",
+          "Speed baseline",
+          "1 revision round"
+        ]
+      },
+      {
+        "name": "WordPress + WooCommerce",
+        "priceFrom": "€950",
+        "tag": "Online shop",
+        "short": "A conversion-ready shop setup with checkout, payments and key pages.",
+        "backTitle": "Typical includes",
+        "backItems": [
+          "Shop + cart + checkout",
+          "Payments setup (1 provider)",
+          "Shipping basics",
+          "Starter product setup",
+          "Email templates baseline",
+          "Performance baseline"
+        ]
+      },
+      {
+        "name": "Shopify Store",
+        "priceFrom": "€1100",
+        "tag": "Fast e-commerce launch",
+        "short": "Theme setup + store structure with a clean, trustworthy look.",
+        "backTitle": "Typical includes",
+        "backItems": [
+          "Theme setup & customization",
+          "Collections + navigation",
+          "Product page structure",
+          "Payments & shipping basics",
+          "Apps guidance (if needed)",
+          "Conversion polish"
+        ]
+      },
+      {
+        "name": "Next.js Website",
+        "priceFrom": "€1950",
+        "tag": "Premium performance",
+        "short": "Custom UI, best speed and SEO control. Ideal for a unique brand presence.",
+        "backTitle": "Typical includes",
+        "backItems": [
+          "Custom UI implementation",
+          "Performance-first build",
+          "SEO-ready structure",
+          "Deploy setup (Vercel/Firebase)",
+          "Scalable components",
+          "Clean animations"
+        ]
+      },
+      {
+        "name": "SaaS / Web App",
+        "priceFrom": "€3500",
+        "tag": "Product & dashboard",
+        "short": "From MVP to production: auth, database, admin, payments (optional).",
+        "backTitle": "Typical modules",
+        "backItems": [
+          "Authentication + roles",
+          "Database + API routes",
+          "Admin dashboard",
+          "File storage",
+          "Payments/subscriptions (optional)",
+          "Monitoring baseline"
+        ]
+      }
+    ]
   }
 }

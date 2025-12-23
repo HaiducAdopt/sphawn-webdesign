@@ -47,6 +47,13 @@ export default function Navbar() {
             </LocaleLink>
 
             <LocaleLink
+              href="/offers"
+              className="font-normal text-slate-100 hover:text-[#BC4EF0] transition-colors"
+            >
+              {t("offers")}
+            </LocaleLink>
+
+            <LocaleLink
               href="/contact"
               className="font-normal text-slate-100 hover:text-[#BC4EF0] transition-colors"
             >
@@ -63,9 +70,21 @@ export default function Navbar() {
             aria-label="Toggle navigation"
           >
             <div className="space-y-1.5">
-              <span className={`block h-[2px] w-6 bg-slate-100 ${isOpen ? "translate-y-[5px] rotate-45" : ""}`} />
-              <span className={`block h-[2px] w-6 bg-slate-100 ${isOpen ? "opacity-0" : ""}`} />
-              <span className={`block h-[2px] w-6 bg-slate-100 ${isOpen ? "-translate-y-[5px] -rotate-45" : ""}`} />
+              <span
+                className={`block h-[2px] w-6 bg-slate-100 ${
+                  isOpen ? "translate-y-[5px] rotate-45" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-6 bg-slate-100 ${
+                  isOpen ? "opacity-0" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-6 bg-slate-100 ${
+                  isOpen ? "-translate-y-[5px] -rotate-45" : ""
+                }`}
+              />
             </div>
           </button>
         </div>
@@ -86,6 +105,10 @@ export default function Navbar() {
 
               <LocaleLink href="/portfolio" onClick={() => setIsOpen(false)}>
                 {t("portfolio")}
+              </LocaleLink>
+
+              <LocaleLink href="/offers" onClick={() => setIsOpen(false)}>
+                {t("offers")}
               </LocaleLink>
 
               <LocaleLink href="/contact" onClick={() => setIsOpen(false)}>

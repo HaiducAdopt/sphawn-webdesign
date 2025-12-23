@@ -15,6 +15,7 @@
     "process": "Werkwijze",
     "portfolio": "Portfolio",
     "contact": "Contact",
+    "offers": "Offerte",
     "cta": "Laten we je website bespreken"
   },
 
@@ -701,5 +702,200 @@
       ],
       "lastUpdated": "Laatst bijgewerkt: 21/12/2025"
     }
+  },
+   "offersMeta": {
+    "title": "Gratis Homepage Preview | Sphawn Webdesign",
+    "description": "Stuur een paar details en ontvang een echte homepage preview. Geen contract, geen betaling vooraf — zie eerst de richting."
+  },
+  "offersPage": {
+    "hero": {
+      "title": "Zo zou jouw homepage eruit kunnen zien.",
+      "ctaContact": "Stel een vraag",
+      "ctaStart": "Start je preview",
+      "imageAlt": "Homepage preview mockup"
+    },
+    "rules": {
+      "label": "Spelregels",
+      "title": "Zie eerst het design, daarna beslis je.",
+      "p1": "Wil je een website maar weet je nog niet precies hoe die eruit moet zien? Simpel: stuur ons een paar basisgegevens via het formulier (bedrijfsnaam, branche, korte beschrijving, voorkeuren). Op basis daarvan ontwerpen we jouw homepage in Figma en plaatsen we hier een interactief prototype — met een aparte desktoplink en een aparte mobiele link.",
+      "p2": "Met andere woorden: je ziet eerst wat je krijgt, vóór er een contract of betaling is. Als de richting klopt, gaan we verder met een duidelijke offerte voor de volledige website.",
+      "badgeTop": "100% gratis",
+      "badgeTitle": "Figma Prototype",
+      "badgeSub": "Desktop + Mobiel links",
+      "note": "De Hero-sectie is het belangrijkste deel van elke website. In de eerste 3 seconden beslist een bezoeker of hij blijft of weggaat — daarom starten we altijd met een helder verhaal en een sterke CTA."
+    },
+    "cards": [
+      {
+        "title": "Wat je krijgt",
+        "items": [
+          "Een homepage demo (modern, duidelijke layout)",
+          "Alleen mobiel of alleen desktop (jouw keuze)",
+          "Sterke structuur + duidelijke CTA",
+          "Gepubliceerd als interactief prototype"
+        ]
+      },
+      {
+        "title": "Niet inbegrepen",
+        "items": [
+          "Volledige website build",
+          "Technische implementatie & hosting",
+          "Geavanceerde SEO strategie",
+          "Onbeperkte revisies"
+        ]
+      }
+    ],
+    "formBox": {
+      "title": "Start je gratis homepage preview",
+      "desc": "Beantwoord een paar vragen en upload (optioneel) je logo of een hero-afbeelding. Ik ontwerp een echte homepage preview op basis van jouw input."
+    },
+    "noteBox": {
+      "textStrong": "Let op:",
+      "text": "Vanaf-prijzen zijn richtlijnen. De uiteindelijke prijs hangt af van pagina’s, content, integraties, talen en planning. Na je aanvraag ontvang je een duidelijke offerte."
+    }
+  },
+  "offersForm": {
+    "successTitle": "Bedankt!",
+    "successText": "Je aanvraag is opgeslagen. Ik neem snel contact met je op met de volgende stappen.",
+    "sending": "Verzenden...",
+    "send": "Verstuur aanvraag",
+    "limitedOffer": "Beperkte actie. Niet alle aanvragen worden gegarandeerd geaccepteerd.",
+    "errors": {
+      "generic": "Er ging iets mis. Probeer het opnieuw."
+    },
+    "type": {
+      "nextTitle": "Next.js",
+      "nextDesc": "Snel, modern, volledig op maat",
+      "wpTitle": "WordPress",
+      "wpDesc": "Bewerkbare site + klassieke CMS workflow"
+    },
+    "sections": {
+      "companyTitle": "Bedrijfsgegevens",
+      "companySubtitle": "Basisinfo over je bedrijf",
+      "assetsTitle": "Bestanden (optioneel)",
+      "assetsSubtitle": "Upload een logo / afbeelding om je merk sneller te matchen.",
+      "contactTitle": "Contact",
+      "contactSubtitle": "Hoe kan ik je bereiken?"
+    },
+    "fields": {
+      "companyNameLabel": "Bedrijfsnaam *",
+      "companyNamePh": "bijv. Studio XYZ",
+      "sloganLabel": "Slogan / tagline",
+      "sloganPh": "Voorbeeld: Moderne websites die converteren",
+      "industryLabel": "Branche",
+      "industryPh": "Voorbeeld: restaurant / kliniek / logistiek",
+      "budgetLabel": "Budget (optioneel)",
+      "budgetPlaceholder": "Kies een optie (optioneel)",
+      "menuItemsLabel": "Menu & submenu (komma gescheiden)",
+      "menuItemsPh": "Home, Services, Pricing, About, Contact",
+      "goalsLabel": "Hoofddoel van de homepage",
+      "goalsPh": "Voorbeeld: meer leads en telefoontjes. Duidelijke hero + services + testimonials + contact.",
+      "brandStyleLabel": "Stijlvoorkeuren (kleuren, vibe, voorbeelden)",
+      "brandStylePh": "Voorbeeld: minimal, premium, donker met cyan accent. Voeg 1–2 sites toe die je mooi vindt.",
+      "contactNameLabel": "Contactpersoon *",
+      "contactNamePh": "bijv. Jan Jansen",
+      "emailLabel": "E-mail *",
+      "emailPh": "bijv. jan@bedrijf.nl",
+      "logoLabel": "Logo",
+      "logoHint": "PNG / JPG / SVG",
+      "heroLabel": "Hero afbeelding",
+      "heroHint": "Foto die in de hero kan komen"
+    },
+    "budgetOptions": {
+      "b350_1000": "€350 – €1000",
+      "b1000_2000": "€1000 – €2000",
+      "b2000_plus": "€2000+",
+      "notSure": "Nog niet zeker"
+    },
+    "upload": {
+      "choose": "Kies",
+      "clear": "Wissen",
+      "noneSelected": "Geen bestand geselecteerd"
+    }
+  },
+  "offersPricing": {
+    "section": {
+      "label": "Pakketten",
+      "title": "Kies de juiste build voor jouw project",
+      "desc": "Draai een kaart om details te zien. Prijzen zijn richtlijnen — de uiteindelijke offerte hangt af van scope en complexiteit.",
+      "startingFrom": "Vanaf"
+    },
+    "packages": [
+      {
+        "name": "WordPress Website",
+        "priceFrom": "€380",
+        "tag": "Strakke bedrijfswebsite",
+        "short": "Perfect voor een professionele homepage + een paar pagina’s. Snel online en makkelijk te bewerken.",
+        "backTitle": "Meestal inbegrepen",
+        "backItems": [
+          "Homepage + tot 4 pagina’s",
+          "Responsive design",
+          "Contactformulier",
+          "Basis SEO setup",
+          "Snelheid basis",
+          "1 revisieronde"
+        ]
+      },
+      {
+        "name": "WordPress + WooCommerce",
+        "priceFrom": "€950",
+        "tag": "Webshop",
+        "short": "Conversie-klare shop setup met checkout, betalingen en kernpagina’s.",
+        "backTitle": "Meestal inbegrepen",
+        "backItems": [
+          "Shop + winkelwagen + checkout",
+          "Betaalprovider setup (1 provider)",
+          "Verzending basis",
+          "Starter product setup",
+          "E-mail templates basis",
+          "Performance basis"
+        ]
+      },
+      {
+        "name": "Shopify Store",
+        "priceFrom": "€1100",
+        "tag": "Snelle e-commerce launch",
+        "short": "Theme setup + store structuur met een strakke, betrouwbare uitstraling.",
+        "backTitle": "Meestal inbegrepen",
+        "backItems": [
+          "Theme setup & aanpassingen",
+          "Collecties + navigatie",
+          "Productpagina structuur",
+          "Betalingen & verzenden basis",
+          "Apps advies (indien nodig)",
+          "Conversie polish"
+        ]
+      },
+      {
+        "name": "Next.js Website",
+        "priceFrom": "€1950",
+        "tag": "Premium performance",
+        "short": "Custom UI, maximale snelheid en SEO controle. Ideaal voor een unieke brand presence.",
+        "backTitle": "Meestal inbegrepen",
+        "backItems": [
+          "Custom UI implementatie",
+          "Performance-first build",
+          "SEO-ready structuur",
+          "Deploy setup (Vercel/Firebase)",
+          "Schaalbare componenten",
+          "Strakke animaties"
+        ]
+      },
+      {
+        "name": "SaaS / Web App",
+        "priceFrom": "€3500",
+        "tag": "Product & dashboard",
+        "short": "Van MVP tot productie: auth, database, admin, betalingen (optioneel).",
+        "backTitle": "Typische modules",
+        "backItems": [
+          "Authenticatie + rollen",
+          "Database + API routes",
+          "Admin dashboard",
+          "Bestandsopslag",
+          "Betalingen/abonnementen (optioneel)",
+          "Monitoring basis"
+        ]
+      }
+    ]
   }
+
 }
