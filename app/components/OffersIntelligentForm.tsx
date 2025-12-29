@@ -28,13 +28,17 @@ export default function OffersIntelligentForm() {
   const [logoFile, setLogoFile] = useState<File | null>(null);
   const [heroFile, setHeroFile] = useState<File | null>(null);
 
+  // ✅ NEW: consent checkbox (required)
+  const [consent, setConsent] = useState(false);
+
   const canSubmit = useMemo(() => {
     return (
       companyName.trim().length >= 2 &&
       contactName.trim().length >= 2 &&
-      email.includes("@")
+      email.includes("@") &&
+      consent
     );
-  }, [companyName, contactName, email]);
+  }, [companyName, contactName, email, consent]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -55,6 +59,9 @@ export default function OffersIntelligentForm() {
       fd.append("contactName", contactName);
       fd.append("email", email);
 
+      // ✅ NEW: include consent in payload
+      fd.append("consent", consent ? "true" : "false");
+
       if (logoFile) fd.append("logoFile", logoFile);
       if (heroFile) fd.append("heroFile", heroFile);
 
@@ -68,8 +75,7 @@ export default function OffersIntelligentForm() {
       setDone(true);
     } catch (err: unknown) {
       console.error(err);
-      const msg =
-        err instanceof Error ? err.message : t("errors.generic");
+      const msg = err instanceof Error ? err.message : t("errors.generic");
       setError(msg || t("errors.generic"));
     } finally {
       setSubmitting(false);
@@ -112,7 +118,10 @@ export default function OffersIntelligentForm() {
       </div>
 
       {/* SECTION: Company info */}
-      <Section title={t("sections.companyTitle")} subtitle={t("sections.companySubtitle")}>
+      <Section
+        title={t("sections.companyTitle")}
+        subtitle={t("sections.companySubtitle")}
+      >
         <div className="grid gap-6 md:grid-cols-2">
           <Field label={t("fields.companyNameLabel")}>
             <input
@@ -234,6 +243,31 @@ export default function OffersIntelligentForm() {
           </Field>
         </div>
 
+        {/* ✅ NEW: consent checkbox (only addition, design kept consistent) */}
+        <div className="mt-6">
+          <label className="flex items-start gap-3 text-sm text-slate-300">
+            <input
+              type="checkbox"
+              required
+              checked={consent}
+              onChange={(e) => setConsent(e.target.checked)}
+              className="mt-1 h-4 w-4 accent-cyan-400"
+            />
+            <span className="leading-relaxed">
+              {t("consent.labelBeforeLink")}{" "}
+              <a
+                href="/privacy-policy"
+                className="text-cyan-300 hover:text-cyan-200 underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t("consent.linkText")}
+              </a>
+              {t("consent.labelAfterLink")}
+            </span>
+          </label>
+        </div>
+
         {error && (
           <div className="mt-4">
             <p className="text-sm text-rose-300 bg-rose-900/30 border border-rose-700/60 rounded-xl px-4 py-3">
@@ -273,9 +307,7 @@ function Section({
     <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 md:p-7">
       <div className="mb-5">
         <h3 className="text-base font-semibold text-white">{title}</h3>
-        {subtitle && (
-          <p className="mt-1 text-sm text-white/60 italic">{subtitle}</p>
-        )}
+        {subtitle && <p className="mt-1 text-sm text-white/60 italic">{subtitle}</p>}
       </div>
       {children}
     </div>
@@ -376,9 +408,7 @@ function FileField({
               onClick={() => {
                 onPick(null);
                 setFileName("");
-                const el = document.getElementById(
-                  inputId
-                ) as HTMLInputElement | null;
+                const el = document.getElementById(inputId) as HTMLInputElement | null;
                 if (el) el.value = "";
               }}
               className="rounded-full border border-white/15 bg-white/5 px-3 py-2 text-xs font-semibold text-white/90 transition hover:bg-white/10 active:scale-[0.98]"

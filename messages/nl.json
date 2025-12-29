@@ -506,14 +506,14 @@
       "lastUpdated": "Laatst bijgewerkt: 18 december 2025"
     }
   },
-  "terms": {
+   "terms": {
     "meta": {
-      "title": "Algemene voorwaarden | Sphawn",
-      "description": "Deze algemene voorwaarden zijn van toepassing op het gebruik van deze website en de diensten van Sphawn."
+      "title": "Algemene Voorwaarden | Sphawn",
+      "description": "Algemene Voorwaarden voor het gebruik van de Sphawn-website en diensten."
     },
     "page": {
-      "title": "Algemene voorwaarden",
-      "intro": "Deze algemene voorwaarden zijn van toepassing op het gebruik van deze website en de diensten van Sphawn.",
+      "title": "Algemene Voorwaarden",
+      "intro": "Deze Algemene Voorwaarden zijn van toepassing op het gebruik van deze website en op aanvragen die je via de website verstuurt. Door deze website te gebruiken, ga je akkoord met deze voorwaarden.",
       "labels": {
         "businessName": "Bedrijfsnaam:",
         "kvk": "KvK-nummer:",
@@ -528,82 +528,122 @@
       },
       "sections": [
         {
-          "title": "1. Algemene informatie",
+          "title": "1. Over Sphawn en toepassingsgebied",
           "paragraphs": [
-            "Sphawn is een freelance webdesign- en webdevelopmentbedrijf, werkzaam als ZZP en geregistreerd in Nederland."
+            "Sphawn levert webdesign- en ontwikkelingsdiensten en stelt deze website beschikbaar om diensten te presenteren, werk te tonen en bezoekers de mogelijkheid te geven contact op te nemen of een homepage preview aan te vragen.",
+            "Deze voorwaarden gelden voor alle bezoekers, gebruikers en iedereen die een aanvraag via deze website verstuurt."
           ],
           "businessList": true
         },
         {
-          "title": "2. Diensten",
+          "title": "2. Definities",
           "paragraphs": [
-            "Sphawn levert webdesign, webdevelopment en gerelateerde digitale diensten, waaronder maar niet beperkt tot:"
+            "In deze voorwaarden betekent: “Sphawn”, “wij”, “ons” het hierboven genoemde bedrijf. “Jij” betekent elke bezoeker of gebruiker van de website. “Diensten” betekent webdesign-/ontwikkelingswerk of gerelateerde opleveringen door Sphawn. “Website” betekent deze site en alle pagina’s, formulieren en inhoud."
+          ]
+        },
+        {
+          "title": "3. Gebruik van de website",
+          "paragraphs": [
+            "Je gebruikt deze website op een rechtmatige manier en je zult de werking van de website niet verstoren of proberen te verstoren.",
+            "Je mag geen onjuiste informatie versturen, geen schadelijke bestanden uploaden en de website niet gebruiken voor spam of onrechtmatige inhoud."
           ],
           "list": [
-            "Website design en development",
-            "Landingpages en bedrijfswebsites",
-            "Maatwerk builds met moderne frameworks",
-            "Basis SEO en performance optimalisatie"
+            "Geen onbevoegde toegang proberen te verkrijgen tot systemen of data",
+            "Geen malware of schadelijke content uploaden",
+            "De website niet gebruiken voor illegale of misbruikmakende doeleinden"
           ]
         },
         {
-          "title": "3. Offertes en afspraken",
+          "title": "4. Aanvragen en communicatie",
           "paragraphs": [
-            "Alle offertes zijn vrijblijvend tenzij uitdrukkelijk anders vermeld. Een project start pas na schriftelijke akkoord van beide partijen.",
-            "Wijzigingen in de scope kunnen invloed hebben op prijs en doorlooptijd en worden altijd duidelijk gecommuniceerd."
+            "Wanneer je een aanvraag verstuurt (bijvoorbeeld voor een homepage preview), ga je ermee akkoord dat wij contact met je mogen opnemen via de door jou verstrekte contactgegevens.",
+            "Wij kunnen aanvragen weigeren of negeren die onvolledig, beledigend, spam of anderszins ongepast zijn."
           ]
         },
         {
-          "title": "4. Betalingen",
+          "title": "5. Disclaimer homepage preview (offers)",
           "paragraphs": [
-            "Betalingsvoorwaarden worden per project afgesproken. Tenzij anders overeengekomen:"
-          ],
-          "list": [
-            "Facturen dienen binnen de afgesproken termijn te worden betaald",
-            "Bij te late betaling kunnen diensten worden opgeschort",
-            "Alle prijzen zijn exclusief btw tenzij anders vermeld"
+            "Een homepage preview is een vrijblijvende demonstratie op basis van de informatie die je aanlevert.",
+            "Een preview is geen definitief product, geen garantie en geen toezegging tot levering van diensten, tenzij er een aparte schriftelijke overeenkomst wordt gesloten."
           ]
         },
         {
-          "title": "5. Intellectueel eigendom",
+          "title": "6. Overeenkomsten, offertes en betalingen",
           "paragraphs": [
-            "Alle ontwerpen, code en materialen die door Sphawn worden gemaakt blijven eigendom van Sphawn totdat volledige betaling is ontvangen.",
-            "Na volledige betaling ontvangt de klant het recht om het geleverde werk te gebruiken voor het beoogde doel, tenzij schriftelijk anders overeengekomen."
+            "Diensten, planning, prijzen en opleveringen worden vooraf vastgelegd in een aparte schriftelijke overeenkomst of offerte voordat werkzaamheden starten.",
+            "Tenzij schriftelijk anders overeengekomen, dienen facturen binnen de op de factuur vermelde betalingstermijn te worden voldaan."
           ]
         },
         {
-          "title": "6. Aansprakelijkheid",
+          "title": "7. Intellectuele eigendom (ons werk)",
           "paragraphs": [
-            "Sphawn is niet aansprakelijk voor indirecte of gevolgschade, waaronder verlies van omzet, data of zakelijke kansen.",
-            "Hoewel er alles aan wordt gedaan om veilige en kwalitatieve websites te leveren, kan Sphawn niet garanderen dat een website altijd volledig foutloos is of zonder downtime functioneert."
+            "Alle inhoud op deze website, waaronder tekst, branding, design en code, is eigendom van Sphawn of wordt gebruikt met toestemming en is beschermd door intellectuele-eigendomsrechten.",
+            "Je mag inhoud van deze website niet kopiëren, reproduceren, publiceren of verspreiden zonder voorafgaande schriftelijke toestemming van Sphawn."
           ]
         },
         {
-          "title": "7. Diensten van derden",
+          "title": "8. Jouw content en aangeleverde materialen",
           "paragraphs": [
-            "Websites kunnen afhankelijk zijn van diensten van derden zoals hosting, plugins of externe API’s. Sphawn is niet verantwoordelijk voor wijzigingen, storingen of problemen veroorzaakt door deze derden."
+            "Als je materialen aanlevert (zoals logo’s, afbeeldingen of teksten), bevestig je dat je de rechten hebt om deze te gebruiken en te delen.",
+            "Je verleent Sphawn een beperkt recht om jouw materialen uitsluitend te gebruiken om een preview te maken, je aanvraag te beoordelen of overeengekomen diensten te leveren."
           ]
         },
         {
-          "title": "8. Beëindiging",
+          "title": "9. Links en diensten van derden",
           "paragraphs": [
-            "Beide partijen kunnen een project schriftelijk beëindigen. Werk dat tot aan de beëindigingsdatum is uitgevoerd dient door de klant te worden betaald."
+            "Deze website kan links bevatten naar websites of diensten van derden. Wij zijn niet verantwoordelijk voor inhoud, beleid of handelen van derden.",
+            "Het gebruik van websites van derden is op eigen risico en valt onder hun eigen voorwaarden."
           ]
         },
         {
-          "title": "9. Toepasselijk recht",
+          "title": "10. Beschikbaarheid en wijzigingen",
           "paragraphs": [
-            "Op deze algemene voorwaarden is Nederlands recht van toepassing."
+            "Wij doen ons best om de website beschikbaar en veilig te houden, maar wij garanderen geen ononderbroken beschikbaarheid of foutloze werking.",
+            "Wij kunnen onderdelen van de website op elk moment wijzigen, tijdelijk opschorten of beëindigen."
           ]
         },
         {
-          "title": "10. Wijzigingen van deze voorwaarden",
+          "title": "11. Beperking van aansprakelijkheid",
           "paragraphs": [
-            "Sphawn behoudt zich het recht voor om deze algemene voorwaarden op elk moment te wijzigen. Wijzigingen worden gepubliceerd op deze pagina."
+            "Voor zover wettelijk toegestaan is Sphawn niet aansprakelijk voor indirecte schade, winstverlies, dataverlies of bedrijfsstagnatie die voortvloeit uit het gebruik van de website of het vertrouwen op informatie via de website.",
+            "Onze totale aansprakelijkheid voor directe schade met betrekking tot diensten is beperkt tot het bedrag dat jij hebt betaald voor de specifieke dienst waarop de claim betrekking heeft, tenzij dwingend recht anders bepaalt."
+          ]
+        },
+        {
+          "title": "12. Disclaimer van garanties",
+          "paragraphs": [
+            "De website en de inhoud worden geleverd “zoals ze zijn” en “zoals beschikbaar”. Wij geven geen garanties dat de website aan jouw verwachtingen voldoet of dat de informatie altijd volledig of actueel is.",
+            "Informatie op deze website is algemene informatie en vormt geen professioneel of juridisch advies."
+          ]
+        },
+        {
+          "title": "13. Privacy",
+          "paragraphs": [
+            "Persoonsgegevens die je via deze website aanlevert, worden verwerkt volgens ons Privacybeleid.",
+            "Door een formulier te versturen bevestig je dat je het Privacybeleid hebt gelezen en, waar nodig, toestemming hebt gegeven."
+          ]
+        },
+        {
+          "title": "14. Beëindiging",
+          "paragraphs": [
+            "Wij kunnen de toegang tot de website beperken of blokkeren als wij redelijkerwijs vermoeden dat je de website misbruikt of deze voorwaarden overtreedt."
+          ]
+        },
+        {
+          "title": "15. Toepasselijk recht en geschillen",
+          "paragraphs": [
+            "Op deze voorwaarden is het recht van Nederland van toepassing.",
+            "Geschillen worden voorgelegd aan de bevoegde rechter in Nederland, tenzij dwingend recht anders bepaalt."
+          ]
+        },
+        {
+          "title": "16. Wijzigingen in deze voorwaarden",
+          "paragraphs": [
+            "Wij kunnen deze voorwaarden van tijd tot tijd aanpassen. De meest recente versie is altijd beschikbaar op deze pagina."
           ]
         }
       ],
-      "lastUpdated": "Laatst bijgewerkt: 21/12/2025"
+      "lastUpdated": "Laatst bijgewerkt: 29 december 2025"
     }
   },
   "privacyPolicy": {
@@ -623,7 +663,7 @@
       "business": {
         "name": "Sphawn",
         "kvk": "97594148",
-        "location": "Heerlen, Limburg, NL",
+        "location": "Heerlen, Limburg, Nederland",
         "email": "support@sphawn.nl"
       },
       "emailLine": {
@@ -632,75 +672,128 @@
       },
       "sections": [
         {
-          "title": "1. Wie wij zijn",
+          "title": "Rechtsgrond",
           "paragraphs": [
-            "Sphawn is een freelance webdesign- en webdevelopmentbedrijf gevestigd in Heerlen, Limburg, Nederland."
+            "Wij verwerken jouw persoonsgegevens om je aanvraag te beantwoorden en met je te communiceren.",
+            "Wanneer je een formulier op deze website verstuurt, verwerken wij jouw gegevens op basis van jouw toestemming door het aanvinken van het toestemmingsvakje en het verzenden van het formulier."
+          ]
+        },
+        {
+          "title": "Analytics (Vercel)",
+          "paragraphs": [
+            "Deze website maakt gebruik van privacyvriendelijke analytics van Vercel om algemeen websitegebruik te analyseren en de prestaties van de website te verbeteren.",
+            "Deze analytics maken geen gebruik van cookies en zijn niet bedoeld om individuele gebruikers te identificeren."
+          ]
+        },
+        {
+          "title": "Verwerkingsverantwoordelijke",
+          "paragraphs": [
+            "Sphawn is de verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens zoals beschreven in dit privacybeleid.",
+            "Heb je vragen over hoe wij jouw persoonsgegevens verwerken, dan kun je contact met ons opnemen via de onderstaande contactgegevens."
           ],
           "businessList": true
         },
         {
-          "title": "2. Welke gegevens wij verzamelen",
+          "title": "Welke persoonsgegevens verwerken wij",
           "paragraphs": [
-            "Wij verzamelen alleen persoonsgegevens die je vrijwillig aan ons verstrekt, bijvoorbeeld wanneer je contact met ons opneemt via het contactformulier.",
-            "Dit kan onder andere zijn:"
+            "Wij kunnen de volgende categorieën persoonsgegevens verzamelen en verwerken wanneer je deze website gebruikt of contact met ons opneemt."
           ],
           "list": [
-            "Je naam",
-            "Je e-mailadres",
-            "Het onderwerp en de inhoud van je bericht"
+            "Naam en contactgegevens (zoals e-mailadres)",
+            "Bedrijfsnaam en projectgerelateerde informatie",
+            "Bestanden die je vrijwillig uploadt (zoals logo’s of afbeeldingen)",
+            "Informatie die je invult in berichten of formuliervelden",
+            "Technische informatie zoals browsertype en algemeen gebruik van de website (via privacyvriendelijke analytics)"
           ]
         },
         {
-          "title": "3. Hoe wij je gegevens gebruiken",
+          "title": "Hoe verzamelen wij jouw gegevens",
           "paragraphs": [
-            "Je gegevens worden uitsluitend gebruikt om:",
-            "Wij verkopen, verhuren of delen je persoonsgegevens niet met derden voor marketingdoeleinden."
-          ],
-          "list": [
-            "Te reageren op je aanvraag",
-            "Met je te communiceren over je project of verzoek"
+            "Wij verzamelen persoonsgegevens rechtstreeks van jou wanneer je een formulier invult, contact met ons opneemt per e-mail of bestanden uploadt via deze website.",
+            "Wij verzamelen geen persoonsgegevens via derden."
           ]
         },
         {
-          "title": "4. Analytics & cookies",
+          "title": "Doeleinden van de verwerking",
           "paragraphs": [
-            "Deze website gebruikt geen trackingcookies of marketingcookies.",
-            "Wij gebruiken Vercel Analytics om basisinzichten te krijgen in het websiteverkeer. Deze tool:"
+            "Wij verwerken jouw persoonsgegevens uitsluitend voor specifieke en gerechtvaardigde doeleinden."
           ],
           "list": [
-            "Gebruikt geen cookies",
-            "Volgt geen individuele gebruikers",
-            "Verzamelt geen persoonsgegevens",
-            "Is standaard AVG/GDPR-compatibel"
+            "Om te reageren op jouw vragen of verzoeken",
+            "Om met je te communiceren over jouw project of homepage preview",
+            "Om door jou gevraagde diensten voor te bereiden en te leveren",
+            "Om onze website en diensten te verbeteren",
+            "Om te voldoen aan wettelijke verplichtingen"
           ]
         },
         {
-          "title": "5. Opslag & beveiliging",
+          "title": "Wettelijke grondslag voor verwerking",
           "paragraphs": [
-            "Wij nemen passende technische en organisatorische maatregelen om je persoonsgegevens te beschermen tegen verlies, misbruik of onbevoegde toegang.",
-            "Persoonsgegevens die via het contactformulier worden verzonden, worden alleen bewaard zolang dat nodig is om je verzoek af te handelen."
+            "Wij verwerken jouw persoonsgegevens op basis van één of meer wettelijke grondslagen zoals bedoeld in artikel 6 van de Algemene Verordening Gegevensbescherming (AVG).",
+            "Dit omvat jouw uitdrukkelijke toestemming, verkregen door het aanvinken van het toestemmingsvakje bij het verzenden van een formulier.",
+            "In sommige gevallen is verwerking noodzakelijk om op jouw verzoek stappen te ondernemen voorafgaand aan het sluiten van een overeenkomst."
           ]
         },
         {
-          "title": "6. Jouw rechten",
+          "title": "Bewaartermijnen",
           "paragraphs": [
-            "Onder de Algemene Verordening Gegevensbescherming (AVG/GDPR) heb je het recht om:"
-          ],
-          "list": [
-            "Inzage te krijgen in je persoonsgegevens",
-            "Correctie of verwijdering van je gegevens te verzoeken",
-            "Je toestemming op elk moment in te trekken"
-          ],
-          "includeEmailLink": true
+            "Wij bewaren jouw persoonsgegevens niet langer dan noodzakelijk is voor de doeleinden waarvoor deze zijn verzameld.",
+            "Indien er geen overeenkomst tot stand komt, worden jouw gegevens binnen een redelijke termijn verwijderd, tenzij wij wettelijk verplicht zijn deze langer te bewaren."
+          ]
         },
         {
-          "title": "7. Wijzigingen in dit beleid",
+          "title": "Delen van persoonsgegevens",
           "paragraphs": [
-            "Dit privacybeleid kan van tijd tot tijd worden bijgewerkt om wijzigingen in wettelijke vereisten of websitefunctionaliteit te weerspiegelen."
+            "Wij verkopen of verhuren jouw persoonsgegevens niet aan derden.",
+            "Jouw gegevens kunnen worden gedeeld met technische dienstverleners (zoals hostingproviders) uitsluitend voor het functioneren van deze website.",
+            "Deze partijen verwerken persoonsgegevens alleen in onze opdracht en zijn gebonden aan geheimhoudingsverplichtingen."
+          ]
+        },
+        {
+          "title": "Opslag en beveiliging van gegevens",
+          "paragraphs": [
+            "Jouw persoonsgegevens worden opgeslagen op beveiligde servers binnen de Europese Unie of in landen met een passend beschermingsniveau.",
+            "Wij nemen passende technische en organisatorische maatregelen om jouw gegevens te beschermen tegen verlies, misbruik, onbevoegde toegang of openbaarmaking."
+          ]
+        },
+        {
+          "title": "Jouw rechten onder de AVG",
+          "paragraphs": [
+            "Je hebt de volgende rechten met betrekking tot jouw persoonsgegevens."
+          ],
+          "list": [
+            "Recht op inzage in jouw persoonsgegevens",
+            "Recht op rectificatie van onjuiste gegevens",
+            "Recht op verwijdering van gegevens (recht op vergetelheid)",
+            "Recht op beperking van de verwerking",
+            "Recht op gegevensoverdraagbaarheid",
+            "Recht van bezwaar tegen verwerking",
+            "Recht om jouw toestemming op ieder moment in te trekken"
+          ]
+        },
+        {
+          "title": "Klachten",
+          "paragraphs": [
+            "Ben je van mening dat jouw rechten zijn geschonden, dan heb je het recht een klacht in te dienen bij de bevoegde toezichthoudende autoriteit.",
+            "In Nederland is dit de Autoriteit Persoonsgegevens."
+          ]
+        },
+        {
+          "title": "Privacy van kinderen",
+          "paragraphs": [
+            "Deze website en onze diensten zijn niet bedoeld voor personen jonger dan 16 jaar.",
+            "Wij verzamelen niet bewust persoonsgegevens van kinderen."
+          ]
+        },
+        {
+          "title": "Wijzigingen in dit privacybeleid",
+          "paragraphs": [
+            "Wij kunnen dit privacybeleid van tijd tot tijd aanpassen om wijzigingen in onze werkwijze of wettelijke verplichtingen weer te geven.",
+            "De meest recente versie is altijd beschikbaar op deze pagina."
           ]
         }
       ],
-      "lastUpdated": "Laatst bijgewerkt: 21/12/2025"
+      "lastUpdated": "Laatst bijgewerkt: 29 december 2025"
     }
   },
    "offersMeta": {
@@ -810,6 +903,11 @@
       "choose": "Kies",
       "clear": "Wissen",
       "noneSelected": "Geen bestand geselecteerd"
+    },
+     "consent": {
+      "labelBeforeLink": "Ik ga ermee akkoord dat mijn persoonsgegevens worden gebruikt om contact met mij op te nemen over mijn homepage preview-aanvraag. Ik heb het ",
+      "linkText": "Privacybeleid",
+      "labelAfterLink": " gelezen en ga ermee akkoord."
     }
   },
   "offersPricing": {

@@ -506,14 +506,14 @@
       "lastUpdated": "Last updated: 18 December 2025"
     }
   },
-  "terms": {
+    "terms": {
     "meta": {
-      "title": "Terms & Conditions | Sphawn",
-      "description": "These Terms & Conditions govern the use of this website and the services provided by Sphawn."
+      "title": "Terms and Conditions | Sphawn",
+      "description": "Terms and Conditions for using the Sphawn website and services."
     },
     "page": {
-      "title": "Terms & Conditions",
-      "intro": "These Terms & Conditions govern the use of this website and the services provided by Sphawn.",
+      "title": "Terms and Conditions",
+      "intro": "These Terms and Conditions govern your use of this website and any requests you submit through it. By using this website, you agree to these terms.",
       "labels": {
         "businessName": "Business name:",
         "kvk": "KvK number:",
@@ -523,97 +523,137 @@
       "business": {
         "name": "Sphawn",
         "kvk": "97594148",
-        "location": "Heerlen, Limburg, Netherlands",
+        "location": "Heerlen, Limburg, The Netherlands",
         "email": "support@sphawn.nl"
       },
       "sections": [
         {
-          "title": "1. General information",
+          "title": "1. About Sphawn and scope",
           "paragraphs": [
-            "Sphawn is a freelance web design and web development business, operated as a ZZP and registered in the Netherlands."
+            "Sphawn provides web design and development services and makes this website available to present services, show work, and allow visitors to contact us or request a homepage preview.",
+            "These Terms apply to all visitors, users, and anyone submitting a request via this website."
           ],
           "businessList": true
         },
         {
-          "title": "2. Services",
+          "title": "2. Definitions",
           "paragraphs": [
-            "Sphawn provides web design, web development and related digital services, including but not limited to:"
+            "In these Terms: “Sphawn”, “we”, “us” refers to the business listed above. “You” refers to any visitor or user of the website. “Services” refers to web design/development work or related deliverables provided by Sphawn. “Website” refers to this site and its pages, forms, and content."
+          ]
+        },
+        {
+          "title": "3. Use of the website",
+          "paragraphs": [
+            "You agree to use this website in a lawful manner and not to misuse the website or attempt to disrupt its operation.",
+            "You must not submit false information, upload malicious files, or use the website to send spam or unlawful content."
           ],
           "list": [
-            "Website design and development",
-            "Landing pages and business websites",
-            "Custom builds using modern frameworks",
-            "Basic SEO and performance optimization"
+            "Do not attempt unauthorized access to systems or data",
+            "Do not upload malware or harmful content",
+            "Do not use the website for illegal or abusive purposes"
           ]
         },
         {
-          "title": "3. Quotes and agreements",
+          "title": "4. Requests and communication",
           "paragraphs": [
-            "All quotes are non-binding unless explicitly stated otherwise. A project starts only after written agreement by both parties.",
-            "Any changes to the scope of a project may affect pricing and delivery time and will be communicated clearly."
+            "When you submit a request (for example a homepage preview request), you agree that we may contact you using the provided details.",
+            "We may refuse or ignore requests that are incomplete, abusive, spam, or otherwise inappropriate."
           ]
         },
         {
-          "title": "4. Payments",
+          "title": "5. Homepage preview (offers) disclaimer",
           "paragraphs": [
-            "Payment terms are agreed upon per project. Unless stated otherwise:"
-          ],
-          "list": [
-            "Invoices must be paid within the agreed term",
-            "Late payments may result in suspension of services",
-            "All prices are exclusive of VAT unless stated otherwise"
+            "A homepage preview is a non-binding demonstration based on the information you submit.",
+            "A preview does not constitute a final product, guarantee, or commitment to deliver services unless a separate written agreement is made."
           ]
         },
         {
-          "title": "5. Intellectual property",
+          "title": "6. Service agreements, quotes, and payments",
           "paragraphs": [
-            "All designs, code and materials created by Sphawn remain the intellectual property of Sphawn until full payment has been received.",
-            "After full payment, the client receives the right to use the delivered work for its intended purpose, unless agreed otherwise in writing."
+            "Any services, timelines, pricing, and deliverables will be confirmed in a separate written agreement or quote before work starts.",
+            "Unless otherwise agreed in writing, invoices must be paid within the stated payment term on the invoice."
           ]
         },
         {
-          "title": "6. Liability",
+          "title": "7. Intellectual property (our work)",
           "paragraphs": [
-            "Sphawn is not liable for any indirect or consequential damages, including loss of revenue, data or business opportunities.",
-            "While every effort is made to deliver high-quality and secure websites, Sphawn cannot guarantee that a website will be free from errors or downtime at all times."
+            "All content on this website, including text, branding, design, and code, is owned by Sphawn or used with permission and is protected by intellectual property laws.",
+            "You may not copy, reproduce, publish, or distribute website content without prior written permission from Sphawn."
           ]
         },
         {
-          "title": "7. Third-party services",
+          "title": "8. Your content and uploaded materials",
           "paragraphs": [
-            "Websites may rely on third-party services such as hosting providers, plugins or external APIs. Sphawn is not responsible for changes, downtime or issues caused by these third parties."
+            "If you upload or provide materials (such as logos, images, or texts), you confirm that you have the rights to use and share them.",
+            "You grant Sphawn a limited right to use your submitted materials only for the purpose of preparing a preview, evaluating your request, or delivering agreed services."
           ]
         },
         {
-          "title": "8. Termination",
+          "title": "9. Third-party services and links",
           "paragraphs": [
-            "Either party may terminate a project in writing. Work completed up to the termination date must be paid by the client."
+            "This website may contain links to third-party websites or services. We are not responsible for third-party content, policies, or actions.",
+            "Your use of third-party websites is at your own risk and subject to their terms."
           ]
         },
         {
-          "title": "9. Governing law",
+          "title": "10. Availability and changes",
           "paragraphs": [
-            "These Terms & Conditions are governed by and interpreted in accordance with the laws of the Netherlands."
+            "We aim to keep the website available and secure, but we do not guarantee uninterrupted availability or error-free operation.",
+            "We may modify, suspend, or discontinue parts of the website at any time."
           ]
         },
         {
-          "title": "10. Changes to these terms",
+          "title": "11. Limitation of liability",
           "paragraphs": [
-            "Sphawn reserves the right to update these Terms & Conditions at any time. Changes will be published on this page."
+            "To the maximum extent permitted by law, Sphawn is not liable for indirect damages, loss of profit, loss of data, or business interruption arising from your use of the website or reliance on information provided through it.",
+            "Our total liability for direct damages related to services is limited to the amount paid by you for the specific service giving rise to the claim, unless mandatory law provides otherwise."
+          ]
+        },
+        {
+          "title": "12. Warranty disclaimer",
+          "paragraphs": [
+            "The website and its content are provided “as is” and “as available”. We make no warranties that the website will meet your requirements or that content is always complete or up to date.",
+            "Any information on this website is general information and does not constitute professional or legal advice."
+          ]
+        },
+        {
+          "title": "13. Privacy",
+          "paragraphs": [
+            "Personal data submitted through this website is processed in accordance with our Privacy Policy.",
+            "By submitting a form, you confirm that you have read the Privacy Policy and, where required, provided your consent."
+          ]
+        },
+        {
+          "title": "14. Termination",
+          "paragraphs": [
+            "We may restrict or block access to the website if we reasonably believe you are misusing it or violating these Terms."
+          ]
+        },
+        {
+          "title": "15. Governing law and disputes",
+          "paragraphs": [
+            "These Terms are governed by the laws of the Netherlands.",
+            "Any disputes will be submitted to the competent court in the Netherlands, unless mandatory law provides otherwise."
+          ]
+        },
+        {
+          "title": "16. Changes to these Terms",
+          "paragraphs": [
+            "We may update these Terms from time to time. The latest version will always be available on this page."
           ]
         }
       ],
-      "lastUpdated": "Last updated: 21/12/2025"
+      "lastUpdated": "Last updated: December 29, 2025"
     }
   },
-   "privacyPolicy": {
+ "privacyPolicy": {
     "meta": {
       "title": "Privacy Policy | Sphawn",
-      "description": "This Privacy Policy explains how Sphawn collects, uses and protects your personal data when you visit this website or contact us."
+      "description": "This Privacy Policy explains how Sphawn collects, uses, and protects your personal data when you visit this website or contact us."
     },
     "page": {
       "title": "Privacy Policy",
-      "intro": "This Privacy Policy explains how Sphawn collects, uses and protects your personal data when you visit this website or contact us.",
+      "intro": "This Privacy Policy explains how Sphawn collects, uses, and protects your personal data when you visit this website or contact us.",
       "labels": {
         "businessName": "Business name:",
         "kvk": "KvK number:",
@@ -623,7 +663,7 @@
       "business": {
         "name": "Sphawn",
         "kvk": "97594148",
-        "location": "Heerlen, Limburg, NL",
+        "location": "Heerlen, Limburg, The Netherlands",
         "email": "support@sphawn.nl"
       },
       "emailLine": {
@@ -632,75 +672,128 @@
       },
       "sections": [
         {
-          "title": "1. Who we are",
+          "title": "Legal basis",
           "paragraphs": [
-            "Sphawn is a freelance web design and web development business based in Heerlen, Limburg, the Netherlands."
+            "We process your personal data to respond to your request and communicate with you.",
+            "When you submit a form on this website, we process your data based on your consent provided by ticking the consent checkbox and submitting the form."
+          ]
+        },
+        {
+          "title": "Analytics (Vercel)",
+          "paragraphs": [
+            "This website uses privacy-friendly analytics provided by Vercel to analyse overall website usage and improve performance.",
+            "These analytics do not use cookies and are not intended to identify individual users."
+          ]
+        },
+        {
+          "title": "Data controller",
+          "paragraphs": [
+            "Sphawn is the data controller responsible for the processing of personal data as described in this Privacy Policy.",
+            "If you have any questions about how we process your personal data, you can contact us using the contact details listed below."
           ],
           "businessList": true
         },
         {
-          "title": "2. What data we collect",
+          "title": "Personal data we collect",
           "paragraphs": [
-            "We only collect personal data that you voluntarily provide to us, for example when you contact us through the contact form.",
-            "This may include:"
+            "We may collect and process the following categories of personal data when you use this website or contact us."
           ],
           "list": [
-            "Your name",
-            "Your email address",
-            "The subject and content of your message"
+            "Name and contact details (such as email address)",
+            "Business name and project-related information",
+            "Files you voluntarily upload (such as logos or images)",
+            "Information you include in messages or form fields",
+            "Technical information such as browser type and general usage data (via privacy-friendly analytics)"
           ]
         },
         {
-          "title": "3. How we use your data",
+          "title": "How we collect your data",
           "paragraphs": [
-            "Your data is used exclusively to:",
-            "We do not sell, rent or share your personal data with third parties for marketing purposes."
-          ],
-          "list": [
-            "Respond to your inquiry",
-            "Communicate with you about your project or request"
+            "We collect personal data directly from you when you fill in a form, contact us by email, or upload files through this website.",
+            "We do not collect personal data from third parties."
           ]
         },
         {
-          "title": "4. Analytics & cookies",
+          "title": "Purposes of processing",
           "paragraphs": [
-            "This website does not use tracking cookies or marketing cookies.",
-            "We use Vercel Analytics to gain basic insights into website traffic. This analytics tool:"
+            "We process your personal data only for specific and legitimate purposes."
           ],
           "list": [
-            "Does not use cookies",
-            "Does not track individual users",
-            "Does not collect personal data",
-            "Is GDPR-compliant by default"
+            "To respond to your inquiries or requests",
+            "To communicate with you about your project or homepage preview",
+            "To prepare and deliver services requested by you",
+            "To improve our website and services",
+            "To comply with legal obligations"
           ]
         },
         {
-          "title": "5. Data storage & security",
+          "title": "Legal basis for processing",
           "paragraphs": [
-            "We take appropriate technical and organizational measures to protect your personal data against loss, misuse or unauthorized access.",
-            "Personal data submitted through the contact form is stored only as long as necessary to handle your request."
+            "We process your personal data based on one or more of the legal grounds defined in Article 6 of the GDPR.",
+            "This includes your explicit consent, provided by ticking the consent checkbox when submitting a form.",
+            "In some cases, processing is necessary to take steps at your request prior to entering into a contract."
           ]
         },
         {
-          "title": "6. Your rights",
+          "title": "Data retention",
           "paragraphs": [
-            "Under the General Data Protection Regulation (GDPR), you have the right to:"
-          ],
-          "list": [
-            "Access your personal data",
-            "Request correction or deletion of your data",
-            "Withdraw your consent at any time"
-          ],
-          "includeEmailLink": true
+            "We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected.",
+            "If no agreement is entered into, your data will be deleted within a reasonable period, unless we are legally required to retain it longer."
+          ]
         },
         {
-          "title": "7. Changes to this policy",
+          "title": "Sharing of personal data",
           "paragraphs": [
-            "This Privacy Policy may be updated from time to time to reflect changes in legal requirements or website functionality."
+            "We do not sell or rent your personal data to third parties.",
+            "Your data may be shared with technical service providers solely for the purpose of operating this website.",
+            "These parties process personal data only on our instructions and are subject to confidentiality obligations."
+          ]
+        },
+        {
+          "title": "Data storage and security",
+          "paragraphs": [
+            "Your personal data is stored on secure servers within the European Union or in countries offering an adequate level of data protection.",
+            "We take appropriate technical and organizational measures to protect your data against loss, misuse, unauthorized access, or disclosure."
+          ]
+        },
+        {
+          "title": "Your rights under the GDPR",
+          "paragraphs": [
+            "You have the following rights with regard to your personal data."
+          ],
+          "list": [
+            "The right to access your personal data",
+            "The right to rectification of inaccurate data",
+            "The right to erasure (right to be forgotten)",
+            "The right to restriction of processing",
+            "The right to data portability",
+            "The right to object to processing",
+            "The right to withdraw consent at any time"
+          ]
+        },
+        {
+          "title": "Complaints",
+          "paragraphs": [
+            "If you believe that your rights have been violated, you have the right to lodge a complaint with the relevant data protection authority.",
+            "In the Netherlands, this authority is the Autoriteit Persoonsgegevens."
+          ]
+        },
+        {
+          "title": "Children's privacy",
+          "paragraphs": [
+            "This website and our services are not intended for individuals under the age of 16.",
+            "We do not knowingly collect personal data from children."
+          ]
+        },
+        {
+          "title": "Changes to this Privacy Policy",
+          "paragraphs": [
+            "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements.",
+            "The most recent version will always be available on this page."
           ]
         }
       ],
-      "lastUpdated": "Last updated: 21/12/2025"
+      "lastUpdated": "Last updated: December 29, 2025"
     }
   },
   "offersMeta": {
@@ -810,6 +903,11 @@
       "choose": "Choose",
       "clear": "Clear",
       "noneSelected": "No file selected"
+    },
+    "consent": {
+      "labelBeforeLink": "I agree that my personal data will be used to contact me regarding my homepage preview request. I have read and agree to the ",
+      "linkText": "Privacy Policy",
+      "labelAfterLink": "."
     }
   },
   "offersPricing": {

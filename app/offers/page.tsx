@@ -11,16 +11,36 @@ type Card = { title: string; items: string[] };
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("offersMeta");
+
+  const title = t("title");
+  const description = t("description");
+
   return {
-    title: t("title"),
-    description: t("description"),
+    title,
+    description,
     alternates: { canonical: "/offers" },
+
     openGraph: {
-      title: t("title"),
-      description: t("description"),
+      title,
+      description,
       url: "/offers",
       type: "website",
+      images: [
+        {
+          url: "https://www.sphawn.nl/offers-og.png",
+          width: 1200,
+          height: 900,
+          alt: title
+        }
+      ]
     },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["https://www.sphawn.nl/offers-og.png"]
+    }
   };
 }
 
