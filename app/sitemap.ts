@@ -3,30 +3,26 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.sphawn.nl";
 
-  return [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/portfolio`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/process`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
+  const routes = [
+    "",
+    "/offers",
+    "/portfolio",
+    "/process",
+    "/contact",
+    "/privacy-policy",
+    "/terms",
+    "/webdesign-heerlen",
+    "/webdesign-limburg"
   ];
+
+  const locales = ["en", "nl"];
+
+  return routes.flatMap((route) =>
+    locales.map((locale) => ({
+      url: `${baseUrl}/${locale}${route}`,
+      lastModified: new Date(),
+      changeFrequency: route === "" ? "monthly" : "yearly",
+      priority: route === "" ? 1.0 : 0.7
+    }))
+  );
 }
