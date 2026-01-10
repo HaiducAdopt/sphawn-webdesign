@@ -113,7 +113,32 @@
         "short": "I’m still here afterwards.",
         "description": "I stay available for content changes, fixes and small improvements whenever you need them."
       }
+    ],
+     "faq": {
+    "title": "Frequently asked questions about the process",
+    "items": [
+      {
+        "q": "What does your web design process look like?",
+        "a": "The process follows clear steps: idea, design in Figma, development, testing, SEO basics, deployment and support."
+      },
+      {
+        "q": "Do I see the design before development starts?",
+        "a": "Yes. Every project starts with a full design phase in Figma. Development only begins after approval."
+      },
+      {
+        "q": "How long does the full process take?",
+        "a": "Most projects take between 3 and 5 weeks, depending on scope and feedback."
+      },
+      {
+        "q": "How involved do I need to be?",
+        "a": "You are involved at key moments such as goal definition, design feedback and final testing."
+      },
+      {
+        "q": "Is SEO included in the process?",
+        "a": "Yes. Every website includes a strong SEO foundation."
+      }
     ]
+  }
   },
   "portfolio": {
     "meta": {
@@ -844,7 +869,37 @@
     "noteBox": {
       "textStrong": "Note:",
       "text": "Starting prices are guidelines. Final pricing depends on pages, content, integrations, languages, and timeline. After your request, you’ll receive a clear proposal."
+    },
+"faq": {
+  "title": "Frequently asked questions",
+  "items": [
+    {
+      "q": "What is this free homepage preview?",
+      "a": "It is a real homepage design created in Figma based on the information you submit. It shows how your homepage could look before any contract or payment."
+    },
+    {
+      "q": "Is this a real design or just an example?",
+      "a": "It is a custom design made specifically for your business. It is not a template or generic example."
+    },
+    {
+      "q": "Do I have to pay or sign anything?",
+      "a": "No. The homepage preview is completely free and non-binding."
+    },
+    {
+      "q": "What exactly do I receive?",
+      "a": "You receive an interactive Figma prototype with a desktop and/or mobile version of your homepage."
+    },
+    {
+      "q": "What is not included in the free preview?",
+      "a": "The free preview does not include full website development, hosting, technical setup or advanced SEO."
+    },
+    {
+      "q": "What happens if I like the design?",
+      "a": "If you like the direction, you will receive a clear proposal for building the full website based on the approved design."
     }
+  ]
+}
+
   },
   "offersForm": {
     "successTitle": "Thank you!",

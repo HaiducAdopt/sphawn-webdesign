@@ -114,7 +114,32 @@
         "short": "Ook daarna ben ik er nog.",
         "description": "Ik blijf beschikbaar voor content-wijzigingen, fixes en kleine verbeteringen wanneer je die nodig hebt."
       }
+    ],
+      "faq": {
+    "title": "Veelgestelde vragen over het proces",
+    "items": [
+      {
+        "q": "Hoe ziet het webdesignproces eruit?",
+        "a": "Het proces bestaat uit duidelijke stappen: idee, ontwerp in Figma, ontwikkeling, testen, SEO-basis, livegang en ondersteuning."
+      },
+      {
+        "q": "Zie ik het ontwerp voordat de ontwikkeling start?",
+        "a": "Ja. Elk project start met een ontwerp in Figma. Ontwikkeling begint pas na goedkeuring."
+      },
+      {
+        "q": "Hoe lang duurt het proces?",
+        "a": "De meeste projecten duren 3 tot 5 weken."
+      },
+      {
+        "q": "Hoe betrokken moet ik zijn?",
+        "a": "Je bent vooral betrokken bij belangrijke momenten zoals feedback en eindcontrole."
+      },
+      {
+        "q": "Is SEO inbegrepen?",
+        "a": "Ja. Elke website krijgt een sterke SEO-basis."
+      }
     ]
+  }
   },
   "portfolio": {
     "meta": {
@@ -844,7 +869,36 @@
     "noteBox": {
       "textStrong": "Let op:",
       "text": "Vanaf-prijzen zijn richtlijnen. De uiteindelijke prijs hangt af van pagina’s, content, integraties, talen en planning. Na je aanvraag ontvang je een duidelijke offerte."
+    },
+    "faq": {
+  "title": "Veelgestelde vragen",
+  "items": [
+    {
+      "q": "Wat is deze gratis homepage preview?",
+      "a": "Het is een echte homepage-ontwerp in Figma, gebaseerd op jouw input. Zo zie je eerst hoe je website eruit kan zien."
+    },
+    {
+      "q": "Is dit een voorbeeld of een echt ontwerp?",
+      "a": "Het is een maatwerk ontwerp, speciaal gemaakt voor jouw bedrijf. Geen template."
+    },
+    {
+      "q": "Moet ik iets betalen of tekenen?",
+      "a": "Nee. De homepage preview is volledig gratis en zonder verplichtingen."
+    },
+    {
+      "q": "Wat ontvang ik precies?",
+      "a": "Je ontvangt een interactief Figma-prototype met een desktop en/of mobiele versie."
+    },
+    {
+      "q": "Wat is niet inbegrepen?",
+      "a": "De preview bevat geen volledige website-bouw, hosting of technische implementatie."
+    },
+    {
+      "q": "Wat als ik het ontwerp goed vind?",
+      "a": "Dan ontvang je een duidelijke offerte om de volledige website te laten bouwen."
     }
+  ]
+}
   },
   "offersForm": {
     "successTitle": "Bedankt!",
@@ -995,5 +1049,4 @@
       }
     ]
   }
-
 }
