@@ -16,7 +16,8 @@
     "portfolio": "Portfolio",
     "contact": "Contact",
     "offers": "Offerte",
-    "cta": "Laten we je website bespreken"
+    "cta": "Laten we je website bespreken",
+     "lab": "Lab"
   },
 
    "footer": {
@@ -830,7 +831,9 @@
       "title": "Zo zou jouw homepage eruit kunnen zien.",
       "ctaContact": "Stel een vraag",
       "ctaStart": "Start je preview",
-      "imageAlt": "Homepage preview mockup"
+      "imageAlt": "Homepage preview mockup",
+      "subtitle": "Ontvang een gratis homepage preview en ontdek hoe jouw website eruit kan zien, presteren en meegroeien — zonder verplichtingen."
+
     },
     "rules": {
       "label": "Spelregels",
@@ -1048,5 +1051,11 @@
         ]
       }
     ]
+  },
+  "lab": {
+    "title": "Sphawn Lab",
+    "description": "Technische artikelen, experimenten en inzichten over webdevelopment, SEO en moderne digitale architectuur.",
+    "readArticle": "Lees artikel →",
+    "empty": "Er zijn nog geen artikelen gepubliceerd."
   }
 }

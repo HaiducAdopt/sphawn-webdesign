@@ -52,3 +52,32 @@ body {
     opacity: 1;
   }
 }
+.prose h2 {
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  line-height: 1.85;
+}
+
+.prose ul {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.prose strong {
+  color: #00E1F0;
+}
+
+.prose a {
+  color: #00E1F0;
+  text-decoration: underline;
+}

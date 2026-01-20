@@ -16,7 +16,8 @@
     "portfolio": "Portfolio",
     "contact": "Contact",
     "offers": "Offers",
-    "cta": "Let's talk about your website"
+    "cta": "Let's talk about your website",
+     "lab": "Lab"
   },
   "footer": {
     "seoHeerlen": "Web Design Heerlen",
@@ -830,7 +831,9 @@
       "title": "This is how your homepage could look.",
       "ctaContact": "Ask a question",
       "ctaStart": "Start your preview",
-      "imageAlt": "Homepage preview mockup"
+      "imageAlt": "Homepage preview mockup",
+      "subtitle": "Get a free homepage preview and see how your website could look, perform, and scale — before you commit to anything."
+
     },
     "rules": {
       "label": "Rules of the game",
@@ -1049,5 +1052,11 @@
         ]
       }
     ]
+  },
+  "lab": {
+    "title": "Sphawn Lab",
+    "description": "Technical articles, experiments, and insights about web development, SEO, and modern digital architecture.",
+    "readArticle": "Read article →",
+    "empty": "No articles published yet."
   }
 }

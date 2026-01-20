@@ -45,6 +45,12 @@ export default function Navbar() {
             >
               {t("portfolio")}
             </LocaleLink>
+<LocaleLink
+  href="/lab"
+  className="font-normal text-slate-100 hover:text-[#00E1F0] transition-colors"
+>
+  {t("lab")}
+</LocaleLink>
 
             <LocaleLink
               href="/offers"
@@ -106,6 +112,21 @@ export default function Navbar() {
               <LocaleLink href="/portfolio" onClick={() => setIsOpen(false)}>
                 {t("portfolio")}
               </LocaleLink>
+
+<LocaleLink
+  href="/lab"
+  className="
+    font-normal text-slate-100
+    hover:text-[#00E1F0]
+    relative
+    after:absolute after:-bottom-1 after:left-0
+    after:h-[2px] after:w-0 after:bg-[#00E1F0]
+    after:transition-all after:duration-300
+    hover:after:w-full
+  "
+>
+  {t("lab")}
+</LocaleLink>
 
               <LocaleLink href="/offers" onClick={() => setIsOpen(false)}>
                 {t("offers")}
