@@ -4,7 +4,13 @@ import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
+    const body = (await req.json()) as {
+      name?: string;
+      email?: string;
+      subject?: string;
+      message?: string;
+    };
+
     const { name, email, subject, message } = body;
 
     if (!name || !email || !subject || !message) {
@@ -18,7 +24,9 @@ export async function POST(req: Request) {
       !process.env.SMTP_HOST ||
       !process.env.SMTP_PORT ||
       !process.env.SMTP_USER ||
-      !process.env.SMTP_PASS
+      !process.env.SMTP_PASS ||
+      !process.env.CONTACT_FROM_EMAIL ||
+      !process.env.CONTACT_TO_EMAIL
     ) {
       console.error("Missing SMTP env vars");
       return NextResponse.json(
@@ -28,12 +36,12 @@ export async function POST(req: Request) {
     }
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,      // smtp.zoho.eu
-      port: Number(process.env.SMTP_PORT), // 587
-      secure: false, // IMPORTANT pentru 587
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
+      secure: false, // pentru 587
       auth: {
-        user: process.env.SMTP_USER,   // support@sphawn.nl
-        pass: process.env.SMTP_PASS,   // parola/app password Zoho
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     });
 
@@ -55,8 +63,9 @@ ${message}
     });
 
     return NextResponse.json({ success: true });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("SMTP error:", error);
+
     return NextResponse.json(
       { success: false, error: "Failed to send message." },
       { status: 500 }

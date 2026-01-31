@@ -1,10 +1,11 @@
 "use client";
 
-import Link, { LinkProps } from "next/link";
+import Link, { type LinkProps } from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-type Props = LinkProps & {
+type Props = Omit<LinkProps, "href"> & {
+  href: string;
   children: React.ReactNode;
   className?: string;
 };
@@ -13,12 +14,16 @@ type Props = LinkProps & {
  * Link care păstrează automat prefixul /nl sau /en în URL.
  * Dacă îi dai href="/contact", el va genera "/nl/contact" sau "/en/contact".
  */
-export default function LocaleLink({ href, children, className, ...rest }: Props) {
+export default function LocaleLink({
+  href,
+  children,
+  className,
+  ...rest
+}: Props) {
   const pathname = usePathname();
   const locale = pathname?.startsWith("/en") ? "en" : "nl";
 
-  const hrefString = typeof href === "string" ? href : href.pathname?.toString() || "/";
-  const normalized = hrefString.startsWith("/") ? hrefString : `/${hrefString}`;
+  const normalized = href.startsWith("/") ? href : `/${href}`;
 
   // Dacă deja ai /nl sau /en, nu mai adăugăm nimic
   const finalHref =
@@ -27,7 +32,7 @@ export default function LocaleLink({ href, children, className, ...rest }: Props
       : `/${locale}${normalized}`;
 
   return (
-    <Link href={finalHref as any} className={className} {...rest}>
+    <Link href={finalHref} className={className} {...rest}>
       {children}
     </Link>
   );

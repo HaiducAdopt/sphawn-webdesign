@@ -1,4 +1,4 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.sphawn.nl";
@@ -12,7 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy-policy",
     "/terms",
     "/webdesign-heerlen",
-    "/webdesign-limburg"
+    "/webdesign-limburg",
+    "/lab",
   ];
 
   const locales = ["en", "nl"];
@@ -22,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/${locale}${route}`,
       lastModified: new Date(),
       changeFrequency: route === "" ? "monthly" : "yearly",
-      priority: route === "" ? 1.0 : 0.7
+      priority: route === "" ? 1.0 : 0.7,
     }))
   );
 }

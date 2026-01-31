@@ -81,7 +81,7 @@ export default async function OffersPage() {
           {cards.map((c, i) => (
             <div
               key={i}
-              className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-sm"
+              className="rounded-2xl border border-white/10 bg-white/4 p-6 backdrop-blur-sm"
             >
               <h2 className="font-semibold mb-3">{c.title}</h2>
               <ul className="list-disc list-inside text-sm text-white/70 space-y-1">
@@ -102,7 +102,7 @@ export default async function OffersPage() {
             mx-auto
             rounded-3xl
             border border-white/10
-            bg-white/[0.05]
+            bg-white/5
             backdrop-blur-sm
             p-6 sm:p-10
           "
@@ -135,7 +135,7 @@ export default async function OffersPage() {
             {faqItems.map((item, i) => (
               <details
                 key={i}
-                className="group rounded-xl border border-white/10 bg-white/[0.04] p-5 backdrop-blur-sm"
+                className="group rounded-xl border border-white/10 bg-white/4 p-5 backdrop-blur-sm"
               >
                 <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                   <span>{item.q}</span>
