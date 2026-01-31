@@ -1,9 +1,12 @@
-import type { MetadataRoute } from "next";
+import { MetadataRoute } from "next";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "@/lib/firestore";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://www.sphawn.nl";
+  const locales = ["en", "nl"] as const;
 
-  const routes = [
+  const staticRoutes = [
     "",
     "/offers",
     "/portfolio",
@@ -11,19 +14,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
     "/privacy-policy",
     "/terms",
-    "/webdesign-heerlen",
-    "/webdesign-limburg",
     "/lab",
   ];
 
-  const locales = ["en", "nl"];
-
-  return routes.flatMap((route) =>
+  const staticEntries: MetadataRoute.Sitemap = staticRoutes.flatMap((route) =>
     locales.map((locale) => ({
       url: `${baseUrl}/${locale}${route}`,
       lastModified: new Date(),
       changeFrequency: route === "" ? "monthly" : "yearly",
-      priority: route === "" ? 1.0 : 0.7,
+      priority: route === "" ? 1 : 0.7,
     }))
   );
+
+  const labSnap = await getDocs(
+    query(
+      collection(db, "labArticles"),
+      where("status", "==", "published")
+    )
+  );
+
+  const labEntries: MetadataRoute.Sitemap = labSnap.docs.map((doc) => {
+    const data = doc.data();
+
+    return {
+      url: `${baseUrl}/${data.locale}/lab/${data.slug}`,
+      lastModified: data.updatedAt?.toDate?.() ?? new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    };
+  });
+
+  return [...staticEntries, ...labEntries];
 }
