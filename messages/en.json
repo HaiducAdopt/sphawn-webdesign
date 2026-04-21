@@ -186,9 +186,9 @@
           "description": "A presentation website for local dog services, focused on clarity, trust and easy contact."
         },
         "wp-presentation": {
-          "title": "Business Website (WordPress)",
-          "subtitle": "Classic presentation website demo",
-          "description": "Demo project showing how a small business can have a clean, editable WordPress website with blog & contact."
+        "title": "Deliscu.nl",
+        "subtitle": "Luxury pastry website",
+        "description": "A premium WordPress presentation website for a luxury pastry business, focused on visual impact, elegance and clear service presentation."
         },
         "woocommerce-shop": {
           "title": "Parts Store (WooCommerce)",

@@ -29,7 +29,7 @@ const caseStudies: CaseStudy[] = [
     image: "/portfolio/haiduchondenservices.png",
   },
   {
-    id: "Deliscu Patisserie de Luxe",
+    id: "wp-presentation",
     typeKey: "real",
     tech: ["WordPress", "Custom theme", "Divi"],
     url: "https://deliscu.nl/",
