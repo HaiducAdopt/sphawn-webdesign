@@ -29,11 +29,11 @@ const caseStudies: CaseStudy[] = [
     image: "/portfolio/haiduchondenservices.png",
   },
   {
-    id: "wp-presentation",
-    typeKey: "demo",
-    tech: ["WordPress", "Custom theme", "Elementor / Gutenberg"],
-    url: "#",
-    image: "/portfolio/wordpresssite.png",
+    id: "Deliscu Patisserie de Luxe",
+    typeKey: "real",
+    tech: ["WordPress", "Custom theme", "Divi"],
+    url: "https://deliscu.nl/",
+    image: "/portfolio/deliscuweb.png",
   },
   {
     id: "woocommerce-shop",

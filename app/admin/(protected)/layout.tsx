@@ -63,6 +63,9 @@ export default function AdminLayout({
             <Link href="/admin/offers" className="hover:text-white">
               Offers
             </Link>
+          <Link href="/admin/robot" className="hover:text-white">
+              Robot
+            </Link>
           </nav>
         </div>
 
