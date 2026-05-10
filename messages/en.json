@@ -1,15 +1,28 @@
 {
-  "hero": {
-    "eyebrow": "Web Design & Development Heerlen",
-    "title": {
-      "line1": "LET'S",
-      "line2": "GO",
-      "line3": "ONLINE"
-    },
-    "description": "I design and develop high-quality websites for businesses in Heerlen, Limburg and across the Netherlands, using modern technologies like Next.js, React and Tailwind CSS. My focus is on clarity, speed, strong SEO foundations and an excellent user experience.",
-    "cta": "LET'S WORK TOGETHER",
-    "techStackTitle": "Tech Stack"
-   },
+ "hero": {
+  "eyebrow": "Web Design & Development Heerlen",
+  "title": {
+    "line1": "LET'S",
+    "line2": "GO",
+    "line3": "ONLINE"
+  },
+  "description": "I design and develop high-quality websites for businesses in Heerlen, Limburg and across the Netherlands, using modern technologies like Next.js, React and Tailwind CSS. My focus is on clarity, speed, strong SEO foundations and an excellent user experience.",
+  "cta": "LET'S WORK TOGETHER",
+  "techStackTitle": "Tech Stack",
+  "siteAudit": {
+    "eyebrow": "Free website audit tool",
+    "title": "Test your website speed, SEO structure and AI visibility.",
+    "description": "Sphawn SiteAudit checks your website performance, Core Web Vitals, technical SEO and AI-friendly structure, then turns the results into clear recommendations you can actually use.",
+    "auditButton": "Run a free audit",
+    "shareButton": "Share on LinkedIn",
+    "cardEyebrow": "Share card",
+    "cardLabel": "Website audit for",
+    "speedLabel": "Speed",
+    "aiSeoLabel": "AI SEO",
+    "cardText": "A clean audit preview designed to be easy to understand and simple to share.",
+    "cardFooter": "Audit by Sphawn.nl"
+  }
+},
 
   "navbar": {
     "process": "Process",
@@ -1058,5 +1071,34 @@
     "description": "Technical articles, experiments, and insights about web development, SEO, and modern digital architecture.",
     "readArticle": "Read article →",
     "empty": "No articles published yet."
-  }
+  },
+ "siteaudit": {
+  "heroEyebrow": "Sphawn SiteAudit",
+  "heroTitle": "Website Speed & AI SEO Audit",
+  "heroDescription": "Test your website performance, technical SEO structure and AI visibility in one clean, premium report.",
+  "urlPlaceholder": "https://example.com",
+  "analyzeButton": "Analyze website",
+  "analyzingButton": "Analyzing...",
+  "tabs": {
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "loading": "Loading..."
+  },
+  "runningAudit": "Running audit",
+  "testingWebsite": "Testing {domain} on {device}",
+  "testingFallback": "your website",
+  "pagespeedLoadingText": "PageSpeed can take a few seconds because it tests the website in real conditions.",
+  "chatgptLoadingTitle": "Generating ChatGPT recommendations",
+  "chatgptLoadingText": "ChatGPT is turning the technical audit into clear, practical recommendations.",
+  "needHelpTitle": "Need help improving this?",
+  "needHelpText": "Sphawn can optimize your website performance, SEO structure and AI visibility.",
+  "contactButton": "Contact Sphawn",
+  "chatgptTitle": "ChatGPT Recommendations",
+  "chatgptSubtitle": "AI explanation for this audit",
+  "summary": "Summary",
+  "mainProblems": "Main problems",
+  "recommendedActions": "Recommended actions",
+  "priority": "Priority",
+  "noData": "Run an audit to generate AI recommendations."
+}
 }

@@ -1,10 +1,16 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LocaleLink from "./LocaleLink";
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale();
+
+  const siteAuditUrl = `https://www.sphawn.nl/${locale}/siteaudit`;
+  const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+    siteAuditUrl
+  )}`;
 
   return (
     <main className="relative min-h-screen bg-[#0A1A2F] text-white overflow-hidden">
@@ -128,22 +134,163 @@ export default function Hero() {
                 gap-x-4 gap-y-1 sm:gap-y-0
               "
             >
-              {["Next.js", "React", "Vercel", "Firebase", "Tailwind CSS", "GitHub"].map(
-                (item) => (
-                  <span
-                    key={item}
+              {[
+                "Next.js",
+                "React",
+                "Vercel",
+                "Firebase",
+                "Tailwind CSS",
+                "GitHub",
+              ].map((item) => (
+                <span
+                  key={item}
+                  className="
+                    text-[11px] xs:text-[13px] 
+                    sm:text-[18px] md:text-[22px] lg:text-[30px] 
+                    font-bold text-[#111C37] 
+                    tracking-[0.08em] 
+                    whitespace-nowrap
+                  "
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* SITE AUDIT TOOL PROMO */}
+        <section
+          id="site-audit-tool"
+          aria-labelledby="site-audit-tool-heading"
+          className="mt-16 sm:mt-20 pb-16 sm:pb-24"
+        >
+          <div
+            className="
+              relative overflow-hidden
+              rounded-[28px]
+              border border-white/10
+              bg-white/[0.06]
+              px-5 py-7
+              sm:px-8 sm:py-10
+              lg:px-10 lg:py-12
+              shadow-[0_30px_90px_rgba(0,0,0,0.35)]
+              backdrop-blur-xl
+            "
+          >
+            <div className="absolute top-[-120px] right-[-120px] h-[280px] w-[280px] rounded-full bg-[#00E1F0]/25 blur-[100px]" />
+            <div className="absolute bottom-[-140px] left-[-120px] h-[320px] w-[320px] rounded-full bg-[#BC4EF0]/20 blur-[120px]" />
+
+            <div className="relative grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-12 items-center">
+              <div>
+                <p className="mb-4 text-[12px] sm:text-[13px] font-semibold tracking-[0.45em] text-[#D4AF37] uppercase">
+                  {t("siteAudit.eyebrow")}
+                </p>
+
+                <h2
+                  id="site-audit-tool-heading"
+                  className="
+                    max-w-[760px]
+                    text-[32px] leading-[36px]
+                    sm:text-[44px] sm:leading-[48px]
+                    lg:text-[58px] lg:leading-[62px]
+                    font-bold
+                  "
+                >
+                  {t("siteAudit.title")}
+                </h2>
+
+                <p className="mt-5 max-w-[680px] text-[15px] sm:text-[18px] leading-[25px] sm:leading-[29px] text-white/75">
+                  {t("siteAudit.description")}
+                </p>
+
+                <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <LocaleLink
+                    href="/siteaudit"
                     className="
-                      text-[11px] xs:text-[13px] 
-                      sm:text-[18px] md:text-[22px] lg:text-[30px] 
-                      font-bold text-[#111C37] 
-                      tracking-[0.08em] 
-                      whitespace-nowrap
+                      inline-flex items-center justify-center
+                      rounded-full
+                      bg-[#D4AF37]
+                      px-6 py-3
+                      text-[14px] sm:text-[15px]
+                      font-bold text-black
+                      transition-all duration-300
+                      hover:bg-white hover:shadow-[0_0_24px_rgba(212,175,55,0.35)]
                     "
                   >
-                    {item}
-                  </span>
-                )
-              )}
+                    {t("siteAudit.auditButton")}
+                  </LocaleLink>
+
+                  <a
+                    href={linkedInShareUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      inline-flex items-center justify-center
+                      rounded-full
+                      border border-white/15
+                      bg-white/[0.04]
+                      px-6 py-3
+                      text-[14px] sm:text-[15px]
+                      font-bold text-white
+                      transition-all duration-300
+                      hover:border-[#D4AF37]/70 hover:bg-[#D4AF37]/10
+                    "
+                  >
+                    {t("siteAudit.shareButton")}
+                  </a>
+                </div>
+              </div>
+
+              <div
+                className="
+                  rounded-[24px]
+                  border border-[#D4AF37]/30
+                  bg-[#070D1A]/80
+                  p-5 sm:p-6
+                  shadow-[0_24px_70px_rgba(0,0,0,0.4)]
+                "
+              >
+                <p className="text-[11px] font-semibold tracking-[0.45em] text-[#D4AF37] uppercase">
+                  {t("siteAudit.cardEyebrow")}
+                </p>
+
+                <div className="mt-6 rounded-[20px] bg-[#0A1020] p-5 sm:p-6">
+                  <p className="text-[13px] text-white/60">
+                    {t("siteAudit.cardLabel")}
+                  </p>
+
+                  <h3 className="mt-3 text-[28px] sm:text-[34px] font-bold">
+                    sphawn.nl
+                  </h3>
+
+                  <div className="mt-7 grid grid-cols-2 gap-3">
+                    <div className="rounded-[16px] bg-white/[0.06] p-4">
+                      <p className="text-[12px] text-white/50">
+                        {t("siteAudit.speedLabel")}
+                      </p>
+                      <p className="mt-2 text-[30px] font-bold">99</p>
+                    </div>
+
+                    <div className="rounded-[16px] bg-white/[0.06] p-4">
+                      <p className="text-[12px] text-white/50">
+                        {t("siteAudit.aiSeoLabel")}
+                      </p>
+                      <p className="mt-2 text-[30px] font-bold">97</p>
+                    </div>
+                  </div>
+
+                  <p className="mt-6 text-[14px] leading-[22px] text-white/65">
+                    {t("siteAudit.cardText")}
+                  </p>
+
+                  <div className="mt-6 h-px bg-white/10" />
+
+                  <p className="mt-5 text-[13px] text-white/50">
+                    {t("siteAudit.cardFooter")}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

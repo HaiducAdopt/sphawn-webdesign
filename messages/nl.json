@@ -1,15 +1,28 @@
 {
-  "hero": {
-    "eyebrow": "Webdesign & Webontwikkeling Heerlen",
-    "title": {
-      "line1": "LET'S",
-      "line2": "GO",
-      "line3": "ONLINE"
-    },
-    "description": "Ik ontwerp en ontwikkel hoogwaardige websites voor bedrijven in Heerlen, Limburg en door heel Nederland, met moderne technologieën zoals Next.js, React en Tailwind CSS. De focus ligt op duidelijkheid, snelheid, een sterke SEO-basis en een uitstekende gebruikerservaring.",
-    "cta": "SAMEN AAN DE SLAG",
-    "techStackTitle": "Tech Stack"
+ "hero": {
+  "eyebrow": "Webdesign & Development Heerlen",
+  "title": {
+    "line1": "LET'S",
+    "line2": "GO",
+    "line3": "ONLINE"
   },
+  "description": "Ik ontwerp en ontwikkel hoogwaardige websites voor bedrijven in Heerlen, Limburg en heel Nederland, met moderne technologieën zoals Next.js, React en Tailwind CSS. Mijn focus ligt op duidelijkheid, snelheid, sterke SEO-basis en een uitstekende gebruikerservaring.",
+  "cta": "LATEN WE SAMENWERKEN",
+  "techStackTitle": "Tech Stack",
+  "siteAudit": {
+    "eyebrow": "Gratis website audit tool",
+    "title": "Test je websitesnelheid, SEO-structuur en AI-zichtbaarheid.",
+    "description": "Sphawn SiteAudit controleert je websiteprestaties, Core Web Vitals, technische SEO en AI-vriendelijke structuur, en zet de resultaten om in duidelijke aanbevelingen waar je echt iets mee kunt.",
+    "auditButton": "Start een gratis audit",
+    "shareButton": "Delen op LinkedIn",
+    "cardEyebrow": "Deelkaart",
+    "cardLabel": "Website audit voor",
+    "speedLabel": "Snelheid",
+    "aiSeoLabel": "AI SEO",
+    "cardText": "Een duidelijke audit preview die makkelijk te begrijpen en eenvoudig te delen is.",
+    "cardFooter": "Audit door Sphawn.nl"
+  }
+},
   
  "navbar": {
     "process": "Werkwijze",
@@ -1057,5 +1070,34 @@
     "description": "Technische artikelen, experimenten en inzichten over webdevelopment, SEO en moderne digitale architectuur.",
     "readArticle": "Lees artikel →",
     "empty": "Er zijn nog geen artikelen gepubliceerd."
+  },
+  "siteaudit": {
+  "heroEyebrow": "Sphawn SiteAudit",
+  "heroTitle": "Website snelheid & AI SEO audit",
+  "heroDescription": "Test de prestaties, technische SEO-structuur en AI-zichtbaarheid van je website in één helder premium rapport.",
+  "urlPlaceholder": "https://example.com",
+  "analyzeButton": "Website analyseren",
+  "analyzingButton": "Analyseren...",
+  "tabs": {
+    "mobile": "Mobiel",
+    "desktop": "Desktop",
+    "loading": "Laden..."
+  },
+  "runningAudit": "Audit wordt uitgevoerd",
+  "testingWebsite": "{domain} testen op {device}",
+  "testingFallback": "je website",
+  "pagespeedLoadingText": "PageSpeed kan enkele seconden duren omdat de website onder realistische omstandigheden wordt getest.",
+  "chatgptLoadingTitle": "ChatGPT-aanbevelingen genereren",
+  "chatgptLoadingText": "ChatGPT zet de technische audit om in duidelijke, praktische aanbevelingen.",
+  "needHelpTitle": "Hulp nodig om dit te verbeteren?",
+  "needHelpText": "Sphawn kan je websiteprestaties, SEO-structuur en AI-zichtbaarheid optimaliseren.",
+  "contactButton": "Neem contact op met Sphawn",
+  "chatgptTitle": "ChatGPT aanbevelingen",
+  "chatgptSubtitle": "AI-uitleg voor deze audit",
+  "summary": "Samenvatting",
+  "mainProblems": "Belangrijkste problemen",
+  "recommendedActions": "Aanbevolen acties",
+  "priority": "Prioriteit",
+  "noData": "Voer een audit uit om AI-aanbevelingen te genereren."
   }
 }
