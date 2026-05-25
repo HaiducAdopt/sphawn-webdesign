@@ -9,6 +9,7 @@
   "description": "Ik ontwerp en ontwikkel hoogwaardige websites voor bedrijven in Heerlen, Limburg en heel Nederland, met moderne technologieën zoals Next.js, React en Tailwind CSS. Mijn focus ligt op duidelijkheid, snelheid, sterke SEO-basis en een uitstekende gebruikerservaring.",
   "cta": "LATEN WE SAMENWERKEN",
   "techStackTitle": "Tech Stack",
+
   "siteAudit": {
     "eyebrow": "Gratis website audit tool",
     "title": "Test je websitesnelheid, SEO-structuur en AI-zichtbaarheid.",
@@ -21,7 +22,19 @@
     "aiSeoLabel": "AI SEO",
     "cardText": "Een duidelijke audit preview die makkelijk te begrijpen en eenvoudig te delen is.",
     "cardFooter": "Audit door Sphawn.nl"
-  }
+  },
+
+  "securityAuditEyebrow": "Website security audit",
+  "securityAuditTitle": "Ontdek beveiligingsproblemen voordat je bezoekers dat doen.",
+  "securityAuditDescription": "Scan HTTPS, security headers, DNS-bescherming en veelvoorkomende WordPress-blootstelling. Genereer professionele PDF-rapporten en ontdek hoe veilig je website echt is.",
+  "securityAuditButton": "Security Audit uitvoeren",
+  "securityAuditCardEyebrow": "Security rapport",
+  "securityAuditCardLabel": "Voorbeeldresultaat voor",
+  "securityAuditScoreLabel": "Score",
+  "securityAuditWarningsLabel": "Waarschuwingen",
+  "securityAuditPdfLabel": "PDF",
+  "securityAuditCardText": "Professioneel beveiligingsoverzicht met praktische aanbevelingen en exporteerbare PDF-rapporten.",
+  "securityAuditCardFooter": "Security Audit door Sphawn.nl"
 },
   
  "navbar": {
@@ -1099,5 +1112,31 @@
   "recommendedActions": "Aanbevolen acties",
   "priority": "Prioriteit",
   "noData": "Voer een audit uit om AI-aanbevelingen te genereren."
-  }
+  },
+  "securityAudit": {
+  "badge": "Sphawn Security Audit",
+  "heroTitle": "Controleer de beveiliging van je website voordat bezoekers of klanten zwakke plekken vinden.",
+  "heroDescription": "Voer een snelle defensieve scan uit voor HTTPS, security headers, WordPress-blootstelling en DNS-bescherming. Je krijgt een duidelijke security score en praktische verbeterpunten zonder technische ruis.",
+  "sslTitle": "SSL",
+  "sslDescription": "HTTPS en redirects",
+  "headersTitle": "Headers",
+  "headersDescription": "Browserbeveiliging checks",
+  "dnsTitle": "DNS",
+  "dnsDescription": "SPF en DMARC controle",
+  "formTitle": "Voer een gratis security scan uit",
+  "formDescription": "Vul een publieke website-URL in. De scan is niet-invasief en controleert alleen publiek beschikbare configuratiesignalen.",
+  "placeholder": "https://voorbeeld.nl",
+  "button": "Security Audit uitvoeren",
+  "loading": "Scannen...",
+  "whatYouGetTitle": "Wat je krijgt",
+  "whatYouGetDescription": "Een eenvoudige security score, gevonden risico’s en duidelijke aanbevelingen waarmee je vertrouwen, veiligheid en professionele uitstraling kunt verbeteren.",
+  "scoreTitle": "Security Score",
+  "scanResultFor": "Scanresultaat voor",
+  "passed": "Geslaagd",
+  "warnings": "Waarschuwingen",
+  "failed": "Mislukt",
+  "needHelpTitle": "Hulp nodig bij het oplossen?",
+  "needHelpDescription": "Sphawn kan de resultaten beoordelen, je headers verbeteren, je website beveiligen en een duidelijk security rapport voorbereiden voor je bedrijf.",
+  "recommendation": "Aanbeveling"
+}
 }

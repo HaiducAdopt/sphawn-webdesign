@@ -9,6 +9,7 @@
   "description": "I design and develop high-quality websites for businesses in Heerlen, Limburg and across the Netherlands, using modern technologies like Next.js, React and Tailwind CSS. My focus is on clarity, speed, strong SEO foundations and an excellent user experience.",
   "cta": "LET'S WORK TOGETHER",
   "techStackTitle": "Tech Stack",
+
   "siteAudit": {
     "eyebrow": "Free website audit tool",
     "title": "Test your website speed, SEO structure and AI visibility.",
@@ -20,10 +21,21 @@
     "speedLabel": "Speed",
     "aiSeoLabel": "AI SEO",
     "cardText": "A clean audit preview designed to be easy to understand and simple to share.",
-    "cardFooter": "Audit by Sphawn.nl"
-  }
-},
+    "cardFooter": "Audit by Sphawn.nl"},
 
+    "securityAuditEyebrow": "Website security audit", 
+"securityAuditTitle": "Discover security gaps before your visitors do.",
+"securityAuditDescription": "Scan HTTPS, security headers, DNS protection and common WordPress exposure. Generate professional PDF reports and understand how secure your website really is.",
+"securityAuditButton": "Run Security Audit",
+"securityAuditCardEyebrow": "Security report",
+"securityAuditCardLabel": "Example result for",
+"securityAuditScoreLabel": "Score",
+"securityAuditWarningsLabel": "Warnings",
+"securityAuditPdfLabel": "PDF",
+"securityAuditCardText": "Professional security overview with practical recommendations and exportable PDF reports.",
+"securityAuditCardFooter": "Security Audit by Sphawn.nl"
+  
+  },
   "navbar": {
     "process": "Process",
     "portfolio": "Portfolio",
@@ -1100,5 +1112,31 @@
   "recommendedActions": "Recommended actions",
   "priority": "Priority",
   "noData": "Run an audit to generate AI recommendations."
+  },
+  "securityAudit": {
+  "badge": "Sphawn Security Audit",
+  "heroTitle": "Check your website security before visitors or clients find the weak spots.",
+  "heroDescription": "Run a fast defensive scan for HTTPS, security headers, WordPress exposure and DNS protection. Get a clear security score and practical fixes without technical noise.",
+  "sslTitle": "SSL",
+  "sslDescription": "HTTPS and redirects",
+  "headersTitle": "Headers",
+  "headersDescription": "Browser protection checks",
+  "dnsTitle": "DNS",
+  "dnsDescription": "SPF and DMARC review",
+  "formTitle": "Run a free security scan",
+  "formDescription": "Enter a public website URL. The scan is non-invasive and only checks publicly available configuration signals.",
+  "placeholder": "https://example.com",
+  "button": "Run Security Audit",
+  "loading": "Scanning...",
+  "whatYouGetTitle": "What you get",
+  "whatYouGetDescription": "A simple security score, detected risks, and clear recommendations you can use to improve trust, safety and professional credibility.",
+  "scoreTitle": "Security Score",
+  "scanResultFor": "Scan result for",
+  "passed": "Passed",
+  "warnings": "Warnings",
+  "failed": "Failed",
+  "needHelpTitle": "Need help fixing these issues?",
+  "needHelpDescription": "Sphawn can review the results, improve your headers, harden your website and prepare a clearer security report for your business.",
+  "recommendation": "Recommendation"
 }
 }
