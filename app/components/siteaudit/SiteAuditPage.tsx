@@ -248,106 +248,114 @@ export default function SiteAuditPage() {
     ? getDomain(activeSpeedResult.finalUrl)
     : getDomain(normalizedUrl);
 
-  return (
-    <main className="min-h-screen bg-[#070A12] text-white">
-      <div className="mx-auto max-w-7xl px-6 py-20">
-        <SiteAuditHero />
+ return (
+  <main className="min-h-screen overflow-x-hidden bg-[#070A12] text-white">
+    <div className="mx-auto w-full max-w-7xl overflow-x-hidden px-4 py-20 sm:px-6 lg:px-8">
+      <SiteAuditHero />
 
-        <SiteAuditUrlForm
-          url={url}
-          setUrl={handleUrlChange}
-          onAnalyze={() => void runAudit(activeTab)}
-          loading={isLoading || loadingExplain}
-          error={error}
-          disabled={!canAnalyze}
-        />
+      <SiteAuditUrlForm
+        url={url}
+        setUrl={handleUrlChange}
+        onAnalyze={() => void runAudit(activeTab)}
+        loading={isLoading || loadingExplain}
+        error={error}
+        disabled={!canAnalyze}
+      />
 
-        <div className="mt-8 flex w-full rounded-2xl border border-white/10 bg-white/[0.04] p-1 md:w-fit">
-          {(["mobile", "desktop"] as const).map((tab) => {
-            const hasCachedResult =
-              lastAnalyzedUrl === normalizedUrl && Boolean(speedResults[tab]);
+      <div className="mt-8 flex w-full rounded-2xl border border-white/10 bg-white/[0.04] p-1 sm:w-fit">
+        {(["mobile", "desktop"] as const).map((tab) => {
+          const hasCachedResult =
+            lastAnalyzedUrl === normalizedUrl && Boolean(speedResults[tab]);
 
-            return (
-              <button
-                key={tab}
-                onClick={() => void runAudit(tab)}
-                disabled={isLoading || loadingExplain}
-                className={`flex-1 rounded-xl px-6 py-3 text-sm font-semibold capitalize transition md:flex-none ${
-                  activeTab === tab
-                    ? "bg-white text-black"
-                    : "text-white/60 hover:text-white"
-                } disabled:cursor-not-allowed disabled:opacity-60`}
-              >
-                {loadingTab === tab
-                  ? t("tabs.loading")
-                  : hasCachedResult
-                    ? `${t(`tabs.${tab}`)} ✓`
-                    : t(`tabs.${tab}`)}
-              </button>
-            );
-          })}
-        </div>
-
-        {(isLoading && !activeSpeedResult) || loadingExplain ? (
-          <div className="mt-12 rounded-3xl border border-white/10 bg-white/[0.06] p-8 shadow-2xl">
-            <p className="text-sm uppercase tracking-[0.25em] text-[#D4AF37]">
-              {t("runningAudit")}
-            </p>
-
-            <h2 className="mt-4 text-2xl font-semibold">
-              {loadingExplain
-                ? t("chatgptLoadingTitle")
-                : t("testingWebsite", {
-                    domain: domain || t("testingFallback"),
-                    device: t(`tabs.${loadingTab ?? "mobile"}`).toLowerCase(),
-                  })}
-            </h2>
-
-            <p className="mt-3 text-sm leading-6 text-white/55">
-              {loadingExplain
-                ? t("chatgptLoadingText")
-                : t("pagespeedLoadingText")}
-            </p>
-          </div>
-        ) : null}
-
-        {activeSpeedResult && aiResult ? (
-          <div className="mt-12 grid gap-6 lg:grid-cols-[1.4fr_0.8fr]">
-            <div className="space-y-6">
-              <SpeedAuditResult data={activeSpeedResult} />
-
-              <AiExplainResult data={aiExplain} loading={loadingExplain} />
-
-              <AiSeoAuditResult data={aiResult} />
-            </div>
-
-            <div className="space-y-6">
-              <AuditShareCard
-                domain={domain}
-                speedScore={activeSpeedResult.scores.performance}
-                aiScore={aiResult.score}
-              />
-
-              <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6">
-                <h2 className="text-xl font-semibold">
-                  {t("needHelpTitle")}
-                </h2>
-
-                <p className="mt-3 text-sm text-white/60">
-                  {t("needHelpText")}
-                </p>
-
-                <LocaleLink
-                  href="/contact"
-                  className="mt-6 block rounded-2xl bg-[#D4AF37] px-5 py-4 text-center font-semibold text-black transition hover:bg-white"
-                >
-                  {t("contactButton")}
-                </LocaleLink>
-              </div>
-            </div>
-          </div>
-        ) : null}
+          return (
+            <button
+              key={tab}
+              onClick={() => void runAudit(tab)}
+              disabled={isLoading || loadingExplain}
+              className={`flex-1 rounded-xl px-4 py-3 text-sm font-semibold capitalize transition sm:flex-none sm:px-6 ${
+                activeTab === tab
+                  ? "bg-white text-black"
+                  : "text-white/60 hover:text-white"
+              } disabled:cursor-not-allowed disabled:opacity-60`}
+            >
+              {loadingTab === tab
+                ? t("tabs.loading")
+                : hasCachedResult
+                  ? `${t(`tabs.${tab}`)} ✓`
+                  : t(`tabs.${tab}`)}
+            </button>
+          );
+        })}
       </div>
-    </main>
-  );
+
+      {(isLoading && !activeSpeedResult) || loadingExplain ? (
+        <div className="mt-12 w-full min-w-0 rounded-3xl border border-white/10 bg-white/[0.06] p-5 shadow-2xl sm:p-8">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#D4AF37] sm:text-sm">
+            {t("runningAudit")}
+          </p>
+
+          <h2 className="mt-4 text-xl font-semibold sm:text-2xl">
+            {loadingExplain
+              ? t("chatgptLoadingTitle")
+              : t("testingWebsite", {
+                  domain: domain || t("testingFallback"),
+                  device: t(`tabs.${loadingTab ?? "mobile"}`).toLowerCase(),
+                })}
+          </h2>
+
+          <p className="mt-3 text-sm leading-6 text-white/55">
+            {loadingExplain
+              ? t("chatgptLoadingText")
+              : t("pagespeedLoadingText")}
+          </p>
+        </div>
+      ) : null}
+
+      {activeSpeedResult && aiResult ? (
+        <div className="mt-12 grid w-full min-w-0 grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1.4fr)_minmax(0,0.8fr)]">
+          <div className="min-w-0 space-y-6">
+            <SpeedAuditResult data={activeSpeedResult} />
+
+            <AiExplainResult data={aiExplain} loading={loadingExplain} />
+
+            <AiSeoAuditResult data={aiResult} />
+          </div>
+
+          <div className="min-w-0 space-y-6">
+           <AuditShareCard
+  domain={domain}
+  speedScore={activeSpeedResult.scores.performance}
+  seoScore={activeSpeedResult.scores.seo}
+  accessibilityScore={activeSpeedResult.scores.accessibility}
+  bestPracticesScore={activeSpeedResult.scores.bestPractices}
+  aiScore={aiResult.score}
+  fcp={activeSpeedResult.metrics.fcp}
+  lcp={activeSpeedResult.metrics.lcp}
+  cls={activeSpeedResult.metrics.cls}
+  tbt={activeSpeedResult.metrics.tbt}
+  speedIndex={activeSpeedResult.metrics.speedIndex}
+/>
+
+            <div className="w-full min-w-0 rounded-3xl border border-white/10 bg-white/[0.06] p-5 sm:p-6">
+              <h2 className="text-xl font-semibold">
+                {t("needHelpTitle")}
+              </h2>
+
+              <p className="mt-3 text-sm leading-6 text-white/60">
+                {t("needHelpText")}
+              </p>
+
+              <LocaleLink
+                href="/contact"
+                className="mt-6 block rounded-2xl bg-[#D4AF37] px-5 py-4 text-center font-semibold text-black transition hover:bg-white"
+              >
+                {t("contactButton")}
+              </LocaleLink>
+            </div>
+          </div>
+        </div>
+      ) : null}
+    </div>
+  </main>
+);
 }
