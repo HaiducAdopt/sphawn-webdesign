@@ -1,6 +1,10 @@
 import { promises as dns } from "dns";
 import { SecurityAuditCheck } from "../types";
 
+function getRootHostname(hostname: string): string {
+  return hostname.replace(/^www\./i, "");
+}
+
 function extractTxtValues(records: string[][]): string[] {
   return records.map((record) => record.join(""));
 }
@@ -21,11 +25,15 @@ export async function checkDnsSecurity(
   hostname: string
 ): Promise<SecurityAuditCheck[]> {
   const checks: SecurityAuditCheck[] = [];
+  const rootHostname = getRootHostname(hostname);
 
   try {
-    const txtRecords = await dns.resolveTxt(hostname);
+    const txtRecords = await dns.resolveTxt(rootHostname);
     const txtValues = extractTxtValues(txtRecords);
     const spfExists = hasSpfRecord(txtValues);
+    const spfEvidence = txtValues.find((value) =>
+      value.toLowerCase().startsWith("v=spf1")
+    );
 
     checks.push({
       id: "dns-spf",
@@ -39,9 +47,7 @@ export async function checkDnsSecurity(
       scoreImpact: spfExists ? 0 : -6,
       recommendation:
         "Add an SPF record to define which mail servers are allowed to send email for this domain.",
-      evidence: spfExists
-        ? txtValues.find((value) => value.toLowerCase().startsWith("v=spf1"))
-        : undefined,
+      evidence: spfEvidence,
     });
   } catch {
     checks.push({
@@ -58,9 +64,12 @@ export async function checkDnsSecurity(
   }
 
   try {
-    const dmarcRecords = await dns.resolveTxt(`_dmarc.${hostname}`);
+    const dmarcRecords = await dns.resolveTxt(`_dmarc.${rootHostname}`);
     const dmarcValues = extractTxtValues(dmarcRecords);
     const dmarcExists = hasDmarcRecord(dmarcValues);
+    const dmarcEvidence = dmarcValues.find((value) =>
+      value.toLowerCase().startsWith("v=dmarc1")
+    );
 
     checks.push({
       id: "dns-dmarc",
@@ -74,11 +83,7 @@ export async function checkDnsSecurity(
       scoreImpact: dmarcExists ? 0 : -6,
       recommendation:
         "Add a DMARC record to protect the domain against email spoofing and improve email trust.",
-      evidence: dmarcExists
-        ? dmarcValues.find((value) =>
-            value.toLowerCase().startsWith("v=dmarc1")
-          )
-        : undefined,
+      evidence: dmarcEvidence,
     });
   } catch {
     checks.push({
