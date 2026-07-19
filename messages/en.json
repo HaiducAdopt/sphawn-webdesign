@@ -1138,5 +1138,141 @@
   "needHelpTitle": "Need help fixing these issues?",
   "needHelpDescription": "Sphawn can review the results, improve your headers, harden your website and prepare a clearer security report for your business.",
   "recommendation": "Recommendation"
+},
+"NextJsPage": {
+  "metadata": {
+    "title": "Next.js Web Development in Heerlen and Limburg | Sphawn",
+    "description": "Discover why Sphawn builds websites with Next.js. Fast, scalable and search-friendly websites for businesses in Heerlen and Limburg.",
+    "openGraphTitle": "Next.js Web Development in Heerlen and Limburg | Sphawn",
+    "openGraphDescription": "Fast, scalable and SEO-friendly websites built with Next.js by Sphawn.",
+    "twitterTitle": "Next.js Web Development in Heerlen and Limburg | Sphawn",
+    "twitterDescription": "Discover why we build fast, scalable and search-friendly websites with Next.js.",
+    "imageAlt": "Next.js web development by Sphawn in Heerlen and Limburg"
+  },
+  "hero": {
+    "badge": "Modern web development",
+    "titleStart": "Next.js web development",
+    "titleHighlight": "in Heerlen and Limburg",
+    "description": "We build fast, scalable and search-friendly websites with Next.js. A modern technical foundation for businesses that want to grow online without depending on heavy themes and dozens of plugins.",
+    "primaryButton": "Discuss your project",
+    "secondaryButton": "Why Next.js?",
+    "imageAlt": "Next.js web development by Sphawn in Heerlen and Limburg"
+  },
+  "introduction": {
+    "label": "What is Next.js?",
+    "title": "A modern foundation for websites and web applications",
+    "paragraphOne": "Next.js is a technology used to build modern websites and web applications. For a business owner, this mainly means a fast website, a smooth mobile experience and a technical foundation that can grow together with the business.",
+    "paragraphTwo": "Technically, Next.js is a framework built on React. It combines server rendering, routing, image optimisation and extensive metadata and SEO capabilities in one system.",
+    "paragraphThree": "That may sound technical, but the practical benefit is simple: visitors receive the right information faster, search engines can understand the website more clearly and new features can be added without rebuilding everything from the beginning.",
+    "businessTitle": "For business owners",
+    "businessText": "A website that loads quickly, works clearly and can be expanded when the business needs new functionality.",
+    "technicalTitle": "For technical teams",
+    "technicalText": "A modern React architecture with server rendering, structured routing, API integrations and reusable components."
+  },
+  "benefits": {
+    "label": "Why we use Next.js",
+    "title": "Technology should support the business",
+    "description": "We do not choose Next.js simply because it is modern. We use it because it provides practical advantages for performance, visibility, security and future growth.",
+    "items": [
+      {
+        "code": "PERF",
+        "title": "High performance",
+        "description": "Pages can load quickly and be delivered efficiently. This improves the user experience and supports strong Core Web Vitals."
+      },
+      {
+        "code": "SEO",
+        "title": "Strong SEO foundation",
+        "description": "Metadata, semantic structure, server rendering and clean URLs can be managed with precision."
+      },
+      {
+        "code": "AI",
+        "title": "Ready for AI search",
+        "description": "Well-structured content helps search engines and AI systems understand the context and meaning of a website."
+      },
+      {
+        "code": "SEC",
+        "title": "Secure and manageable",
+        "description": "Less dependence on external plugins provides more control over code, updates and security measures."
+      },
+      {
+        "code": "SCALE",
+        "title": "Built to scale",
+        "description": "A simple website can later grow into a platform with accounts, dashboards, payments, databases or other features."
+      },
+      {
+        "code": "API",
+        "title": "Flexible integrations",
+        "description": "Next.js can connect with Firebase, external APIs, email services, analytics and other business software."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Real-world experience",
+    "title": "Different projects, the same strong foundation",
+    "description": "Next.js is not limited to large applications. We use it for business websites, online tools and complex platforms with dynamic content.",
+    "visit": "View project",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Web design, tools and content platform",
+        "description": "A multilingual website with SiteAudit, Security Audit, dynamic Lab articles, local SEO pages and technical integrations.",
+        "href": "https://www.sphawn.nl"
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Online adoption platform",
+        "description": "A multilingual platform with user accounts, dog profiles, favourites, messaging, newsletters and dynamic content.",
+        "href": "https://www.haiducadopt.com"
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Local service website",
+        "description": "A fast website for dog photography and local services, focused on usability, presentation and local search visibility.",
+        "href": "https://www.haiduchondenservices.nl"
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "Google, AI and performance",
+    "title": "Strong technology is a foundation, not a guarantee",
+    "paragraphOne": "Next.js can provide a strong technical foundation for performance, SEO and AI visibility. Technology alone, however, does not automatically create strong Google rankings or mentions in AI-generated answers.",
+    "paragraphTwo": "The content must be clear, the page must answer a real question and search engines must be able to understand its structure. That is why we combine technology with useful content, local relevance and measurable checks.",
+    "articleButton": "Read how Google and AI see websites",
+    "auditTitle": "See how your website performs",
+    "auditText": "Our free SiteAudit analyses website speed, SEO structure and AI visibility through a clear and practical report.",
+    "auditButton": "Start free SiteAudit",
+    "securityTitle": "Check your website security",
+    "securityText": "Security Audit checks important security headers and other externally visible risks that may affect trust.",
+    "securityButton": "Start Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Continue reading",
+    "title": "Learn more about websites, Google and AI",
+    "read": "Read article",
+    "items": [
+      {
+        "title": "Why a website?",
+        "description": "Why a website still plays an important role in trust, clarity and business growth.",
+        "slug": "why-a-website"
+      },
+      {
+        "title": "Why your website doesn't bring clients",
+        "description": "A website can look professional and still produce little result. The problem is often a lack of clarity.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "How Google and AI see your website",
+        "description": "Discover which signals search engines and AI systems use to analyse and understand websites.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "Ready for the next step?",
+    "title": "Looking for a Next.js website in Heerlen or Limburg?",
+    "description": "Tell us what you want to build. We help translate your idea into a fast, clear and scalable website.",
+    "primaryButton": "Discuss your project",
+    "secondaryButton": "View our process"
+  }
 }
 }

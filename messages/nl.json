@@ -1138,5 +1138,141 @@
   "needHelpTitle": "Hulp nodig bij het oplossen?",
   "needHelpDescription": "Sphawn kan de resultaten beoordelen, je headers verbeteren, je website beveiligen en een duidelijk security rapport voorbereiden voor je bedrijf.",
   "recommendation": "Aanbeveling"
+},
+"NextJsPage": {
+  "metadata": {
+    "title": "Next.js webdevelopment in Heerlen en Limburg | Sphawn",
+    "description": "Ontdek waarom Sphawn websites bouwt met Next.js. Snelle, schaalbare en goed vindbare websites voor bedrijven in Heerlen en Limburg.",
+    "openGraphTitle": "Next.js webdevelopment in Heerlen en Limburg | Sphawn",
+    "openGraphDescription": "Snelle, schaalbare en SEO-vriendelijke websites gebouwd met Next.js door Sphawn.",
+    "twitterTitle": "Next.js webdevelopment in Heerlen en Limburg | Sphawn",
+    "twitterDescription": "Ontdek waarom wij snelle, schaalbare en goed vindbare websites bouwen met Next.js.",
+    "imageAlt": "Next.js webdevelopment door Sphawn in Heerlen en Limburg"
+  },
+  "hero": {
+    "badge": "Moderne webdevelopment",
+    "titleStart": "Next.js webdevelopment",
+    "titleHighlight": "in Heerlen en Limburg",
+    "description": "Wij bouwen snelle, schaalbare en goed vindbare websites met Next.js. Een moderne technische basis voor bedrijven die online willen groeien zonder afhankelijk te zijn van zware thema's en tientallen plugins.",
+    "primaryButton": "Bespreek je project",
+    "secondaryButton": "Waarom Next.js?",
+    "imageAlt": "Next.js webdevelopment door Sphawn in Heerlen en Limburg"
+  },
+  "introduction": {
+    "label": "Wat is Next.js?",
+    "title": "Een moderne basis voor websites en webapplicaties",
+    "paragraphOne": "Next.js is een technologie waarmee moderne websites en webapplicaties worden gebouwd. Voor een ondernemer betekent dit vooral een snelle website, een goede ervaring op mobiel en een technische basis die met het bedrijf kan meegroeien.",
+    "paragraphTwo": "Technisch gezien is Next.js een framework dat bovenop React is gebouwd. Het combineert server rendering, routing, beeldoptimalisatie en uitgebreide mogelijkheden voor metadata en SEO in één systeem.",
+    "paragraphThree": "Dat klinkt technisch, maar het praktische voordeel is eenvoudig: bezoekers krijgen sneller de juiste informatie, zoekmachines kunnen de website beter begrijpen en nieuwe functies kunnen later worden toegevoegd zonder dat alles opnieuw gebouwd moet worden.",
+    "businessTitle": "Voor ondernemers",
+    "businessText": "Een website die snel opent, duidelijk werkt en kan worden uitgebreid wanneer het bedrijf nieuwe functies nodig heeft.",
+    "technicalTitle": "Voor technische teams",
+    "technicalText": "Een moderne React-architectuur met server rendering, gestructureerde routing, API-integraties en herbruikbare componenten."
+  },
+  "benefits": {
+    "label": "Waarom wij Next.js gebruiken",
+    "title": "Technologie moet het bedrijf ondersteunen",
+    "description": "Wij kiezen Next.js niet alleen omdat het modern is. Wij gebruiken het omdat het praktische voordelen biedt voor prestaties, vindbaarheid, veiligheid en toekomstige groei.",
+    "items": [
+      {
+        "code": "PERF",
+        "title": "Hoge prestaties",
+        "description": "Pagina's kunnen snel worden geladen en efficiënt worden weergegeven. Dit verbetert de gebruikerservaring en ondersteunt goede Core Web Vitals."
+      },
+      {
+        "code": "SEO",
+        "title": "Sterke SEO-basis",
+        "description": "Metadata, semantische structuur, server rendering en duidelijke URL's kunnen nauwkeurig worden beheerd."
+      },
+      {
+        "code": "AI",
+        "title": "Klaar voor AI-zoekopdrachten",
+        "description": "Goed gestructureerde content helpt zoekmachines en AI-systemen om de context en betekenis van een website beter te begrijpen."
+      },
+      {
+        "code": "SEC",
+        "title": "Veilig en beheersbaar",
+        "description": "Minder afhankelijkheid van externe plugins geeft meer controle over de code, updates en beveiligingsmaatregelen."
+      },
+      {
+        "code": "SCALE",
+        "title": "Gebouwd om te groeien",
+        "description": "Een eenvoudige website kan later worden uitgebreid met gebruikersaccounts, dashboards, betalingen, databases of andere functies."
+      },
+      {
+        "code": "API",
+        "title": "Flexibele integraties",
+        "description": "Next.js kan worden gekoppeld aan Firebase, externe API's, e-maildiensten, analytics en andere bedrijfssoftware."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Ervaring in de praktijk",
+    "title": "Verschillende projecten, dezelfde sterke basis",
+    "description": "Next.js is niet alleen geschikt voor grote applicaties. Wij gebruiken het voor bedrijfswebsites, online tools en complexe platforms met dynamische content.",
+    "visit": "Bekijk project",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Webdesign, tools en contentplatform",
+        "description": "Een meertalige website met SiteAudit, Security Audit, dynamische Lab-artikelen, lokale SEO-pagina's en technische integraties.",
+        "href": "https://www.sphawn.nl"
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Online adoptieplatform",
+        "description": "Een meertalig platform met gebruikersaccounts, hondenprofielen, favorieten, berichten, nieuwsbrieven en dynamische content.",
+        "href": "https://www.haiducadopt.com"
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Lokale dienstenwebsite",
+        "description": "Een snelle website voor hondenfotografie en lokale diensten, gericht op gebruiksgemak, presentatie en lokale vindbaarheid.",
+        "href": "https://www.haiduchondenservices.nl"
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "Google, AI en prestaties",
+    "title": "Goede technologie is een basis, geen garantie",
+    "paragraphOne": "Next.js kan een sterke technische basis bieden voor prestaties, SEO en AI-zichtbaarheid. Technologie alleen zorgt echter niet automatisch voor goede posities in Google of vermeldingen in door AI gegenereerde antwoorden.",
+    "paragraphTwo": "De inhoud moet duidelijk zijn, de pagina moet een echte vraag beantwoorden en zoekmachines moeten de structuur kunnen begrijpen. Daarom combineren wij technologie met bruikbare content, lokale relevantie en meetbare controles.",
+    "articleButton": "Lees hoe Google en AI websites zien",
+    "auditTitle": "Bekijk hoe jouw website presteert",
+    "auditText": "Met onze gratis SiteAudit analyseer je de snelheid, SEO-structuur en AI-zichtbaarheid van je website in een duidelijk en praktisch rapport.",
+    "auditButton": "Start gratis SiteAudit",
+    "securityTitle": "Controleer de beveiliging van je website",
+    "securityText": "Security Audit controleert belangrijke beveiligingsheaders en andere extern zichtbare risico's die het vertrouwen kunnen beïnvloeden.",
+    "securityButton": "Start Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Verder lezen",
+    "title": "Lees meer over websites, Google en AI",
+    "read": "Lees artikel",
+    "items": [
+      {
+        "title": "Waarom een website?",
+        "description": "Waarom een website nog steeds een belangrijke rol speelt in vertrouwen, duidelijkheid en zakelijke groei.",
+        "slug": "why-a-website"
+      },
+      {
+        "title": "Waarom je website geen klanten oplevert",
+        "description": "Een website kan er professioneel uitzien en toch weinig resultaat opleveren. Vaak ligt het probleem bij een gebrek aan duidelijkheid.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "Hoe Google en AI jouw website zien",
+        "description": "Ontdek welke signalen zoekmachines en AI-systemen gebruiken om websites te analyseren en te begrijpen.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "Klaar voor de volgende stap?",
+    "title": "Een Next.js-website laten bouwen in Heerlen of Limburg?",
+    "description": "Vertel ons wat je wilt bouwen. Wij helpen je om het idee te vertalen naar een snelle, duidelijke en schaalbare website.",
+    "primaryButton": "Bespreek je project",
+    "secondaryButton": "Bekijk onze werkwijze"
+  }
 }
 }
