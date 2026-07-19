@@ -37,14 +37,19 @@
   "securityAuditCardFooter": "Security Audit door Sphawn.nl"
 },
   
- "navbar": {
-    "process": "Werkwijze",
-    "portfolio": "Portfolio",
-    "contact": "Contact",
-    "offers": "Offerte",
-    "cta": "Laten we je website bespreken",
-     "lab": "Lab"
-  },
+
+"navbar": {
+  "process": "Werkwijze",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "offers": "Aanbod",
+  "cta": "Laten we over je website praten",
+  "lab": "Lab",
+  "technologies": "Technologieën",
+  "nextjs": "Next.js"
+},
+
+
 
    "footer": {
     "seoHeerlen": "Webdesign Heerlen",

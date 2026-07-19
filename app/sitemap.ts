@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/privacy-policy",
     "/terms",
     "/lab",
+    "/technologies/nextjs",
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.flatMap((route) =>
