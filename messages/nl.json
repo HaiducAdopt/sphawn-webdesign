@@ -1,5 +1,5 @@
 {
- "hero": {
+   "hero": {
   "eyebrow": "Webdesign & Development Heerlen",
   "title": {
     "line1": "LET'S",
@@ -35,10 +35,8 @@
   "securityAuditPdfLabel": "PDF",
   "securityAuditCardText": "Professioneel beveiligingsoverzicht met praktische aanbevelingen en exporteerbare PDF-rapporten.",
   "securityAuditCardFooter": "Security Audit door Sphawn.nl"
-},
-  
-
-"navbar": {
+  },
+   "navbar": {
   "process": "Werkwijze",
   "portfolio": "Portfolio",
   "contact": "Contact",
@@ -47,11 +45,8 @@
   "lab": "Lab",
   "technologies": "Technologieën",
   "nextjs": "Next.js"
-},
-
-
-
-   "footer": {
+  },
+  "footer": {
     "seoHeerlen": "Webdesign Heerlen",
     "seoLimburg": "Webdesign Limburg",
     "privacy": "Privacybeleid",
@@ -510,6 +505,35 @@
         "keywords": "Trefwoorden: webdesign Limburg, web development Limburg, webdesigner Limburg, website laten maken Nederland."
       }
     }
+  },
+  "toolsPromo": {
+  "label": "Gratis online tools",
+  "title": "Test uw website met de tools van Sphawn",
+  "description": "Controleer hoe uw website presteert op het gebied van snelheid, SEO, AI-zichtbaarheid en beveiliging. Ontdek daarnaast welke digitale experimenten en oplossingen wij ontwikkelen in het Sphawn Lab.",
+  "image": "/images/tools/tools-overview.jpg",
+  "items": [
+    {
+      "title": "Gratis Website Audit",
+      "description": "Controleer de snelheid, SEO-structuur en AI-zichtbaarheid van uw website en ontdek direct mogelijke verbeterpunten.",
+      "buttonLabel": "Start de website audit",
+      "href": "/siteaudit",
+      "image": "/images/tools/siteaudit.jpg"
+    },
+    {
+      "title": "Gratis Security Audit",
+      "description": "Controleer belangrijke beveiligingsinstellingen zoals HTTPS, security headers, SPF en DMARC.",
+      "buttonLabel": "Controleer de beveiliging",
+      "href": "/security-audit",
+      "image": "/images/tools/security-audit.jpg"
+    },
+    {
+      "title": "Sphawn Lab",
+      "description": "Ontdek onze digitale experimenten, praktische tools en nieuwe oplossingen voor websites en ondernemers.",
+      "buttonLabel": "Ontdek het Sphawn Lab",
+      "href": "/lab",
+      "image": "/images/tools/lab.jpg"
+    }
+  ]
   },
   "cookieStatement": {
     "meta": {
@@ -1143,8 +1167,8 @@
   "needHelpTitle": "Hulp nodig bij het oplossen?",
   "needHelpDescription": "Sphawn kan de resultaten beoordelen, je headers verbeteren, je website beveiligen en een duidelijk security rapport voorbereiden voor je bedrijf.",
   "recommendation": "Aanbeveling"
-},
-"NextJsPage": {
+  },
+  "NextJsPage": {
   "metadata": {
     "title": "Next.js webdevelopment in Heerlen en Limburg | Sphawn",
     "description": "Ontdek waarom Sphawn websites bouwt met Next.js. Snelle, schaalbare en goed vindbare websites voor bedrijven in Heerlen en Limburg.",
@@ -1279,5 +1303,5 @@
     "primaryButton": "Bespreek je project",
     "secondaryButton": "Bekijk onze werkwijze"
   }
-}
+  }
 }

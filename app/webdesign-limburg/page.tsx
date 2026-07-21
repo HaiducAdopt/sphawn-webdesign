@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import LocaleLink from "../components/LocaleLink";
+import ToolsPromoSection from "../components/ToolsPromoSection";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("webdesignLimburg.meta");
@@ -196,6 +197,9 @@ export default async function WebdesignLimburgPage() {
                 {t("related.footnote")}
               </p>
             </article>
+
+{/* Tools promo */}
+<ToolsPromoSection />
 
             {/* FAQ */}
             <article className="rounded-3xl border border-slate-700/60 bg-slate-950/60 p-5 sm:p-6 shadow-inner shadow-slate-900/80 backdrop-blur">

@@ -1,5 +1,5 @@
 {
- "hero": {
+  "hero": {
   "eyebrow": "Web Design & Development Heerlen",
   "title": {
     "line1": "LET'S",
@@ -36,7 +36,7 @@
 "securityAuditCardFooter": "Security Audit by Sphawn.nl"
   
   },
-"navbar": {
+  "navbar": {
   "process": "Process",
   "portfolio": "Portfolio",
   "contact": "Contact",
@@ -45,8 +45,7 @@
   "lab": "Lab",
   "technologies": "Technologies",
   "nextjs": "Next.js"
-},
-
+  },
   "footer": {
     "seoHeerlen": "Web Design Heerlen",
     "seoLimburg": "Web Design Limburg",
@@ -300,8 +299,7 @@
       "description": "Freelance webdesign in Heerlen. Fast, modern and SEO-friendly websites built with Next.js, React and Tailwind. Request a free quote."
     }
   },
-
- "webdesignHeerlen": {
+  "webdesignHeerlen": {
     "meta": {
       "title": "Webdesign Heerlen | Website design & development",
       "description": "Freelance web designer in Heerlen. Modern, fast and SEO-friendly websites built with Next.js, React and Tailwind. Request a free quote."
@@ -508,6 +506,35 @@
       }
     }
   },
+   "toolsPromo": {
+  "label": "Free online tools",
+  "title": "Test your website with Sphawn tools",
+  "description": "Check how your website performs in terms of speed, SEO, AI visibility and security. You can also explore the digital experiments and solutions developed in the Sphawn Lab.",
+  "image": "/images/tools/tools-overview.jpg",
+  "items": [
+    {
+      "title": "Free Website Audit",
+      "description": "Check your website speed, SEO structure and AI visibility and immediately discover possible areas for improvement.",
+      "buttonLabel": "Start the website audit",
+      "href": "/siteaudit",
+      "image": "/images/tools/siteaudit.jpg"
+    },
+    {
+      "title": "Free Security Audit",
+      "description": "Check important security settings such as HTTPS, security headers, SPF and DMARC.",
+      "buttonLabel": "Check website security",
+      "href": "/security-audit",
+      "image": "/images/tools/security-audit.jpg"
+    },
+    {
+      "title": "Sphawn Lab",
+      "description": "Explore our digital experiments, practical tools and new solutions for websites and businesses.",
+      "buttonLabel": "Explore the Sphawn Lab",
+      "href": "/lab",
+      "image": "/images/tools/lab.jpg"
+    }
+  ]
+  },
   "cookieStatement": {
     "meta": {
       "title": "Cookie Statement | Sphawn",
@@ -700,7 +727,7 @@
       "lastUpdated": "Last updated: December 29, 2025"
     }
   },
- "privacyPolicy": {
+  "privacyPolicy": {
     "meta": {
       "title": "Privacy Policy | Sphawn",
       "description": "This Privacy Policy explains how Sphawn collects, uses, and protects your personal data when you visit this website or contact us."
@@ -1087,7 +1114,7 @@
     "readArticle": "Read article →",
     "empty": "No articles published yet."
   },
- "siteaudit": {
+  "siteaudit": {
   "heroEyebrow": "Sphawn SiteAudit",
   "heroTitle": "Website Speed & AI SEO Audit",
   "heroDescription": "Test your website performance, technical SEO structure and AI visibility in one clean, premium report.",
@@ -1141,8 +1168,8 @@
   "needHelpTitle": "Need help fixing these issues?",
   "needHelpDescription": "Sphawn can review the results, improve your headers, harden your website and prepare a clearer security report for your business.",
   "recommendation": "Recommendation"
-},
-"NextJsPage": {
+  },
+  "NextJsPage": {
   "metadata": {
     "title": "Next.js Web Development in Heerlen and Limburg | Sphawn",
     "description": "Discover why Sphawn builds websites with Next.js. Fast, scalable and search-friendly websites for businesses in Heerlen and Limburg.",
@@ -1277,5 +1304,5 @@
     "primaryButton": "Discuss your project",
     "secondaryButton": "View our process"
   }
-}
+  }
 }
