@@ -44,7 +44,8 @@
   "cta": "Let's talk about your website",
   "lab": "Lab",
   "technologies": "Technologies",
-  "nextjs": "Next.js"
+  "nextjs": "Next.js",
+  "tailwindcss": "Tailwind CSS"
   },
   "footer": {
     "seoHeerlen": "Web Design Heerlen",
@@ -1304,5 +1305,143 @@
     "primaryButton": "Discuss your project",
     "secondaryButton": "View our process"
   }
+  },
+  "TailwindPage": {
+  "metadata": {
+    "title": "Tailwind CSS Web Design in Heerlen and Limburg | Sphawn",
+    "description": "Discover how Sphawn uses Tailwind CSS to create fast, consistent and responsive website designs for businesses in Heerlen and Limburg.",
+    "openGraphTitle": "Tailwind CSS Web Design in Heerlen and Limburg | Sphawn",
+    "openGraphDescription": "Fast, consistent and responsive website design built with Tailwind CSS by Sphawn.",
+    "twitterTitle": "Tailwind CSS Web Design in Heerlen and Limburg | Sphawn",
+    "twitterDescription": "See how Tailwind CSS helps us build clear, responsive and maintainable websites.",
+    "imageAlt": "Responsive website design system built with Tailwind CSS by Sphawn"
+  },
+  "hero": {
+    "badge": "Design system in production code",
+    "titleStart": "Tailwind CSS web design",
+    "titleHighlight": "with speed and consistency",
+    "description": "We use Tailwind CSS to translate a visual concept into a responsive website without losing control over spacing, typography or brand details. The result is a distinctive design that loads efficiently and remains easier to extend.",
+    "primaryButton": "Discuss your design",
+    "secondaryButton": "Why Tailwind CSS?",
+    "imageAlt": "Responsive website design system built with Tailwind CSS by Sphawn"
+  },
+  "introduction": {
+    "label": "What is Tailwind CSS?",
+    "title": "A practical bridge between design and development",
+    "paragraphOne": "Tailwind CSS is a styling framework used directly inside website components. Instead of beginning with a generic theme and overriding it repeatedly, we compose each interface from small, predictable design rules for colour, spacing, typography, layout and responsive behaviour.",
+    "paragraphTwo": "For the visitor, the framework itself is invisible. What they notice is a page that feels coherent: buttons behave consistently, content has enough breathing room, layouts adapt cleanly to phones and important actions remain easy to find.",
+    "paragraphThree": "For the business, this approach reduces the friction of future changes. A new section can reuse the same visual language, while unused styles are excluded from the production build. Tailwind improves the implementation process, but thoughtful design decisions, semantic HTML and testing are still essential.",
+    "businessCode": "UX",
+    "businessTitle": "For visitors and businesses",
+    "businessText": "A distinctive interface that stays clear and consistent across pages, screen sizes and future additions.",
+    "technicalCode": "DEV",
+    "technicalTitle": "For development",
+    "technicalText": "Reusable design rules live close to the components, reducing CSS conflicts and making responsive changes easier to review."
+  },
+  "benefits": {
+    "label": "Why we use Tailwind CSS",
+    "title": "Design choices that remain consistent in the finished website",
+    "description": "Tailwind does not design a website automatically. It gives us a controlled system for implementing custom designs accurately, responsively and without accumulating unnecessary CSS.",
+    "items": [
+      {
+        "code": "UI",
+        "title": "Consistent visual language",
+        "description": "Spacing, colours, type scales, borders and states use shared rules, so the website feels like one product rather than separate pages."
+      },
+      {
+        "code": "RESP",
+        "title": "Responsive by design",
+        "description": "Layouts can be adjusted deliberately for mobile, tablet and desktop inside the same component, instead of repaired after the desktop version is finished."
+      },
+      {
+        "code": "PERF",
+        "title": "Lean production styles",
+        "description": "The build includes the styles that are actually used. A smaller, controlled stylesheet can reduce unnecessary browser work and support fast page rendering."
+      },
+      {
+        "code": "BRAND",
+        "title": "Custom, not template-bound",
+        "description": "Tailwind supplies building blocks rather than a finished visual theme, allowing the interface to follow the brand instead of looking like a standard template."
+      },
+      {
+        "code": "SCALE",
+        "title": "Easier to extend",
+        "description": "New pages and features can reuse established patterns, which makes later expansion faster and reduces visual inconsistencies."
+      },
+      {
+        "code": "LIMIT",
+        "title": "Clear limits and discipline",
+        "description": "Tailwind cannot replace design judgement, accessibility or semantic structure. Repeated patterns still need components, tokens and careful review."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Applied in real projects",
+    "title": "One styling system, three different design needs",
+    "description": "Tailwind CSS supports both compact service websites and complex platforms. The visual identity changes, while responsive behaviour and reusable patterns stay controlled.",
+    "visit": "View project",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Design-led website and online tools",
+        "description": "Tailwind translates Sphawn's dark navy, cyan and purple visual system across service pages, local SEO content, SiteAudit, Security Audit and the Lab.",
+        "href": "https://www.sphawn.nl"
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Content-rich adoption platform",
+        "description": "Reusable cards, filters, profiles, forms and responsive states keep a platform with dynamic content understandable on both mobile and desktop.",
+        "href": "https://www.haiducadopt.com"
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Visual local-service website",
+        "description": "Photography, service packages and contact actions are presented with a consistent hierarchy that remains clear across screen sizes.",
+        "href": "https://www.haiduchondenservices.nl"
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "Performance, SEO and AI visibility",
+    "title": "Better styling supports the page, but structure carries the meaning",
+    "paragraphOne": "Efficient CSS and responsive layouts can improve usability and support Core Web Vitals. Better visitor experience can indirectly strengthen a page, but Tailwind CSS is not an SEO ranking shortcut.",
+    "paragraphTwo": "Google and AI systems still depend on semantic HTML, clear headings, meaningful content, metadata and accessible interactions. We use Tailwind for presentation while keeping the information structure readable to people and machines.",
+    "articleButton": "Read how Google and AI see websites",
+    "auditTitle": "Measure the result, not the framework",
+    "auditText": "SiteAudit checks speed, technical SEO structure and AI-oriented signals, helping reveal whether the finished page performs as intended.",
+    "auditButton": "Start free SiteAudit",
+    "securityTitle": "Styling is not security",
+    "securityText": "Tailwind does not secure data or server behaviour. Security Audit checks externally visible headers and protections that belong to the wider website architecture.",
+    "securityButton": "Start Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Continue reading",
+    "title": "From visual design to a website people can use",
+    "read": "Read article",
+    "items": [
+      {
+        "title": "Why Tailwind CSS improves design consistency",
+        "description": "How utility-based styling helps translate responsive design decisions into maintainable production components.",
+        "slug": "why-tailwind-css-for-modern-web-design"
+      },
+      {
+        "title": "Why your website doesn't bring clients",
+        "description": "A polished design helps, but the page must also make its offer and next action immediately clear.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "How Google and AI see your website",
+        "description": "Discover how structure, content and technical signals help machines understand a website beyond its visual layer.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "Design that survives development",
+    "title": "Looking for a distinctive, responsive website in Heerlen or Limburg?",
+    "description": "Tell us what the website should communicate and achieve. We turn the idea into a clear visual system and a fast, maintainable implementation.",
+    "primaryButton": "Discuss your project",
+    "secondaryButton": "View our process"
   }
+}
 }

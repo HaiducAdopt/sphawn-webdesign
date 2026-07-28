@@ -44,7 +44,8 @@
   "cta": "Laten we over je website praten",
   "lab": "Lab",
   "technologies": "Technologieën",
-  "nextjs": "Next.js"
+  "nextjs": "Next.js",
+  "tailwindcss": "Tailwind CSS"
   },
   "footer": {
     "seoHeerlen": "Webdesign Heerlen",
@@ -1303,5 +1304,143 @@
     "primaryButton": "Bespreek je project",
     "secondaryButton": "Bekijk onze werkwijze"
   }
+  },
+  "TailwindPage": {
+  "metadata": {
+    "title": "Tailwind CSS webdesign in Heerlen en Limburg | Sphawn",
+    "description": "Ontdek hoe Sphawn Tailwind CSS gebruikt voor snelle, consistente en responsive websites voor bedrijven in Heerlen en Limburg.",
+    "openGraphTitle": "Tailwind CSS webdesign in Heerlen en Limburg | Sphawn",
+    "openGraphDescription": "Snelle, consistente en responsive websites gebouwd met Tailwind CSS door Sphawn.",
+    "twitterTitle": "Tailwind CSS webdesign in Heerlen en Limburg | Sphawn",
+    "twitterDescription": "Bekijk hoe Tailwind CSS ons helpt duidelijke, responsive en onderhoudbare websites te bouwen.",
+    "imageAlt": "Responsive webdesignsysteem gebouwd met Tailwind CSS door Sphawn"
+  },
+  "hero": {
+    "badge": "Designsysteem in productiecode",
+    "titleStart": "Tailwind CSS webdesign",
+    "titleHighlight": "met snelheid en consistentie",
+    "description": "Wij gebruiken Tailwind CSS om een visueel concept om te zetten in een responsive website zonder controle te verliezen over witruimte, typografie of merkdetails. Het resultaat is een herkenbaar ontwerp dat efficiënt laadt en eenvoudiger kan worden uitgebreid.",
+    "primaryButton": "Bespreek je ontwerp",
+    "secondaryButton": "Waarom Tailwind CSS?",
+    "imageAlt": "Responsive webdesignsysteem gebouwd met Tailwind CSS door Sphawn"
+  },
+  "introduction": {
+    "label": "Wat is Tailwind CSS?",
+    "title": "Een praktische brug tussen design en development",
+    "paragraphOne": "Tailwind CSS is een stylingframework dat direct in websitecomponenten wordt gebruikt. In plaats van te starten met een algemeen thema dat steeds moet worden overschreven, bouwen wij iedere interface met kleine, voorspelbare ontwerpregels voor kleur, witruimte, typografie, layout en responsive gedrag.",
+    "paragraphTwo": "Voor de bezoeker is het framework zelf onzichtbaar. Wat wel opvalt, is een pagina die samenhangend aanvoelt: knoppen gedragen zich consistent, content krijgt voldoende ruimte, layouts passen zich netjes aan telefoons aan en belangrijke acties blijven makkelijk vindbaar.",
+    "paragraphThree": "Voor het bedrijf vermindert deze aanpak de drempel voor latere wijzigingen. Een nieuwe sectie kan dezelfde visuele taal hergebruiken, terwijl ongebruikte stijlen buiten de productiebuild blijven. Tailwind verbetert de uitvoering, maar doordachte ontwerpkeuzes, semantische HTML en testen blijven noodzakelijk.",
+    "businessCode": "UX",
+    "businessTitle": "Voor bezoekers en bedrijven",
+    "businessText": "Een herkenbare interface die duidelijk en consistent blijft over pagina's, schermformaten en toekomstige uitbreidingen.",
+    "technicalCode": "DEV",
+    "technicalTitle": "Voor development",
+    "technicalText": "Herbruikbare ontwerpregels staan dicht bij de componenten, waardoor CSS-conflicten afnemen en responsive wijzigingen makkelijker te controleren zijn."
+  },
+  "benefits": {
+    "label": "Waarom wij Tailwind CSS gebruiken",
+    "title": "Ontwerpkeuzes die consistent blijven in de uiteindelijke website",
+    "description": "Tailwind ontwerpt een website niet automatisch. Het geeft ons een beheersbaar systeem om maatwerkdesign nauwkeurig, responsive en zonder onnodige CSS te implementeren.",
+    "items": [
+      {
+        "code": "UI",
+        "title": "Consistente visuele taal",
+        "description": "Witruimte, kleuren, typografische schalen, randen en states gebruiken gedeelde regels, zodat de website als één product voelt."
+      },
+      {
+        "code": "RESP",
+        "title": "Responsive vanaf het ontwerp",
+        "description": "Layouts worden bewust aangepast voor mobiel, tablet en desktop binnen hetzelfde component, in plaats van pas na de desktopversie te worden gerepareerd."
+      },
+      {
+        "code": "PERF",
+        "title": "Compacte productiestijlen",
+        "description": "De build bevat de stijlen die daadwerkelijk worden gebruikt. Een kleinere, beheersbare stylesheet vermindert onnodig browserwerk en ondersteunt snelle weergave."
+      },
+      {
+        "code": "BRAND",
+        "title": "Maatwerk, niet thema-gebonden",
+        "description": "Tailwind levert bouwstenen in plaats van een kant-en-klaar visueel thema, zodat de interface het merk volgt en niet op een standaardtemplate lijkt."
+      },
+      {
+        "code": "SCALE",
+        "title": "Eenvoudiger uit te breiden",
+        "description": "Nieuwe pagina's en functies kunnen bestaande patronen hergebruiken, waardoor uitbreiding sneller gaat en visuele afwijkingen afnemen."
+      },
+      {
+        "code": "LIMIT",
+        "title": "Duidelijke grenzen en discipline",
+        "description": "Tailwind vervangt geen ontwerpkennis, toegankelijkheid of semantische structuur. Herhaalde patronen vragen nog steeds om componenten, tokens en zorgvuldige controle."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Toegepast in echte projecten",
+    "title": "Eén stylingsysteem, drie verschillende ontwerpbehoeften",
+    "description": "Tailwind CSS ondersteunt zowel compacte dienstenwebsites als complexe platforms. De visuele identiteit verandert, terwijl responsive gedrag en herbruikbare patronen beheersbaar blijven.",
+    "visit": "Bekijk project",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Designgerichte website en online tools",
+        "description": "Tailwind vertaalt het donkerblauwe, cyaan-paarse designsysteem van Sphawn naar dienstenpagina's, lokale SEO-content, SiteAudit, Security Audit en het Lab.",
+        "href": "https://www.sphawn.nl"
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Contentrijk adoptieplatform",
+        "description": "Herbruikbare kaarten, filters, profielen, formulieren en responsive states houden een platform met dynamische content begrijpelijk op mobiel en desktop.",
+        "href": "https://www.haiducadopt.com"
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Visuele lokale dienstenwebsite",
+        "description": "Fotografie, dienstenpakketten en contactacties worden gepresenteerd met een consistente hiërarchie die op ieder scherm duidelijk blijft.",
+        "href": "https://www.haiduchondenservices.nl"
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "Prestaties, SEO en AI-zichtbaarheid",
+    "title": "Betere styling ondersteunt de pagina, maar structuur draagt de betekenis",
+    "paragraphOne": "Efficiënte CSS en responsive layouts verbeteren het gebruiksgemak en kunnen goede Core Web Vitals ondersteunen. Een betere bezoekerservaring kan de pagina indirect versterken, maar Tailwind CSS is geen snelle route naar hogere SEO-posities.",
+    "paragraphTwo": "Google en AI-systemen blijven afhankelijk van semantische HTML, duidelijke koppen, betekenisvolle content, metadata en toegankelijke interacties. Wij gebruiken Tailwind voor de presentatie en houden de informatiestructuur leesbaar voor mensen en machines.",
+    "articleButton": "Lees hoe Google en AI websites zien",
+    "auditTitle": "Meet het resultaat, niet het framework",
+    "auditText": "SiteAudit controleert snelheid, technische SEO-structuur en AI-gerichte signalen en laat zien of de uiteindelijke pagina presteert zoals bedoeld.",
+    "auditButton": "Start gratis SiteAudit",
+    "securityTitle": "Styling is geen beveiliging",
+    "securityText": "Tailwind beveiligt geen gegevens of servergedrag. Security Audit controleert zichtbare headers en beschermingen die bij de bredere websitearchitectuur horen.",
+    "securityButton": "Start Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Verder lezen",
+    "title": "Van visueel ontwerp naar een website die mensen kunnen gebruiken",
+    "read": "Lees artikel",
+    "items": [
+      {
+        "title": "Waarom Tailwind CSS de ontwerpconsistentie verbetert",
+        "description": "Hoe utility-based styling helpt om responsive ontwerpkeuzes om te zetten in onderhoudbare productiecomponenten.",
+        "slug": "why-tailwind-css-for-modern-web-design"
+      },
+      {
+        "title": "Waarom je website geen klanten oplevert",
+        "description": "Een verzorgd ontwerp helpt, maar de pagina moet ook direct duidelijk maken wat je aanbiedt en wat de volgende stap is.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "Hoe Google en AI jouw website zien",
+        "description": "Ontdek hoe structuur, content en technische signalen machines helpen een website voorbij de visuele laag te begrijpen.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "Design dat development overleeft",
+    "title": "Een herkenbare, responsive website laten bouwen in Heerlen of Limburg?",
+    "description": "Vertel wat de website moet communiceren en bereiken. Wij vertalen het idee naar een helder visueel systeem en een snelle, onderhoudbare implementatie.",
+    "primaryButton": "Bespreek je project",
+    "secondaryButton": "Bekijk onze werkwijze"
   }
+}
 }

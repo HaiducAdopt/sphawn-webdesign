@@ -29,7 +29,7 @@ export default function Navbar() {
 
           {/* MENIU DESKTOP */}
           <nav
-            className="hidden flex-wrap items-center gap-6 text-[14px] md:flex sm:text-[16px]"
+            className="hidden flex-wrap items-center gap-6 text-[14px] sm:text-[16px] md:flex"
             aria-label="Main navigation"
           >
             <LocaleLink
@@ -83,6 +83,13 @@ export default function Navbar() {
                     className="block rounded-xl px-4 py-3 text-slate-100 transition-colors hover:bg-white/10 hover:text-[#00E1F0]"
                   >
                     {t("nextjs")}
+                  </LocaleLink>
+
+                  <LocaleLink
+                    href="/technologies/tailwindcss"
+                    className="block rounded-xl px-4 py-3 text-slate-100 transition-colors hover:bg-white/10 hover:text-[#00E1F0]"
+                  >
+                    {t("tailwindcss")}
                   </LocaleLink>
                 </div>
               </div>
@@ -155,7 +162,7 @@ export default function Navbar() {
               <LocaleLink
                 href="/process"
                 onClick={() => setIsOpen(false)}
-                className="text-slate-100 hover:text-[#BC4EF0]"
+                className="text-slate-100 transition-colors hover:text-[#BC4EF0]"
               >
                 {t("process")}
               </LocaleLink>
@@ -163,7 +170,7 @@ export default function Navbar() {
               <LocaleLink
                 href="/portfolio"
                 onClick={() => setIsOpen(false)}
-                className="text-slate-100 hover:text-[#BC4EF0]"
+                className="text-slate-100 transition-colors hover:text-[#BC4EF0]"
               >
                 {t("portfolio")}
               </LocaleLink>
@@ -180,6 +187,14 @@ export default function Navbar() {
                   className="mt-3 block pl-3 text-slate-100 transition-colors hover:text-[#00E1F0]"
                 >
                   {t("nextjs")}
+                </LocaleLink>
+
+                <LocaleLink
+                  href="/technologies/tailwindcss"
+                  onClick={() => setIsOpen(false)}
+                  className="mt-3 block pl-3 text-slate-100 transition-colors hover:text-[#00E1F0]"
+                >
+                  {t("tailwindcss")}
                 </LocaleLink>
               </div>
 
@@ -200,7 +215,7 @@ export default function Navbar() {
               <LocaleLink
                 href="/offers"
                 onClick={() => setIsOpen(false)}
-                className="text-slate-100 hover:text-[#BC4EF0]"
+                className="text-slate-100 transition-colors hover:text-[#BC4EF0]"
               >
                 {t("offers")}
               </LocaleLink>
@@ -208,7 +223,7 @@ export default function Navbar() {
               <LocaleLink
                 href="/contact"
                 onClick={() => setIsOpen(false)}
-                className="text-slate-100 hover:text-[#BC4EF0]"
+                className="text-slate-100 transition-colors hover:text-[#BC4EF0]"
               >
                 {t("contact")}
               </LocaleLink>
@@ -217,7 +232,7 @@ export default function Navbar() {
                 <LocaleLink
                   href="/contact"
                   onClick={() => setIsOpen(false)}
-                  className="inline-flex w-full items-center justify-center rounded-full bg-[#BC4EF0] px-4 py-2.5 text-sm font-semibold text-white"
+                  className="inline-flex w-full items-center justify-center rounded-full bg-[#BC4EF0] px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#a93bdd]"
                 >
                   {t("cta")}
                 </LocaleLink>

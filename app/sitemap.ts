@@ -16,6 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/terms",
     "/lab",
     "/technologies/nextjs",
+    "/technologies/tailwindcss",
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.flatMap((route) =>
