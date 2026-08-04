@@ -91,6 +91,13 @@ export default function Navbar() {
                   >
                     {t("tailwindcss")}
                   </LocaleLink>
+
+                  <LocaleLink
+                    href="/technologies/wordpress"
+                    className="block rounded-xl px-4 py-3 text-slate-100 transition-colors hover:bg-white/10 hover:text-[#00E1F0]"
+                  >
+                    {t("wordpress")}
+                  </LocaleLink>
                 </div>
               </div>
             </div>
@@ -195,6 +202,14 @@ export default function Navbar() {
                   className="mt-3 block pl-3 text-slate-100 transition-colors hover:text-[#00E1F0]"
                 >
                   {t("tailwindcss")}
+                </LocaleLink>
+
+                <LocaleLink
+                  href="/technologies/wordpress"
+                  onClick={() => setIsOpen(false)}
+                  className="mt-3 block pl-3 text-slate-100 transition-colors hover:text-[#00E1F0]"
+                >
+                  {t("wordpress")}
                 </LocaleLink>
               </div>
 

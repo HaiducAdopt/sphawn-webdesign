@@ -45,7 +45,8 @@
   "lab": "Lab",
   "technologies": "Technologieën",
   "nextjs": "Next.js",
-  "tailwindcss": "Tailwind CSS"
+  "tailwindcss": "Tailwind CSS",
+  "wordpress": "WordPress"
   },
   "footer": {
     "seoHeerlen": "Webdesign Heerlen",
@@ -1447,6 +1448,202 @@
     "description": "Vertel wat de website moet communiceren en bereiken. Wij vertalen het idee naar een helder visueel systeem en een snelle, onderhoudbare implementatie.",
     "primaryButton": "Bespreek je project",
     "secondaryButton": "Bekijk onze werkwijze"
+  }
+},
+"WordPressPage": {
+  "metadata": {
+    "title": "WordPress website laten maken in Heerlen en Limburg | Sphawn",
+    "description": "Een WordPress website laten maken in Limburg? Sphawn bouwt duidelijke, beheerbare en uitbreidbare websites voor bedrijven in Heerlen en omgeving.",
+    "openGraphTitle": "WordPress website laten maken in Heerlen en Limburg | Sphawn",
+    "openGraphDescription": "Een professionele WordPress website die aansluit bij je bedrijf, klanten, content en toekomstige groei.",
+    "twitterTitle": "WordPress website laten maken in Heerlen en Limburg | Sphawn",
+    "twitterDescription": "Ontdek wanneer WordPress bij je bedrijf past en hoe Sphawn een betrouwbare en beheerbare website bouwt.",
+    "imageAlt": "Rustig WordPress webdesignconcept ontwikkeld door Sphawn"
+  },
+  "hero": {
+    "badge": "WordPress websites voor bedrijven",
+    "titleStart": "Een WordPress website laten maken",
+    "titleHighlight": "in Heerlen of Limburg",
+    "description": "Wij bouwen professionele WordPress websites voor bedrijven die online duidelijk zichtbaar willen zijn en hun content praktisch willen beheren. Je krijgt een website die aansluit bij je merk, klanten en toekomstplannen — geen willekeurige verzameling plugins rond een standaardtemplate.",
+    "primaryButton": "Bekijk onze pakketten",
+    "secondaryButton": "Bekijk ons portfolio",
+    "imageAlt": "Rustig WordPress webdesignconcept ontwikkeld door Sphawn"
+  },
+  "introduction": {
+    "label": "Past WordPress bij jouw bedrijf?",
+    "title": "Een praktische keuze wanneer contentbeheer en flexibiliteit belangrijk zijn",
+    "paragraphOne": "WordPress is een contentmanagementsysteem waarmee je zelf teksten, afbeeldingen, pagina’s en artikelen kunt aanpassen zonder de broncode van de website te wijzigen. Het is geschikt voor bedrijfswebsites, websites voor dienstverleners, blogs, landingspagina’s en webshops met WooCommerce.",
+    "paragraphTwo": "Als WordPress specialist in Heerlen kijken we eerst of de sterke punten van het systeem passen bij jouw project. Daarbij beoordelen we de gewenste functies, ontwerpvrijheid, verwachte groei, benodigde technische ondersteuning en hoeveel content je zelf wilt beheren.",
+    "websiteTypes": [
+      {
+        "code": "BEDR",
+        "title": "Bedrijfswebsites",
+        "description": "Presenteer je bedrijf, diensten en contactmogelijkheden in een professionele structuur die met de onderneming kan meegroeien."
+      },
+      {
+        "code": "DIENST",
+        "title": "Websites voor dienstverleners",
+        "description": "Leg afzonderlijke diensten helder uit en begeleid bezoekers naar een aanvraag, afspraak of offerte."
+      },
+      {
+        "code": "BLOG",
+        "title": "Blogs en kenniscentra",
+        "description": "Publiceer artikelen, nieuws en expertise via een contentsysteem dat je team zelfstandig kan beheren."
+      },
+      {
+        "code": "LAND",
+        "title": "Landingspagina’s",
+        "description": "Maak doelgerichte pagina’s voor campagnes, specifieke diensten of doelgroepen met één duidelijke commerciële actie."
+      },
+      {
+        "code": "SHOP",
+        "title": "WooCommerce-webshops",
+        "description": "Verkoop producten met WordPress wanneer WooCommerce aansluit bij de catalogus, betaalmethoden en beheervereisten."
+      },
+      {
+        "code": "BEHEER",
+        "title": "Zelf content beheren",
+        "description": "Pas belangrijke teksten en afbeeldingen aan en publiceer artikelen zonder voor iedere routinematige wijziging een developer nodig te hebben."
+      }
+    ]
+  },
+  "benefits": {
+    "label": "Voordelen en aandachtspunten",
+    "title": "WordPress biedt vrijheid, maar iedere extra afhankelijkheid heeft een prijs",
+    "description": "WordPress kan voor het juiste project een toegankelijke en flexibele basis bieden. De kwaliteit, snelheid en onderhoudbaarheid hangen sterk af van de gekozen theme, plugins en contentstructuur.",
+    "advantages": {
+      "label": "Voordelen",
+      "title": "Waarom bedrijven voor WordPress kiezen",
+      "items": [
+        {
+          "title": "Zelf content beheren",
+          "description": "Na een duidelijke overdracht kun je pagina’s aanpassen, afbeeldingen vervangen en artikelen publiceren zonder de onderliggende code te wijzigen."
+        },
+        {
+          "title": "Efficiënt naar een werkende website",
+          "description": "Voor een bedrijfs- of dienstenwebsite met herkenbare vereisten kan WordPress de ontwikkeltijd en aanvankelijke complexiteit beperken."
+        },
+        {
+          "title": "Groot aanbod aan uitbreidingen",
+          "description": "Er bestaan gevestigde oplossingen voor formulieren, meertalige content, reserveringen, lidmaatschappen, analytics en veel andere bedrijfsfuncties."
+        },
+        {
+          "title": "Geschikt voor content en e-commerce",
+          "description": "WordPress werkt goed voor blogs en contentrijke websites. WooCommerce kan daarnaast passende webshopprojecten ondersteunen."
+        },
+        {
+          "title": "Een maatwerkontwerp blijft mogelijk",
+          "description": "Een WordPress website hoeft niet generiek te ogen. Een custom theme en zorgvuldig ontwikkelde componenten kunnen nauw aansluiten bij je merk."
+        },
+        {
+          "title": "Later uit te breiden",
+          "description": "Nieuwe pagina’s, contenttypen en zorgvuldig gekozen functies kunnen worden toegevoegd wanneer het bedrijf groeit, mits de basis goed is opgebouwd."
+        }
+      ]
+    },
+    "limitations": {
+      "label": "Aandachtspunten",
+      "title": "Wat zorgvuldig moet worden overwogen",
+      "items": [
+        {
+          "title": "Plugins kunnen de flexibiliteit beperken",
+          "description": "Een plugin biedt alleen de mogelijkheden die de ontwikkelaar heeft ingebouwd. Een kleine maatwerkwijziging kan daardoor lastig worden wanneer de plugin deze niet ondersteunt."
+        },
+        {
+          "title": "Te veel plugins maken de website zwaarder",
+          "description": "Iedere extra plugin kan scripts, styling, databaseprocessen en instellingen toevoegen die de prestaties beïnvloeden en het beheer ingewikkelder maken."
+        },
+        {
+          "title": "Updates kunnen conflicten veroorzaken",
+          "description": "WordPress, themes en plugins ontwikkelen zich onafhankelijk. Updates kunnen soms incompatibiliteit veroorzaken die moet worden getest of gecorrigeerd."
+        },
+        {
+          "title": "Beveiliging vereist onderhoud",
+          "description": "Verouderde of slecht onderhouden plugins kunnen kwetsbaarheden veroorzaken. Regelmatige updates, back-ups en controle blijven noodzakelijk."
+        },
+        {
+          "title": "Licenties veroorzaken terugkerende kosten",
+          "description": "Premium themes, pagebuilders en plugins kunnen jaarlijkse abonnementen vereisen, waardoor de kosten op lange termijn hoger zijn dan de aanschafprijs doet vermoeden."
+        },
+        {
+          "title": "Complexe applicaties vragen soms om een andere techniek",
+          "description": "Voor sterk aangepaste platforms, bijzondere werkprocessen of geavanceerde interacties kan Next.js of volledig maatwerk meer controle bieden."
+        }
+      ]
+    },
+    "conclusionTitle": "Het doel is een beheersbaar WordPress-systeem, niet zoveel mogelijk plugins",
+    "conclusionText": "Sphawn selecteert themes en plugins op basis van de werkelijke behoeften van het project. We vermijden overlappende hulpmiddelen, beperken onnodige afhankelijkheden en leggen uit welke onderdelen onderhoud nodig hebben. Wanneer WordPress meer beperkingen dan voordelen oplevert, adviseren we een maatwerkoplossing."
+  },
+  "projects": {
+    "label": "De juiste technologie kiezen",
+    "title": "Het project bepaalt de technologie, niet andersom",
+    "description": "Onze bestaande projecten laten zien waarom de technische keuze belangrijk is. We beweren niet dat ieder project hieronder met WordPress is gebouwd. De voorbeelden tonen hoe functionaliteit, content en toekomstige groei de uiteindelijke keuze bepalen.",
+    "decisionLabel": "Technologische keuze",
+    "portfolioButton": "Bekijk ons portfolio",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Bedrijfswebsite en online tools",
+        "description": "Sphawn combineert commerciële pagina’s, lokale content en interactieve hulpmiddelen zoals SiteAudit en Security Audit binnen één digitale omgeving.",
+        "decision": "Een maatwerkbasis met Next.js geeft meer controle over prestaties, meertalige routes en interactieve auditfuncties. Een eenvoudigere dienstenwebsite zonder deze tools kan juist een geschikt WordPress-project zijn."
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Dynamisch adoptieplatform",
+        "description": "Hondenprofielen, accounts, berichten, filters en voortdurend veranderende gegevens maken dit veel meer dan een traditionele bedrijfswebsite.",
+        "decision": "Een maatwerkarchitectuur past beter omdat het platform afhankelijk is van geavanceerde processen en dynamische data, en niet alleen van gewone contentpagina’s."
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Visuele website voor een lokale dienst",
+        "description": "Fotografie, pakketten en duidelijke contactacties vormen de kern van deze lokale dienstenwebsite.",
+        "decision": "Dit type presentatiegerichte project kan goed met WordPress worden gebouwd wanneer zelfstandig contentbeheer belangrijk is en de functionaliteit overzichtelijk blijft."
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "SEO, AI-zichtbaarheid en beveiliging",
+    "title": "WordPress of een SEO-plugin installeren zorgt niet automatisch voor zichtbaarheid",
+    "paragraphOne": "WordPress kan een goede technische basis voor online vindbaarheid bieden. Resultaten blijven echter afhankelijk van nuttige content, semantische headings, metadata, interne links, structured data, crawlbaarheid en paginaprestaties.",
+    "paragraphTwo": "SEO-plugins kunnen helpen bij het beheren van titels, beschrijvingen, sitemaps en schema-instellingen. Ze bepalen niet wat klanten nodig hebben, herstellen zwakke content niet automatisch en garanderen geen positie in Google.",
+    "paragraphThree": "Ook AI-systemen hebben duidelijke informatie nodig over het bedrijf, de diensten, locatie en expertise. Wij combineren begrijpelijke inhoud met een leesbare paginastructuur, zodat bezoekers en machines de website nauwkeuriger kunnen interpreteren.",
+    "articleButton": "Lees hoe Google en AI websites bekijken",
+    "auditTitle": "Meet het resultaat van de website",
+    "auditText": "SiteAudit onderzoekt snelheid, technische SEO-structuur en signalen rond AI-zichtbaarheid. Zo ontdek je of de uiteindelijke WordPress website duidelijk communiceert en technisch functioneert zoals bedoeld.",
+    "auditButton": "Start de gratis SiteAudit",
+    "securityTitle": "Onderhoud hoort bij WordPress-beveiliging",
+    "securityText": "Security Audit controleert extern zichtbare beveiliging, zoals HTTPS, security headers en de configuratie van het e-maildomein. WordPress, themes en plugins moeten daarnaast actueel en ondersteund blijven.",
+    "securityButton": "Start de Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Lees verder",
+    "title": "Kies een website op basis van bedrijfsbehoeften, niet op basis van aannames",
+    "read": "Lees het artikel",
+    "items": [
+      {
+        "title": "WordPress website laten maken in Limburg: voordelen, nadelen en aandachtspunten",
+        "description": "Een praktische gids over WordPress, plugins, onderhoud, maatwerk en het kiezen van de juiste oplossing voor je bedrijf.",
+        "slug": "wordpress-website-for-business-limburg"
+      },
+      {
+        "title": "Waarom je website geen klanten oplevert",
+        "description": "Een website moet meer doen dan er professioneel uitzien. Het aanbod, de structuur en de volgende stap moeten direct duidelijk zijn.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "Hoe Google en AI je website bekijken",
+        "description": "Ontdek hoe content, structuur en technische signalen zoekmachines en AI-systemen helpen om een bedrijf te begrijpen.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "WordPress of maatwerk?",
+    "title": "Laten we de oplossing kiezen die echt bij je bedrijf past",
+    "description": "Vertel ons wat de website moet bereiken, welke content je zelf wilt beheren en hoe het project later kan groeien. Als WordPress specialist in Limburg leggen we eerlijk uit of WordPress, een maatwerk WordPress-website of een Next.js-oplossing de praktischste basis biedt.",
+    "primaryButton": "Bespreek je project",
+    "offersButton": "Bekijk onze pakketten",
+    "processButton": "Bekijk onze werkwijze"
   }
 }
 }

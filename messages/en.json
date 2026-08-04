@@ -45,7 +45,8 @@
   "lab": "Lab",
   "technologies": "Technologies",
   "nextjs": "Next.js",
-  "tailwindcss": "Tailwind CSS"
+  "tailwindcss": "Tailwind CSS",
+  "wordpress": "WordPress"
   },
   "footer": {
     "seoHeerlen": "Web Design Heerlen",
@@ -1448,6 +1449,202 @@
     "description": "Tell us what the website should communicate and achieve. We turn the idea into a clear visual system and a fast, maintainable implementation.",
     "primaryButton": "Discuss your project",
     "secondaryButton": "View our process"
+  }
+},
+"WordPressPage": {
+  "metadata": {
+    "title": "WordPress Website Design in Heerlen and Limburg | Sphawn",
+    "description": "Looking for a WordPress specialist in Heerlen or Limburg? Sphawn builds clear, manageable and scalable WordPress websites for businesses.",
+    "openGraphTitle": "WordPress Website Design in Heerlen and Limburg | Sphawn",
+    "openGraphDescription": "Professional WordPress websites built around your business, content and plans for future growth.",
+    "twitterTitle": "WordPress Website Design in Heerlen and Limburg | Sphawn",
+    "twitterDescription": "Discover when WordPress is the right choice for your business and how Sphawn builds it responsibly.",
+    "imageAlt": "Calm WordPress website design concept created by Sphawn"
+  },
+  "hero": {
+    "badge": "WordPress websites for businesses",
+    "titleStart": "A WordPress website",
+    "titleHighlight": "built around your business",
+    "description": "We create professional WordPress websites for businesses in Heerlen and Limburg that want a clear online presence and practical control over their content. You receive a website shaped around your brand, customers and future plans—not simply a collection of plugins and a generic template.",
+    "primaryButton": "Explore our offers",
+    "secondaryButton": "View our portfolio",
+    "imageAlt": "Calm WordPress website design concept created by Sphawn"
+  },
+  "introduction": {
+    "label": "Is WordPress right for your business?",
+    "title": "A practical choice when content control and flexibility matter",
+    "paragraphOne": "WordPress is a content management system that allows a business to edit text, images, pages and articles without changing the website code. It can be an effective choice for company websites, service websites, blogs, landing pages and online shops built with WooCommerce.",
+    "paragraphTwo": "We recommend WordPress when its strengths match the actual project. Before development begins, we consider the required functionality, design freedom, expected growth, maintenance and the amount of content you want to manage yourself.",
+    "websiteTypes": [
+      {
+        "code": "BIZ",
+        "title": "Company websites",
+        "description": "Present your company, services and contact options through a professional structure that can grow with the business."
+      },
+      {
+        "code": "SERV",
+        "title": "Service websites",
+        "description": "Explain individual services clearly and guide visitors towards an enquiry, appointment or quotation."
+      },
+      {
+        "code": "BLOG",
+        "title": "Blogs and knowledge centres",
+        "description": "Publish articles, news and expertise through a content system your team can manage independently."
+      },
+      {
+        "code": "LAND",
+        "title": "Landing pages",
+        "description": "Create focused pages for campaigns, services or specific audiences with a clear commercial action."
+      },
+      {
+        "code": "SHOP",
+        "title": "WooCommerce shops",
+        "description": "Sell products through WordPress when WooCommerce fits the catalogue, checkout and management requirements."
+      },
+      {
+        "code": "EDIT",
+        "title": "Editable content",
+        "description": "Update important text, images and articles without depending on a developer for every routine change."
+      }
+    ]
+  },
+  "benefits": {
+    "label": "Advantages and limitations",
+    "title": "WordPress offers freedom—but every extra dependency has a cost",
+    "description": "WordPress can provide an accessible and flexible foundation for the right project. Its quality, speed and maintainability depend heavily on how the theme, plugins and content structure are selected and implemented.",
+    "advantages": {
+      "label": "Advantages",
+      "title": "Why businesses choose WordPress",
+      "items": [
+        {
+          "title": "Manage content yourself",
+          "description": "After a clear handover, you can edit pages, replace images and publish articles without modifying the underlying code."
+        },
+        {
+          "title": "Efficient route to launch",
+          "description": "For a company or service website with familiar requirements, WordPress can reduce development time and initial complexity."
+        },
+        {
+          "title": "Large extension ecosystem",
+          "description": "Established solutions exist for forms, multilingual content, bookings, memberships, analytics and many other common business needs."
+        },
+        {
+          "title": "Suitable for content and commerce",
+          "description": "WordPress works well for blogs and content-rich websites, while WooCommerce can support suitable online-shop projects."
+        },
+        {
+          "title": "Custom design remains possible",
+          "description": "WordPress does not require a generic appearance. A custom theme and carefully selected components can follow your brand closely."
+        },
+        {
+          "title": "Expandable over time",
+          "description": "New pages, content types and selected functionality can be introduced as the business develops, provided the foundation is structured properly."
+        }
+      ]
+    },
+    "limitations": {
+      "label": "Limitations",
+      "title": "What needs careful consideration",
+      "items": [
+        {
+          "title": "Plugins can restrict flexibility",
+          "description": "A plugin only offers the options its developer provides. A seemingly small custom change may become difficult when the plugin cannot support it."
+        },
+        {
+          "title": "Too many plugins add weight",
+          "description": "Every additional plugin can introduce scripts, styles, database activity and settings that affect performance and make the website harder to manage."
+        },
+        {
+          "title": "Updates may cause conflicts",
+          "description": "WordPress core, themes and plugins evolve independently. Updates can occasionally create incompatibilities that require testing or correction."
+        },
+        {
+          "title": "Security requires maintenance",
+          "description": "Outdated or poorly maintained plugins can create vulnerabilities. Regular updates, backups and monitoring remain necessary."
+        },
+        {
+          "title": "Licences create recurring costs",
+          "description": "Premium themes, builders and plugins may require annual subscriptions, making the long-term cost higher than the initial price suggests."
+        },
+        {
+          "title": "Complex applications may need another stack",
+          "description": "For highly customised platforms, unusual workflows or advanced interactive functionality, Next.js or custom development may provide greater control."
+        }
+      ]
+    },
+    "conclusionTitle": "The goal is a controlled WordPress system—not the largest possible plugin collection",
+    "conclusionText": "Sphawn selects themes and plugins according to the real needs of the project. We reduce unnecessary dependencies, avoid overlapping tools and explain which parts require ongoing maintenance. When WordPress would create more restrictions than benefits, we recommend a custom solution instead."
+  },
+  "projects": {
+    "label": "Choosing the appropriate technology",
+    "title": "The project determines the technology—not the other way around",
+    "description": "Our existing projects demonstrate why technology selection matters. We do not claim that every website below uses WordPress; they show how functionality, content and growth influence the final technical decision.",
+    "decisionLabel": "Technology decision",
+    "portfolioButton": "Explore our portfolio",
+    "items": [
+      {
+        "name": "Sphawn",
+        "type": "Business website and online tools",
+        "description": "Sphawn combines commercial pages, local content and interactive tools such as SiteAudit and Security Audit in one digital environment.",
+        "decision": "A custom Next.js foundation provides greater control over performance, multilingual routes and interactive audit functionality. A simpler service website without these tools could be a suitable WordPress project."
+      },
+      {
+        "name": "HaiducAdopt",
+        "type": "Dynamic adoption platform",
+        "description": "Dog profiles, accounts, messaging, filters and continuously changing data make this significantly more than a standard company website.",
+        "decision": "A custom application architecture is more appropriate because the platform depends on advanced workflows and dynamic data rather than conventional content pages."
+      },
+      {
+        "name": "Haiduc Honden Services",
+        "type": "Visual local-service website",
+        "description": "Photography, packages and clear contact actions form the core of this local service website.",
+        "decision": "This type of presentation-focused project can often work effectively with WordPress when independent content management is important and the functionality remains controlled."
+      }
+    ]
+  },
+  "seoAi": {
+    "label": "SEO, AI visibility and security",
+    "title": "Installing WordPress or an SEO plugin does not create visibility automatically",
+    "paragraphOne": "WordPress can provide a strong technical basis for search visibility, but results still depend on useful content, semantic headings, metadata, internal links, structured data, crawlability and page performance.",
+    "paragraphTwo": "SEO plugins can help manage titles, descriptions, sitemaps and schema settings. They cannot decide what customers need, repair weak content automatically or guarantee a position in Google.",
+    "paragraphThree": "AI systems also need clear information about the company, services, location and expertise. We combine understandable content with readable page structure so both visitors and machines can interpret the website more accurately.",
+    "articleButton": "Read how Google and AI see websites",
+    "auditTitle": "Measure the finished website",
+    "auditText": "SiteAudit examines speed, technical SEO structure and signals related to AI visibility. It helps identify whether the completed WordPress website communicates and performs as intended.",
+    "auditButton": "Start free SiteAudit",
+    "securityTitle": "Maintenance is part of WordPress security",
+    "securityText": "Security Audit checks externally visible protections such as HTTPS, security headers and email-domain configuration. WordPress core, themes and plugins must also remain updated and supported.",
+    "securityButton": "Start Security Audit"
+  },
+  "relatedArticles": {
+    "label": "Continue reading",
+    "title": "Choose a website based on business needs, not assumptions",
+    "read": "Read article",
+    "items": [
+      {
+        "title": "WordPress Website for Your Business: Benefits, Limitations and Costs",
+        "description": "A practical guide to WordPress, plugins, maintenance, customisation and choosing the right solution for your company.",
+        "slug": "wordpress-website-for-business-limburg"
+      },
+      {
+        "title": "Why your website doesn't bring clients",
+        "description": "A website must do more than look professional. Its offer, structure and next action should be immediately understandable.",
+        "slug": "why-your-website-doesnt-bring-clients"
+      },
+      {
+        "title": "How Google and AI see your website",
+        "description": "Learn how content, structure and technical signals help search engines and AI systems understand a business.",
+        "slug": "how-google-and-ai-see-your-website"
+      }
+    ]
+  },
+  "finalCta": {
+    "label": "WordPress or custom development?",
+    "title": "Let us choose the solution that fits your business",
+    "description": "Tell us what the website must achieve, which content you want to manage and how the project may grow. We will explain whether WordPress, a customised WordPress build or a Next.js solution offers the most practical foundation.",
+    "primaryButton": "Discuss your project",
+    "offersButton": "View our offers",
+    "processButton": "See our process"
   }
 }
 }
