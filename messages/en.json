@@ -1142,7 +1142,13 @@
   "mainProblems": "Main problems",
   "recommendedActions": "Recommended actions",
   "priority": "Priority",
-  "noData": "Run an audit to generate AI recommendations."
+  "noData": "Run an audit to generate AI recommendations.",
+  "yourWebsiteLabel": "Your website",
+"competitorWebsiteLabel": "Competitor website (optional)",
+"competitorUrlPlaceholder": "https://competitor.com",
+"competitorWebsiteHint": "Add a competitor to compare both websites side by side.",
+"compareButton": "Compare websites",
+"saveConsentLabel": "I agree that the entered URLs and generated audit results will be saved so I can access and share the free report."
   },
   "securityAudit": {
   "badge": "Sphawn Security Audit",

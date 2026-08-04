@@ -1141,7 +1141,13 @@
   "mainProblems": "Belangrijkste problemen",
   "recommendedActions": "Aanbevolen acties",
   "priority": "Prioriteit",
-  "noData": "Voer een audit uit om AI-aanbevelingen te genereren."
+  "noData": "Voer een audit uit om AI-aanbevelingen te genereren.",
+  "yourWebsiteLabel": "Jouw website",
+"competitorWebsiteLabel": "Website van concurrent (optioneel)",
+"competitorUrlPlaceholder": "https://concurrent.nl",
+"competitorWebsiteHint": "Voeg een concurrent toe om beide websites naast elkaar te vergelijken.",
+"compareButton": "Websites vergelijken",
+"saveConsentLabel": "Ik ga ermee akkoord dat de ingevoerde URL’s en auditresultaten worden opgeslagen, zodat ik het gratis rapport kan bekijken en delen."
   },
   "securityAudit": {
   "badge": "Sphawn Security Audit",
