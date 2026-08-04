@@ -17,6 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/lab",
     "/technologies/nextjs",
     "/technologies/tailwindcss",
+    "/technologies/wordpress",
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.flatMap((route) =>
